@@ -1,0 +1,185 @@
+"""
+UI Styles - Color Scheme & Fonts
+Dark theme with sharp modern design
+"""
+
+# ========== WINDOW SETTINGS ==========
+WINDOW_WIDTH = 1200              # Optimized from 1400
+WINDOW_HEIGHT = 750              # Optimized from 900
+WINDOW_MIN_WIDTH = 1000          # Reduced from 1200
+WINDOW_MIN_HEIGHT = 650          # Reduced from 700
+
+SIDEBAR_WIDTH = 240              # Reduced from 280
+
+# ========== COLOR PALETTE ==========
+# Background colors
+COLOR_BG_MAIN = "#0d0d0d"           # Main background (very dark)
+COLOR_BG_PANEL = "#1a1a1a"          # Panel background (dark gray)
+COLOR_INPUT_BG = "#252525"          # Input background (medium dark)
+
+# Text colors
+COLOR_TEXT_PRIMARY = "#e0e0e0"      # Primary text (light gray)
+COLOR_TEXT_SECONDARY = "#888888"    # Secondary text (gray)
+
+# Accent colors
+COLOR_ACCENT_CYAN = "#1abc9c"       # Accent color (cyan/turquoise)
+COLOR_ACCENT_RED = "#e74c3c"        # Red accent
+COLOR_SUCCESS = "#00c896"           # Success green
+COLOR_WARNING = "#f39c12"           # Warning orange
+
+# Border & separator
+COLOR_BORDER = "#333333"            # Border color (dark gray)
+COLOR_SEPARATOR = "#2a2a2a"         # Separator line
+
+# Worker status colors
+COLOR_WORKER_IDLE = "#555555"       # Worker idle
+COLOR_WORKER_RUNNING = "#3498db"    # Worker running (blue)
+COLOR_WORKER_SUCCESS = "#00b894"    # Worker success (green)
+COLOR_WORKER_FAILED = "#e74c3c"     # Worker failed (red)
+COLOR_WORKER_ERROR = "#e67e22"      # Worker error (orange)
+
+# Button colors
+COLOR_BUTTON_PRIMARY = "#1abc9c"    # Primary button
+COLOR_BUTTON_SECONDARY = "#3498db"  # Secondary button
+COLOR_BUTTON_DANGER = "#e74c3c"     # Danger button (red)
+COLOR_BUTTON_SUCCESS = "#00c896"    # Success button (green)
+
+# ========== FONTS ==========
+FONT_FAMILY_PRIMARY = "Segoe UI"
+FONT_FAMILY_MONO = "Consolas"
+FONT_FAMILY_HEADING = "Arial"
+
+# Font sizes
+FONT_SIZE_TINY = 7
+FONT_SIZE_SMALL = 8
+FONT_SIZE_NORMAL = 10
+FONT_SIZE_MEDIUM = 12
+FONT_SIZE_LARGE = 14
+FONT_SIZE_XLARGE = 16
+FONT_SIZE_HEADING = 18
+FONT_SIZE_TITLE = 20
+FONT_SIZE_HUGE = 24
+
+# Font weights
+FONT_WEIGHT_NORMAL = "normal"
+FONT_WEIGHT_BOLD = "bold"
+
+# ========== SPACING ==========
+PADDING_TINY = 2
+PADDING_SMALL = 5
+PADDING_NORMAL = 10
+PADDING_LARGE = 15
+PADDING_XLARGE = 20
+PADDING_HUGE = 30
+
+MARGIN_SMALL = 5
+MARGIN_NORMAL = 10
+MARGIN_LARGE = 15
+
+# ========== BORDERS ==========
+BORDER_WIDTH_THIN = 1
+BORDER_WIDTH_NORMAL = 2
+BORDER_WIDTH_THICK = 3
+BORDER_WIDTH_HEAVY = 4
+
+BORDER_RADIUS_SMALL = 3
+BORDER_RADIUS_NORMAL = 5
+BORDER_RADIUS_LARGE = 8
+BORDER_RADIUS_XLARGE = 12
+
+# ========== COMPONENT DIMENSIONS ==========
+# Buttons
+BUTTON_HEIGHT_SMALL = 30
+BUTTON_HEIGHT_NORMAL = 40
+BUTTON_HEIGHT_LARGE = 50
+BUTTON_WIDTH_SMALL = 80
+BUTTON_WIDTH_NORMAL = 120
+BUTTON_WIDTH_LARGE = 160
+
+# Inputs
+INPUT_HEIGHT_SMALL = 30
+INPUT_HEIGHT_NORMAL = 35
+INPUT_HEIGHT_LARGE = 45
+
+# Cards
+CARD_HEIGHT_SMALL = 60
+CARD_HEIGHT_NORMAL = 80
+CARD_HEIGHT_LARGE = 100
+CARD_HEIGHT_XLARGE = 120
+
+CARD_WIDTH_SMALL = 150
+CARD_WIDTH_NORMAL = 200
+CARD_WIDTH_LARGE = 250
+
+# Worker cards
+WORKER_CARD_HEIGHT = 70
+WORKER_CARD_WIDTH = 350
+WORKER_CARD_PADDING = 10
+
+# Stat cards
+STAT_CARD_HEIGHT = 100
+STAT_CARD_MIN_WIDTH = 150
+
+# ========== PANEL DIMENSIONS ==========
+SIDEBAR_MIN_WIDTH = 250
+SIDEBAR_MAX_WIDTH = 350
+
+HEADER_HEIGHT = 60
+FOOTER_HEIGHT = 40
+
+LOG_PANEL_HEIGHT = 160
+LOG_PANEL_MIN_HEIGHT = 120
+LOG_PANEL_MAX_HEIGHT = 300
+
+WORKER_MONITOR_HEIGHT = 320
+WORKER_MONITOR_MIN_HEIGHT = 250
+
+SETTINGS_PANEL_MIN_HEIGHT = 500
+
+# ========== GRID LAYOUT ==========
+GRID_COLUMNS_WORKER_PORTRAIT = 10  # Portrait mode: 10 columns
+GRID_COLUMNS_WORKER_LANDSCAPE = 3  # Landscape mode: 3 columns
+
+# ========== ANIMATION & EFFECTS ==========
+HOVER_BRIGHTNESS_INCREASE = 1.1
+CLICK_BRIGHTNESS_DECREASE = 0.9
+
+TRANSITION_DURATION_FAST = 100   # milliseconds
+TRANSITION_DURATION_NORMAL = 200
+TRANSITION_DURATION_SLOW = 300
+
+# ========== SCROLLBAR ==========
+SCROLLBAR_WIDTH = 12
+SCROLLBAR_COLOR = COLOR_INPUT_BG
+SCROLLBAR_ACTIVE_COLOR = COLOR_ACCENT_CYAN
+
+# ========== ICONS & SYMBOLS ==========
+ICON_SUCCESS = "✓"
+ICON_FAILED = "✗"
+ICON_WARNING = "⚠"
+ICON_INFO = "ℹ"
+ICON_EYE = "👁️"
+ICON_SETTINGS = "⚙️"
+ICON_DASHBOARD = "📊"
+ICON_START = "🚀"
+ICON_STOP = "⛔"
+ICON_PLAY = "▶"
+ICON_PAUSE = "⏸"
+ICON_REFRESH = "🔄"
+
+# ========== LOG COLORS ==========
+LOG_COLOR_INFO = COLOR_ACCENT_CYAN
+LOG_COLOR_SUCCESS = COLOR_SUCCESS
+LOG_COLOR_WARNING = COLOR_WARNING
+LOG_COLOR_ERROR = COLOR_ACCENT_RED
+LOG_COLOR_DEBUG = COLOR_TEXT_SECONDARY
+LOG_COLOR_SYSTEM = "#9b59b6"  # Purple for system messages
+
+# ========== STATUS COLORS ==========
+STATUS_IDLE = "#555555"
+STATUS_RUNNING = "#3498db"
+STATUS_SUCCESS = "#00b894"
+STATUS_FAILED = "#e74c3c"
+STATUS_ERROR = "#e67e22"
+STATUS_BLOCKED = "#f39c12"
+STATUS_PENDING = "#9b59b6"

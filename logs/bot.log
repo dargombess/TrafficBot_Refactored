@@ -1,0 +1,4109 @@
+[2026-01-15 22:03:05] [INFO] Starting Traffic Bot GUI...
+[2026-01-15 22:11:18] [INFO] Traffic Bot closed
+[2026-01-15 22:11:30] [INFO] Starting Traffic Bot GUI...
+[2026-01-15 22:42:33] [INFO] Traffic Bot closed
+[2026-01-15 22:42:37] [INFO] Starting Traffic Bot GUI...
+[2026-01-15 22:51:17] [INFO] Loaded 440 URLs
+[2026-01-15 22:51:17] [INFO] Loaded 1090 proxies
+[2026-01-15 22:51:17] [INFO] Starting bot with 50 workers...
+[2026-01-15 22:51:17] [INFO] Worker 1: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 1: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 2: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 3: Selected proxy 91.99.221.122
+[2026-01-15 22:51:17] [INFO] Worker 4: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 5: Selected proxy 109.205.63.178
+[2026-01-15 22:51:17] [INFO] Worker 2: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 6: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 7: Selected proxy 91.99.221.122
+[2026-01-15 22:51:17] [INFO] Worker 3: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 8: Selected proxy 109.205.63.178
+[2026-01-15 22:51:17] [INFO] Worker 9: Selected proxy 91.99.221.122
+[2026-01-15 22:51:17] [INFO] Worker 10: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 11: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 12: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 13: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 14: Selected proxy 91.99.221.122
+[2026-01-15 22:51:17] [INFO] Worker 15: Selected proxy 109.205.63.178
+[2026-01-15 22:51:17] [INFO] Worker 16: Selected proxy 109.205.63.178
+[2026-01-15 22:51:17] [INFO] Worker 17: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 18: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 19: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 20: Selected proxy 109.205.63.178
+[2026-01-15 22:51:17] [INFO] Worker 21: Selected proxy 91.99.221.122
+[2026-01-15 22:51:17] [INFO] Worker 22: Selected proxy 109.205.63.178
+[2026-01-15 22:51:17] [INFO] Worker 23: Selected proxy 91.99.221.122
+[2026-01-15 22:51:17] [INFO] Worker 24: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 25: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 26: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 27: Selected proxy 109.205.63.178
+[2026-01-15 22:51:17] [INFO] Worker 28: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 29: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 30: Selected proxy 109.205.63.178
+[2026-01-15 22:51:17] [INFO] Worker 31: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 33: Selected proxy 91.99.221.122
+[2026-01-15 22:51:17] [INFO] Worker 32: Selected proxy 91.99.221.122
+[2026-01-15 22:51:17] [INFO] Worker 35: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 34: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 36: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 37: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 38: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 39: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 40: Selected proxy 91.99.221.122
+[2026-01-15 22:51:17] [INFO] Worker 41: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 42: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 43: Selected proxy 109.205.63.178
+[2026-01-15 22:51:17] [INFO] Worker 44: Selected proxy 91.99.221.122
+[2026-01-15 22:51:17] [INFO] Worker 45: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 47: Selected proxy 91.99.221.122
+[2026-01-15 22:51:17] [INFO] Worker 48: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 49: Selected proxy 46.224.52.65
+[2026-01-15 22:51:17] [INFO] Worker 50: Selected proxy 109.205.63.178
+[2026-01-15 22:51:17] [INFO] Worker 46: Selected proxy 91.99.221.122
+[2026-01-15 22:51:17] [INFO] Worker 4: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 5: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 6: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 7: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 8: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 9: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 10: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 11: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 12: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 13: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 14: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 15: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 16: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 17: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 18: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 19: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 20: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 21: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 22: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 23: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 24: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 25: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 26: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 27: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 28: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 29: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 30: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 31: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 33: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 32: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 35: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 34: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 36: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 37: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 38: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 39: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 40: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 41: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 42: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 43: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 44: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 45: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 47: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 48: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 49: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 50: Setting up browser...
+[2026-01-15 22:51:17] [INFO] Worker 46: Setting up browser...
+[2026-01-15 22:51:40] [INFO] Worker 50: Visiting https://letgohealth.blogspot.com/2025/09/think-yur-metabolic-syndrome-s-safe-7.html
+[2026-01-15 22:51:40] [INFO] Worker 1: Visiting https://letgohealth.blogspot.com/2025/09/cash-for-endocarditis.html
+[2026-01-15 22:51:41] [INFO] Worker 3: Visiting https://letgohealth.blogspot.com/2025/08/hat-encephalitis-and-te-way-does-it-work_8.html
+[2026-01-15 22:51:41] [INFO] Worker 4: Visiting https://letgohealth.blogspot.com/2025/12/the-ultimate-technique-o-dizziness.html
+[2026-01-15 22:51:42] [INFO] Worker 10: Visiting https://letgohealth.blogspot.com/2025/10/what-make-health-insurance-premium-dont.html
+[2026-01-15 22:51:43] [ERROR] Worker 2: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:43] [ERROR] Worker 9: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:44] [INFO] Worker 15: Visiting https://letgohealth.blogspot.com/2025/09/wat-instagramm-educate-ou-aout-balanced_0.html
+[2026-01-15 22:51:44] [INFO] Worker 27: Visiting https://letgohealth.blogspot.com/2025/08/what-everyone-is-saying-about_7.html
+[2026-01-15 22:51:44] [INFO] Worker 20: Visiting https://letgohealth.blogspot.com/2025/07/hy-vascular-disease-succeeds.html
+[2026-01-15 22:51:45] [ERROR] Worker 19: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:46] [INFO] Worker 6: Visiting https://letgohealth.blogspot.com/2025/09/dizziness-it-i-easy-when-ou-do-it-smart_0.html
+[2026-01-15 22:51:46] [INFO] Worker 43: Visiting https://letgohealth.blogspot.com/2025/09/sick-and-uninterested-in-doing-tb-old_3.html
+[2026-01-15 22:51:46] [INFO] Worker 5: Visiting https://letgohealth.blogspot.com/2025/12/te-pros-and-cons-of-blood-sugar_7.html
+[2026-01-15 22:51:46] [INFO] Worker 16: Visiting https://letgohealth.blogspot.com/2025/08/master-art-of-national-health-insurance.html
+[2026-01-15 22:51:47] [INFO] Worker 22: Visiting https://letgohealth.blogspot.com/2025/09/five-guilt-free-inflammation-tips.html
+[2026-01-15 22:51:47] [INFO] Worker 30: Visiting https://letgohealth.blogspot.com/2025/11/dirty-facts-about-national-health.html
+[2026-01-15 22:51:47] [INFO] Worker 13: Visiting https://letgohealth.blogspot.com/2025/08/my-biggest-metabolic-lesson.html
+[2026-01-15 22:51:47] [ERROR] Worker 46: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:47] [ERROR] Worker 14: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:49] [ERROR] Worker 42: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:49] [ERROR] Worker 11: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:49] [ERROR] Worker 12: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:50] [ERROR] Worker 35: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:51] [ERROR] Worker 44: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:51] [ERROR] Worker 28: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:51] [ERROR] Worker 37: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:52] [INFO] Worker 4: Scrolling 54 times
+[2026-01-15 22:51:52] [ERROR] Worker 17: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:52] [ERROR] Worker 29: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:52] [ERROR] Worker 45: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:52] [ERROR] Worker 26: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:52] [INFO] Worker 9: Selected proxy 46.224.52.65
+[2026-01-15 22:51:52] [INFO] Worker 2: Selected proxy 46.224.52.65
+[2026-01-15 22:51:52] [ERROR] Worker 38: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:52] [INFO] Worker 9: Setting up browser...
+[2026-01-15 22:51:52] [ERROR] Worker 33: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:52] [INFO] Worker 2: Setting up browser...
+[2026-01-15 22:51:53] [ERROR] Worker 21: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:53] [ERROR] Worker 49: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:53] [ERROR] Worker 18: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:53] [INFO] Worker 1: Scrolling 60 times
+[2026-01-15 22:51:53] [ERROR] Worker 34: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:53] [ERROR] Worker 25: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:53] [INFO] Worker 8: Visiting https://letgohealth.blogspot.com/2025/10/4-causes-blood-sugar-is-waste-of-time.html
+[2026-01-15 22:51:54] [ERROR] Worker 41: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:54] [INFO] Worker 13: Scrolling 39 times
+[2026-01-15 22:51:54] [INFO] Worker 10: Scrolling 40 times
+[2026-01-15 22:51:54] [ERROR] Worker 40: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:54] [ERROR] Worker 7: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:54] [ERROR] Worker 23: Browser setup failed - [Errno 2] No such file or directory: 'D:\\CODING PROJECT\\TrafficBot_Refactored\\proxy_auth_plugin_12336.zip'
+[2026-01-15 22:51:55] [INFO] Worker 32: Visiting https://letgohealth.blogspot.com/2025/12/everyone-loves-inflammation.html
+[2026-01-15 22:51:55] [INFO] Worker 19: Selected proxy 46.224.52.65
+[2026-01-15 22:51:55] [INFO] Worker 19: Setting up browser...
+[2026-01-15 22:51:55] [INFO] Worker 3: Scrolling 54 times
+[2026-01-15 22:51:56] [INFO] Worker 6: Scrolling 40 times
+[2026-01-15 22:51:56] [INFO] Worker 46: Selected proxy 91.99.221.122
+[2026-01-15 22:51:56] [INFO] Worker 24: Visiting https://letgohealth.blogspot.com/2025/12/si-facts-evryone-hould-find-out-bout.html
+[2026-01-15 22:51:56] [INFO] Worker 47: Visiting https://letgohealth.blogspot.com/2025/09/to-click-or-to-not-cick-tb-and-running_5.html
+[2026-01-15 22:51:56] [INFO] Worker 39: Visiting https://letgohealth.blogspot.com/2025/11/four-tips-aout-typhoid-ou-want-yu-knew_2.html
+[2026-01-15 22:51:56] [INFO] Worker 46: Setting up browser...
+[2026-01-15 22:51:56] [INFO] Worker 14: Selected proxy 46.224.52.65
+[2026-01-15 22:51:56] [INFO] Worker 31: Visiting https://letgohealth.blogspot.com/2025/11/the-z-of-tb.html
+[2026-01-15 22:51:57] [INFO] Worker 14: Setting up browser...
+[2026-01-15 22:51:57] [INFO] Worker 48: Visiting https://letgohealth.blogspot.com/2025/10/7-ways-you-can-reinvent-blood-sugar_4.html
+[2026-01-15 22:51:58] [INFO] Worker 11: Selected proxy 109.205.63.178
+[2026-01-15 22:51:58] [INFO] Worker 11: Setting up browser...
+[2026-01-15 22:51:58] [INFO] Worker 42: Selected proxy 46.224.52.65
+[2026-01-15 22:51:58] [INFO] Worker 12: Selected proxy 46.224.52.65
+[2026-01-15 22:51:58] [INFO] Worker 42: Setting up browser...
+[2026-01-15 22:51:58] [INFO] Worker 12: Setting up browser...
+[2026-01-15 22:51:59] [INFO] Worker 35: Selected proxy 109.205.63.178
+[2026-01-15 22:51:59] [INFO] Worker 35: Setting up browser...
+[2026-01-15 22:52:00] [INFO] Worker 36: Visiting https://letgohealth.blogspot.com/2025/08/enhanceimprove-you-blood-glucose-levels_2.html
+[2026-01-15 22:52:01] [INFO] Worker 28: Selected proxy 46.224.52.65
+[2026-01-15 22:52:01] [INFO] Worker 44: Selected proxy 91.99.221.122
+[2026-01-15 22:52:01] [INFO] Worker 37: Selected proxy 46.224.52.65
+[2026-01-15 22:52:01] [INFO] Worker 32: Scrolling 60 times
+[2026-01-15 22:52:02] [INFO] Worker 17: Selected proxy 109.205.63.178
+[2026-01-15 22:52:02] [INFO] Worker 45: Selected proxy 109.205.63.178
+[2026-01-15 22:52:02] [INFO] Worker 26: Selected proxy 46.224.52.65
+[2026-01-15 22:52:02] [INFO] Worker 38: Selected proxy 46.224.52.65
+[2026-01-15 22:52:02] [INFO] Worker 29: Selected proxy 46.224.52.65
+[2026-01-15 22:52:02] [INFO] Worker 33: Selected proxy 109.205.63.178
+[2026-01-15 22:52:02] [INFO] Worker 21: Selected proxy 46.224.52.65
+[2026-01-15 22:52:02] [INFO] Worker 49: Selected proxy 91.99.221.122
+[2026-01-15 22:52:02] [INFO] Worker 28: Setting up browser...
+[2026-01-15 22:52:02] [INFO] Worker 44: Setting up browser...
+[2026-01-15 22:52:02] [INFO] Worker 37: Setting up browser...
+[2026-01-15 22:52:02] [INFO] Worker 17: Setting up browser...
+[2026-01-15 22:52:02] [INFO] Worker 45: Setting up browser...
+[2026-01-15 22:52:02] [INFO] Worker 26: Setting up browser...
+[2026-01-15 22:52:02] [INFO] Worker 38: Setting up browser...
+[2026-01-15 22:52:02] [INFO] Worker 29: Setting up browser...
+[2026-01-15 22:52:02] [INFO] Worker 33: Setting up browser...
+[2026-01-15 22:52:02] [INFO] Worker 21: Setting up browser...
+[2026-01-15 22:52:02] [INFO] Worker 49: Setting up browser...
+[2026-01-15 22:52:03] [INFO] Worker 41: Selected proxy 46.224.52.65
+[2026-01-15 22:52:03] [INFO] Worker 25: Selected proxy 91.99.221.122
+[2026-01-15 22:52:03] [INFO] Worker 34: Selected proxy 46.224.52.65
+[2026-01-15 22:52:03] [INFO] Worker 18: Selected proxy 46.224.52.65
+[2026-01-15 22:52:03] [INFO] Worker 24: Scrolling 43 times
+[2026-01-15 22:52:03] [INFO] Worker 41: Setting up browser...
+[2026-01-15 22:52:03] [INFO] Worker 25: Setting up browser...
+[2026-01-15 22:52:03] [INFO] Worker 34: Setting up browser...
+[2026-01-15 22:52:03] [INFO] Worker 18: Setting up browser...
+[2026-01-15 22:52:04] [INFO] Worker 39: Scrolling 48 times
+[2026-01-15 22:52:04] [INFO] Worker 31: Scrolling 37 times
+[2026-01-15 22:52:04] [INFO] Worker 40: Selected proxy 46.224.52.65
+[2026-01-15 22:52:04] [INFO] Worker 7: Selected proxy 46.224.52.65
+[2026-01-15 22:52:04] [INFO] Worker 23: Selected proxy 109.205.63.178
+[2026-01-15 22:52:04] [INFO] Worker 40: Setting up browser...
+[2026-01-15 22:52:04] [INFO] Worker 7: Setting up browser...
+[2026-01-15 22:52:04] [INFO] Worker 23: Setting up browser...
+[2026-01-15 22:52:05] [INFO] Worker 48: Scrolling 50 times
+[2026-01-15 22:52:05] [INFO] Worker 47: Scrolling 43 times
+[2026-01-15 22:52:08] [INFO] Stopping bot...
+[2026-01-15 22:52:14] [ERROR] Worker 50: Failed to visit URL - Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xdded49
+	0xddea85
+	0xddc94f
+	0xddd456
+	0xdea09b
+	0xdfbe5e
+	0xe01976
+	0xdddad2
+	0xdfbbd5
+	0xe7de45
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:15] [ERROR] Worker 27: Failed to visit URL - Message: timeout: Timed out receiving message from renderer: 26.071
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xdded49
+	0xddea85
+	0xddc94f
+	0xddd456
+	0xdea09b
+	0xdfbe5e
+	0xe01976
+	0xdddad2
+	0xdfbbd5
+	0xe7de45
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:15] [ERROR] Worker 2: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:16] [ERROR] Worker 9: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:17] [ERROR] Worker 5: Failed to visit URL - Message: timeout: Timed out receiving message from renderer: 25.068
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xdded49
+	0xddea85
+	0xddc94f
+	0xddd456
+	0xdea09b
+	0xdfbe5e
+	0xe01976
+	0xdddad2
+	0xdfbbd5
+	0xe7de45
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:18] [ERROR] Worker 20: Failed to visit URL - Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xdded49
+	0xddea85
+	0xddc94f
+	0xddd456
+	0xdea09b
+	0xdfbe5e
+	0xe01976
+	0xdddad2
+	0xdfbbd5
+	0xe7de45
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:20] [INFO] Worker 2 stopped
+[2026-01-15 22:52:20] [ERROR] Worker 15: Failed to visit URL - Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xdded49
+	0xddea85
+	0xddc94f
+	0xddd456
+	0xdea09b
+	0xdfbe5e
+	0xe01976
+	0xdddad2
+	0xdfbbd5
+	0xe7de45
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:20] [ERROR] Worker 16: Failed to visit URL - Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xdded49
+	0xddea85
+	0xddc94f
+	0xddd456
+	0xdea09b
+	0xdfbe5e
+	0xe01976
+	0xdddad2
+	0xdfbbd5
+	0xe7de45
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:20] [ERROR] Worker 22: Failed to visit URL - Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xdded49
+	0xddea85
+	0xddc94f
+	0xddd456
+	0xdea09b
+	0xdfbe5e
+	0xe01976
+	0xdddad2
+	0xdfbbd5
+	0xe7de45
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:20] [ERROR] Worker 30: Failed to visit URL - Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xdded49
+	0xddea85
+	0xddc94f
+	0xddd456
+	0xdea09b
+	0xdfbe5e
+	0xe01976
+	0xdddad2
+	0xdfbbd5
+	0xe7de45
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:20] [INFO] Worker 9 stopped
+[2026-01-15 22:52:23] [ERROR] Worker 8: Failed to visit URL - Message: timeout: Timed out receiving message from renderer: 27.106
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xdded49
+	0xddea85
+	0xddc94f
+	0xddd456
+	0xdea09b
+	0xdfbe5e
+	0xe01976
+	0xdddad2
+	0xdfbbd5
+	0xe7de45
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:24] [ERROR] Worker 19: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:25] [ERROR] Worker 43: Failed to visit URL - Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xdded49
+	0xddea85
+	0xddc94f
+	0xddd456
+	0xdea09b
+	0xdfbe5e
+	0xe01976
+	0xdddad2
+	0xdfbbd5
+	0xe7de45
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:27] [ERROR] Worker 46: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:28] [INFO] Worker 11: Visiting https://letgohealth.blogspot.com/2025/11/four-diy-blood-sugar-tips-yo-may-hav.html
+[2026-01-15 22:52:28] [ERROR] Worker 12: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:28] [INFO] Worker 35: Visiting https://letgohealth.blogspot.com/2025/11/cardiovascular-doesnt-shuld-e-arduous.html
+[2026-01-15 22:52:28] [INFO] Worker 17: Visiting https://letgohealth.blogspot.com/2025/12/ho-o-show-healthy-lifestyle-nto-success.html
+[2026-01-15 22:52:28] [ERROR] Worker 14: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:28] [ERROR] Worker 38: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:29] [INFO] Worker 19 stopped
+[2026-01-15 22:52:29] [INFO] Worker 45: Visiting https://letgohealth.blogspot.com/2025/08/grasp-te-artwork-f-national-health.html
+[2026-01-15 22:52:29] [ERROR] Worker 29: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:29] [ERROR] Worker 37: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:30] [ERROR] Worker 42: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:30] [ERROR] Worker 44: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:30] [ERROR] Worker 41: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:30] [ERROR] Worker 28: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:31] [INFO] Worker 33: Visiting https://letgohealth.blogspot.com/2025/07/top-eight-funny-tb-quotes_1.html
+[2026-01-15 22:52:31] [ERROR] Worker 18: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:31] [ERROR] Worker 34: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:31] [ERROR] Worker 26: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:31] [INFO] Worker 46 stopped
+[2026-01-15 22:52:31] [INFO] Worker 23: Visiting https://letgohealth.blogspot.com/2025/10/hat-oull-want-t-know-about-metabolic_7.html
+[2026-01-15 22:52:32] [ERROR] Worker 21: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:32] [ERROR] Worker 49: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:32] [INFO] Worker 12 stopped
+[2026-01-15 22:52:32] [INFO] Worker 14 stopped
+[2026-01-15 22:52:32] [INFO] Worker 38 stopped
+[2026-01-15 22:52:33] [ERROR] Worker 25: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:33] [ERROR] Worker 7: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:33] [INFO] Worker 29 stopped
+[2026-01-15 22:52:33] [INFO] Worker 37 stopped
+[2026-01-15 22:52:34] [INFO] Worker 42 stopped
+[2026-01-15 22:52:34] [INFO] Worker 44 stopped
+[2026-01-15 22:52:34] [INFO] Worker 41 stopped
+[2026-01-15 22:52:35] [INFO] Worker 28 stopped
+[2026-01-15 22:52:35] [INFO] Worker 18 stopped
+[2026-01-15 22:52:35] [INFO] Worker 34 stopped
+[2026-01-15 22:52:35] [INFO] Worker 26 stopped
+[2026-01-15 22:52:35] [INFO] Worker 8 stopped
+[2026-01-15 22:52:35] [INFO] Worker 50 stopped
+[2026-01-15 22:52:35] [ERROR] Worker 40: Browser setup failed - Message: session not created: cannot process extension #1
+from unknown error: cannot unzip
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xe26fcd
+	0xe28059
+	0xe23253
+	0xe1fafa
+	0xe67826
+	0xe67047
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:35] [INFO] Worker 27 stopped
+[2026-01-15 22:52:35] [INFO] Worker 30 stopped
+[2026-01-15 22:52:35] [INFO] Worker 15 stopped
+[2026-01-15 22:52:36] [INFO] Worker 43 stopped
+[2026-01-15 22:52:36] [INFO] Worker 5 stopped
+[2026-01-15 22:52:36] [INFO] Worker 20 stopped
+[2026-01-15 22:52:36] [INFO] Worker 22 stopped
+[2026-01-15 22:52:36] [INFO] Worker 16 stopped
+[2026-01-15 22:52:36] [INFO] Worker 21 stopped
+[2026-01-15 22:52:36] [INFO] Worker 49 stopped
+[2026-01-15 22:52:37] [INFO] Worker 25 stopped
+[2026-01-15 22:52:37] [INFO] Worker 7 stopped
+[2026-01-15 22:52:38] [INFO] Worker 17: Scrolling 51 times
+[2026-01-15 22:52:39] [INFO] Worker 40 stopped
+[2026-01-15 22:52:45] [INFO] Worker 23: Scrolling 58 times
+[2026-01-15 22:52:47] [INFO] Worker 1 stopped
+[2026-01-15 22:52:52] [INFO] Worker 3 stopped
+[2026-01-15 22:52:52] [INFO] Worker 4 stopped
+[2026-01-15 22:52:58] [ERROR] Worker 11: Failed to visit URL - Message: timeout: Timed out receiving message from renderer: 26.220
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xdded49
+	0xddea85
+	0xddc94f
+	0xddd456
+	0xdea09b
+	0xdfbe5e
+	0xe01976
+	0xdddad2
+	0xdfbbd5
+	0xe7de45
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:58] [ERROR] Worker 35: Failed to visit URL - Message: timeout: Timed out receiving message from renderer: 26.859
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xdded49
+	0xddea85
+	0xddc94f
+	0xddd456
+	0xdea09b
+	0xdfbe5e
+	0xe01976
+	0xdddad2
+	0xdfbbd5
+	0xe7de45
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:52:58] [INFO] Worker 6 stopped
+[2026-01-15 22:52:59] [ERROR] Worker 45: Failed to visit URL - Message: timeout: Timed out receiving message from renderer: 24.615
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xdded49
+	0xddea85
+	0xddc94f
+	0xddd456
+	0xdea09b
+	0xdfbe5e
+	0xe01976
+	0xdddad2
+	0xdfbbd5
+	0xe7de45
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:53:01] [ERROR] Worker 33: Failed to visit URL - Message: timeout: Timed out receiving message from renderer: 26.868
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xdded49
+	0xddea85
+	0xddc94f
+	0xddd456
+	0xdea09b
+	0xdfbe5e
+	0xe01976
+	0xdddad2
+	0xdfbbd5
+	0xe7de45
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:53:04] [INFO] Worker 35 stopped
+[2026-01-15 22:53:05] [INFO] Worker 45 stopped
+[2026-01-15 22:53:07] [INFO] Worker 33 stopped
+[2026-01-15 22:53:14] [INFO] Worker 31 stopped
+[2026-01-15 22:53:14] [INFO] Worker 11 stopped
+[2026-01-15 22:53:16] [INFO] Worker 10 stopped
+[2026-01-15 22:53:18] [INFO] Worker 13 stopped
+[2026-01-15 22:53:19] [INFO] Worker 47 stopped
+[2026-01-15 22:53:26] [INFO] Worker 24 stopped
+[2026-01-15 22:53:29] [INFO] Worker 39 stopped
+[2026-01-15 22:53:42] [INFO] Worker 48 stopped
+[2026-01-15 22:53:42] [INFO] Worker 23 stopped
+[2026-01-15 22:53:44] [INFO] Worker 17 stopped
+[2026-01-15 22:53:47] [INFO] Worker 32 stopped
+[2026-01-15 22:54:22] [INFO] Loaded 440 URLs
+[2026-01-15 22:54:22] [INFO] Loaded 1090 proxies
+[2026-01-15 22:54:22] [INFO] Starting bot with 5 workers...
+[2026-01-15 22:54:22] [INFO] Worker 1: Selected proxy 91.99.221.122
+[2026-01-15 22:54:22] [INFO] Worker 1: Setting up browser...
+[2026-01-15 22:54:22] [INFO] Worker 2: Selected proxy 46.224.52.65
+[2026-01-15 22:54:22] [INFO] Worker 3: Selected proxy 91.99.221.122
+[2026-01-15 22:54:22] [INFO] Worker 4: Selected proxy 109.205.63.178
+[2026-01-15 22:54:22] [INFO] Worker 5: Selected proxy 46.224.52.65
+[2026-01-15 22:54:22] [INFO] Worker 2: Setting up browser...
+[2026-01-15 22:54:22] [INFO] Worker 3: Setting up browser...
+[2026-01-15 22:54:22] [INFO] Worker 4: Setting up browser...
+[2026-01-15 22:54:22] [INFO] Worker 5: Setting up browser...
+[2026-01-15 22:54:27] [INFO] Worker 2: Visiting https://letgohealth.blogspot.com/2025/08/ever-heard-about-excessive-epidemiology.html
+[2026-01-15 22:54:27] [INFO] Worker 5: Visiting https://letgohealth.blogspot.com/2025/10/these-10-hacks-ill-ake-yur-tb-look-like_3.html
+[2026-01-15 22:54:27] [INFO] Worker 1: Visiting https://letgohealth.blogspot.com/2025/12/the-vascular-disease-mystery-revealed.html
+[2026-01-15 22:54:27] [INFO] Worker 3: Visiting https://letgohealth.blogspot.com/2025/09/my-biggest-health-and-wellness-lesson.html
+[2026-01-15 22:54:31] [INFO] Worker 2: Scrolling 53 times
+[2026-01-15 22:54:31] [INFO] Worker 3: Scrolling 55 times
+[2026-01-15 22:54:32] [INFO] Worker 1: Scrolling 55 times
+[2026-01-15 22:54:33] [INFO] Worker 5: Scrolling 38 times
+[2026-01-15 22:54:51] [INFO] Stopping bot...
+[2026-01-15 22:54:59] [INFO] Worker 4: Visiting https://letgohealth.blogspot.com/2025/07/epidemiology-th-ultimate-convenience.html
+[2026-01-15 22:55:03] [INFO] Worker 1 stopped
+[2026-01-15 22:55:09] [INFO] Worker 3 stopped
+[2026-01-15 22:55:09] [INFO] Worker 5 stopped
+[2026-01-15 22:55:29] [ERROR] Worker 4: Failed to visit URL - Message: timeout: Timed out receiving message from renderer: 25.700
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1001213
+	0x1001254
+	0xdee6dd
+	0xdded49
+	0xddea85
+	0xddc94f
+	0xddd456
+	0xdea09b
+	0xdfbe5e
+	0xe01976
+	0xdddad2
+	0xdfbbd5
+	0xe7de45
+	0xe5b2e6
+	0xe2d321
+	0xe2e1d4
+	0x1255254
+	0x125080b
+	0x126d0ea
+	0x101b118
+	0x102311d
+	0x1009518
+	0x10096d9
+	0xff3a68
+	0x76ac5d49
+	0x76fbd5db
+	0x76fbd561
+
+[2026-01-15 22:55:36] [INFO] Worker 2 stopped
+[2026-01-15 22:55:45] [INFO] Worker 4 stopped
+[2026-01-15 23:02:41] [ERROR] Worker 36: Failed to visit URL - HTTPConnectionPool(host='localhost', port=57217): Max retries exceeded with url: /session/742a6c8202d58b56c03d4ebde80750bf/source (Caused by NewConnectionError("HTTPConnection(host='localhost', port=57217): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+[2026-01-15 23:02:41] [INFO] Worker 36 stopped
+[2026-01-15 23:12:15] [INFO] Traffic Bot closed
+[2026-01-15 23:12:57] [INFO] Starting Traffic Bot GUI...
+[2026-01-15 23:15:21] [INFO] Traffic Bot closed
+[2026-01-15 23:54:04] [INFO] Starting Traffic Bot GUI...
+[2026-01-16 00:00:33] [INFO] Traffic Bot closed
+[2026-01-16 00:00:42] [INFO] Starting Traffic Bot GUI...
+[2026-01-16 00:04:21] [INFO] Loaded 440 URLs
+[2026-01-16 00:04:21] [INFO] Loaded 1090 proxies
+[2026-01-16 00:04:21] [INFO] Starting bot with 20 workers...
+[2026-01-16 00:04:21] [INFO] Worker 1: Selected proxy 46.224.52.65
+[2026-01-16 00:04:21] [INFO] Worker 1: Setting up browser...
+[2026-01-16 00:04:21] [INFO] Worker 2: Selected proxy 46.224.52.65
+[2026-01-16 00:04:21] [INFO] Worker 3: Selected proxy 46.224.52.65
+[2026-01-16 00:04:21] [INFO] Worker 4: Selected proxy 46.224.52.65
+[2026-01-16 00:04:21] [INFO] Worker 2: Setting up browser...
+[2026-01-16 00:04:21] [INFO] Worker 5: Selected proxy 46.224.52.65
+[2026-01-16 00:04:21] [INFO] Worker 6: Selected proxy 109.205.63.178
+[2026-01-16 00:04:21] [INFO] Worker 3: Setting up browser...
+[2026-01-16 00:04:21] [INFO] Worker 7: Selected proxy 46.224.52.65
+[2026-01-16 00:04:21] [INFO] Worker 4: Setting up browser...
+[2026-01-16 00:04:21] [INFO] Worker 8: Selected proxy 109.205.63.178
+[2026-01-16 00:04:21] [INFO] Worker 9: Selected proxy 109.205.63.178
+[2026-01-16 00:04:21] [INFO] Worker 11: Selected proxy 46.224.52.65
+[2026-01-16 00:04:21] [INFO] Worker 10: Selected proxy 91.99.221.122
+[2026-01-16 00:04:21] [INFO] Worker 5: Setting up browser...
+[2026-01-16 00:04:21] [INFO] Worker 12: Selected proxy 46.224.52.65
+[2026-01-16 00:04:21] [INFO] Worker 6: Setting up browser...
+[2026-01-16 00:04:21] [INFO] Worker 13: Selected proxy 46.224.52.65
+[2026-01-16 00:04:21] [INFO] Worker 14: Selected proxy 46.224.52.65
+[2026-01-16 00:04:21] [INFO] Worker 15: Selected proxy 91.99.221.122
+[2026-01-16 00:04:21] [INFO] Worker 16: Selected proxy 46.224.52.65
+[2026-01-16 00:04:21] [INFO] Worker 17: Selected proxy 91.99.221.122
+[2026-01-16 00:04:21] [INFO] Worker 18: Selected proxy 46.224.52.65
+[2026-01-16 00:04:21] [INFO] Worker 19: Selected proxy 46.224.52.65
+[2026-01-16 00:04:21] [INFO] Worker 20: Selected proxy 91.99.221.122
+[2026-01-16 00:04:22] [INFO] Worker 7: Setting up browser...
+[2026-01-16 00:04:22] [INFO] Worker 8: Setting up browser...
+[2026-01-16 00:04:22] [INFO] Worker 9: Setting up browser...
+[2026-01-16 00:04:22] [INFO] Worker 11: Setting up browser...
+[2026-01-16 00:04:22] [INFO] Worker 10: Setting up browser...
+[2026-01-16 00:04:22] [INFO] Worker 12: Setting up browser...
+[2026-01-16 00:04:22] [INFO] Worker 13: Setting up browser...
+[2026-01-16 00:04:22] [INFO] Worker 14: Setting up browser...
+[2026-01-16 00:04:22] [INFO] Worker 15: Setting up browser...
+[2026-01-16 00:04:22] [INFO] Worker 16: Setting up browser...
+[2026-01-16 00:04:22] [INFO] Worker 17: Setting up browser...
+[2026-01-16 00:04:22] [INFO] Worker 18: Setting up browser...
+[2026-01-16 00:04:22] [INFO] Worker 19: Setting up browser...
+[2026-01-16 00:04:22] [INFO] Worker 20: Setting up browser...
+[2026-01-16 00:04:44] [INFO] Worker 8: Visiting https://letgohealth.blogspot.com/2025/11/4-things-i-wish-i-knew-bout-candida-diet_1.html
+[2026-01-16 00:04:45] [ERROR] Worker 14: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:45] [ERROR] Worker 1: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:45] [ERROR] Worker 9: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:46] [ERROR] Worker 12: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:46] [ERROR] Worker 18: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:46] [ERROR] Worker 2: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:46] [ERROR] Worker 6: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:46] [ERROR] Worker 7: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:46] [ERROR] Worker 3: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:47] [ERROR] Worker 13: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:47] [ERROR] Worker 5: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:48] [ERROR] Worker 16: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:48] [ERROR] Worker 10: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:48] [ERROR] Worker 20: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:48] [ERROR] Worker 17: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:48] [ERROR] Worker 19: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:48] [ERROR] Worker 11: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:48] [ERROR] Worker 4: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:48] [ERROR] Worker 15: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:50] [INFO] Worker 14: Selected proxy 91.99.221.122
+[2026-01-16 00:04:50] [INFO] Worker 14: Setting up browser...
+[2026-01-16 00:04:50] [INFO] Worker 1: Selected proxy 109.205.63.178
+[2026-01-16 00:04:50] [INFO] Worker 1: Setting up browser...
+[2026-01-16 00:04:50] [INFO] Worker 9: Selected proxy 46.224.52.65
+[2026-01-16 00:04:50] [INFO] Worker 9: Setting up browser...
+[2026-01-16 00:04:51] [INFO] Worker 12: Selected proxy 91.99.221.122
+[2026-01-16 00:04:51] [INFO] Worker 12: Setting up browser...
+[2026-01-16 00:04:51] [INFO] Worker 18: Selected proxy 46.224.52.65
+[2026-01-16 00:04:51] [INFO] Worker 18: Setting up browser...
+[2026-01-16 00:04:51] [INFO] Worker 2: Selected proxy 46.224.52.65
+[2026-01-16 00:04:51] [INFO] Worker 2: Setting up browser...
+[2026-01-16 00:04:51] [INFO] Worker 6: Selected proxy 91.99.221.122
+[2026-01-16 00:04:51] [INFO] Worker 6: Setting up browser...
+[2026-01-16 00:04:51] [INFO] Worker 7: Selected proxy 46.224.52.65
+[2026-01-16 00:04:51] [INFO] Worker 7: Setting up browser...
+[2026-01-16 00:04:51] [INFO] Worker 3: Selected proxy 109.205.63.178
+[2026-01-16 00:04:51] [INFO] Worker 3: Setting up browser...
+[2026-01-16 00:04:52] [INFO] Worker 13: Selected proxy 46.224.52.65
+[2026-01-16 00:04:52] [INFO] Worker 13: Setting up browser...
+[2026-01-16 00:04:52] [INFO] Worker 5: Selected proxy 91.99.221.122
+[2026-01-16 00:04:52] [INFO] Worker 5: Setting up browser...
+[2026-01-16 00:04:53] [INFO] Worker 16: Selected proxy 46.224.52.65
+[2026-01-16 00:04:53] [INFO] Worker 16: Setting up browser...
+[2026-01-16 00:04:53] [INFO] Worker 10: Selected proxy 46.224.52.65
+[2026-01-16 00:04:53] [INFO] Worker 10: Setting up browser...
+[2026-01-16 00:04:53] [INFO] Worker 20: Selected proxy 46.224.52.65
+[2026-01-16 00:04:53] [INFO] Worker 20: Setting up browser...
+[2026-01-16 00:04:53] [INFO] Worker 17: Selected proxy 91.99.221.122
+[2026-01-16 00:04:53] [INFO] Worker 17: Setting up browser...
+[2026-01-16 00:04:53] [INFO] Worker 19: Selected proxy 46.224.52.65
+[2026-01-16 00:04:53] [INFO] Worker 19: Setting up browser...
+[2026-01-16 00:04:53] [INFO] Worker 11: Selected proxy 46.224.52.65
+[2026-01-16 00:04:53] [INFO] Worker 11: Setting up browser...
+[2026-01-16 00:04:53] [INFO] Worker 15: Selected proxy 91.99.221.122
+[2026-01-16 00:04:53] [INFO] Worker 4: Selected proxy 46.224.52.65
+[2026-01-16 00:04:53] [INFO] Worker 15: Setting up browser...
+[2026-01-16 00:04:53] [INFO] Worker 4: Setting up browser...
+[2026-01-16 00:04:54] [ERROR] Worker 1: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:54] [ERROR] Worker 14: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:54] [INFO] Worker 8: Scrolling 38 times
+[2026-01-16 00:04:55] [ERROR] Worker 9: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:56] [ERROR] Worker 12: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:57] [ERROR] Worker 18: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:58] [ERROR] Worker 6: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:58] [ERROR] Worker 2: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:04:59] [INFO] Worker 1: Selected proxy 46.224.52.65
+[2026-01-16 00:04:59] [INFO] Worker 1: Setting up browser...
+[2026-01-16 00:04:59] [INFO] Worker 14: Selected proxy 46.224.52.65
+[2026-01-16 00:04:59] [INFO] Worker 14: Setting up browser...
+[2026-01-16 00:04:59] [ERROR] Worker 7: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:00] [ERROR] Worker 3: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:00] [INFO] Worker 9: Selected proxy 46.224.52.65
+[2026-01-16 00:05:00] [INFO] Worker 9: Setting up browser...
+[2026-01-16 00:05:01] [ERROR] Worker 13: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:01] [ERROR] Worker 5: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:01] [INFO] Worker 12: Selected proxy 109.205.63.178
+[2026-01-16 00:05:01] [INFO] Worker 12: Setting up browser...
+[2026-01-16 00:05:01] [ERROR] Worker 10: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:01] [ERROR] Worker 16: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:01] [ERROR] Worker 20: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:02] [ERROR] Worker 17: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:02] [INFO] Worker 18: Selected proxy 109.205.63.178
+[2026-01-16 00:05:02] [INFO] Worker 18: Setting up browser...
+[2026-01-16 00:05:02] [ERROR] Worker 19: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:02] [ERROR] Worker 15: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:02] [ERROR] Worker 11: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:03] [ERROR] Worker 4: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:03] [INFO] Worker 6: Selected proxy 109.205.63.178
+[2026-01-16 00:05:03] [INFO] Worker 6: Setting up browser...
+[2026-01-16 00:05:03] [INFO] Worker 2: Selected proxy 91.99.221.122
+[2026-01-16 00:05:03] [INFO] Worker 2: Setting up browser...
+[2026-01-16 00:05:04] [INFO] Worker 7: Selected proxy 46.224.52.65
+[2026-01-16 00:05:04] [INFO] Worker 7: Setting up browser...
+[2026-01-16 00:05:05] [INFO] Worker 3: Selected proxy 109.205.63.178
+[2026-01-16 00:05:05] [INFO] Worker 3: Setting up browser...
+[2026-01-16 00:05:05] [ERROR] Worker 1: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:05] [ERROR] Worker 14: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:06] [ERROR] Worker 9: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:06] [INFO] Worker 13: Selected proxy 46.224.52.65
+[2026-01-16 00:05:06] [INFO] Worker 13: Setting up browser...
+[2026-01-16 00:05:06] [INFO] Worker 5: Selected proxy 91.99.221.122
+[2026-01-16 00:05:06] [INFO] Worker 5: Setting up browser...
+[2026-01-16 00:05:06] [ERROR] Worker 12: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:06] [INFO] Worker 10: Selected proxy 46.224.52.65
+[2026-01-16 00:05:06] [INFO] Worker 10: Setting up browser...
+[2026-01-16 00:05:06] [INFO] Worker 16: Selected proxy 46.224.52.65
+[2026-01-16 00:05:06] [INFO] Worker 20: Selected proxy 46.224.52.65
+[2026-01-16 00:05:06] [INFO] Worker 16: Setting up browser...
+[2026-01-16 00:05:06] [INFO] Worker 20: Setting up browser...
+[2026-01-16 00:05:07] [INFO] Worker 17: Selected proxy 91.99.221.122
+[2026-01-16 00:05:07] [INFO] Worker 17: Setting up browser...
+[2026-01-16 00:05:07] [INFO] Worker 19: Selected proxy 109.205.63.178
+[2026-01-16 00:05:07] [INFO] Worker 19: Setting up browser...
+[2026-01-16 00:05:07] [ERROR] Worker 18: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:07] [INFO] Worker 15: Selected proxy 109.205.63.178
+[2026-01-16 00:05:07] [INFO] Worker 15: Setting up browser...
+[2026-01-16 00:05:08] [INFO] Worker 11: Selected proxy 46.224.52.65
+[2026-01-16 00:05:08] [INFO] Worker 11: Setting up browser...
+[2026-01-16 00:05:08] [INFO] Worker 4: Selected proxy 109.205.63.178
+[2026-01-16 00:05:08] [INFO] Worker 4: Setting up browser...
+[2026-01-16 00:05:09] [ERROR] Worker 6: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:09] [ERROR] Worker 2: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:10] [ERROR] Worker 7: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:10] [INFO] Worker 1 stopped
+[2026-01-16 00:05:10] [INFO] Worker 14 stopped
+[2026-01-16 00:05:10] [ERROR] Worker 3: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:11] [INFO] Worker 9 stopped
+[2026-01-16 00:05:11] [INFO] Worker 12 stopped
+[2026-01-16 00:05:12] [INFO] Worker 18 stopped
+[2026-01-16 00:05:13] [ERROR] Worker 13: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:13] [ERROR] Worker 5: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:13] [ERROR] Worker 10: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:14] [ERROR] Worker 16: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:14] [ERROR] Worker 20: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:14] [INFO] Worker 6 stopped
+[2026-01-16 00:05:14] [INFO] Worker 2 stopped
+[2026-01-16 00:05:14] [ERROR] Worker 17: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:14] [ERROR] Worker 19: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:14] [ERROR] Worker 15: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:14] [ERROR] Worker 11: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:14] [ERROR] Worker 4: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:05:15] [INFO] Worker 7 stopped
+[2026-01-16 00:05:15] [INFO] Worker 3 stopped
+[2026-01-16 00:05:18] [INFO] Worker 13 stopped
+[2026-01-16 00:05:18] [INFO] Worker 5 stopped
+[2026-01-16 00:05:18] [INFO] Worker 10 stopped
+[2026-01-16 00:05:19] [INFO] Worker 16 stopped
+[2026-01-16 00:05:19] [INFO] Worker 20 stopped
+[2026-01-16 00:05:19] [INFO] Worker 17 stopped
+[2026-01-16 00:05:19] [INFO] Worker 19 stopped
+[2026-01-16 00:05:19] [INFO] Worker 15 stopped
+[2026-01-16 00:05:19] [INFO] Worker 11 stopped
+[2026-01-16 00:05:19] [INFO] Worker 4 stopped
+[2026-01-16 00:05:45] [INFO] Stopping bot...
+[2026-01-16 00:06:16] [INFO] Worker 8 stopped
+[2026-01-16 00:06:24] [INFO] Loaded 440 URLs
+[2026-01-16 00:06:24] [INFO] Loaded 1090 proxies
+[2026-01-16 00:06:24] [INFO] Starting bot with 20 workers...
+[2026-01-16 00:06:24] [INFO] Worker 1: Selected proxy 46.224.52.65
+[2026-01-16 00:06:24] [INFO] Worker 1: Setting up browser...
+[2026-01-16 00:06:24] [INFO] Worker 2: Selected proxy 46.224.52.65
+[2026-01-16 00:06:24] [INFO] Worker 3: Selected proxy 46.224.52.65
+[2026-01-16 00:06:24] [INFO] Worker 2: Setting up browser...
+[2026-01-16 00:06:24] [INFO] Worker 5: Selected proxy 91.99.221.122
+[2026-01-16 00:06:24] [INFO] Worker 4: Selected proxy 46.224.52.65
+[2026-01-16 00:06:24] [INFO] Worker 3: Setting up browser...
+[2026-01-16 00:06:24] [INFO] Worker 6: Selected proxy 46.224.52.65
+[2026-01-16 00:06:24] [INFO] Worker 7: Selected proxy 46.224.52.65
+[2026-01-16 00:06:24] [INFO] Worker 8: Selected proxy 46.224.52.65
+[2026-01-16 00:06:24] [INFO] Worker 5: Setting up browser...
+[2026-01-16 00:06:24] [INFO] Worker 4: Setting up browser...
+[2026-01-16 00:06:24] [INFO] Worker 9: Selected proxy 109.205.63.178
+[2026-01-16 00:06:24] [INFO] Worker 10: Selected proxy 91.99.221.122
+[2026-01-16 00:06:24] [INFO] Worker 11: Selected proxy 109.205.63.178
+[2026-01-16 00:06:24] [INFO] Worker 12: Selected proxy 46.224.52.65
+[2026-01-16 00:06:24] [INFO] Worker 13: Selected proxy 91.99.221.122
+[2026-01-16 00:06:24] [INFO] Worker 14: Selected proxy 91.99.221.122
+[2026-01-16 00:06:24] [INFO] Worker 15: Selected proxy 46.224.52.65
+[2026-01-16 00:06:24] [INFO] Worker 16: Selected proxy 109.205.63.178
+[2026-01-16 00:06:24] [INFO] Worker 17: Selected proxy 46.224.52.65
+[2026-01-16 00:06:24] [INFO] Worker 19: Selected proxy 91.99.221.122
+[2026-01-16 00:06:24] [INFO] Worker 18: Selected proxy 46.224.52.65
+[2026-01-16 00:06:24] [INFO] Worker 20: Selected proxy 91.99.221.122
+[2026-01-16 00:06:24] [INFO] Worker 6: Setting up browser...
+[2026-01-16 00:06:24] [INFO] Worker 7: Setting up browser...
+[2026-01-16 00:06:24] [INFO] Worker 8: Setting up browser...
+[2026-01-16 00:06:24] [INFO] Worker 9: Setting up browser...
+[2026-01-16 00:06:24] [INFO] Worker 10: Setting up browser...
+[2026-01-16 00:06:24] [INFO] Worker 11: Setting up browser...
+[2026-01-16 00:06:24] [INFO] Worker 12: Setting up browser...
+[2026-01-16 00:06:24] [INFO] Worker 13: Setting up browser...
+[2026-01-16 00:06:24] [INFO] Worker 14: Setting up browser...
+[2026-01-16 00:06:24] [INFO] Worker 15: Setting up browser...
+[2026-01-16 00:06:24] [INFO] Worker 16: Setting up browser...
+[2026-01-16 00:06:24] [INFO] Worker 17: Setting up browser...
+[2026-01-16 00:06:24] [INFO] Worker 19: Setting up browser...
+[2026-01-16 00:06:24] [INFO] Worker 18: Setting up browser...
+[2026-01-16 00:06:24] [INFO] Worker 20: Setting up browser...
+[2026-01-16 00:06:32] [ERROR] Worker 9: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:32] [ERROR] Worker 2: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:32] [ERROR] Worker 1: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:32] [ERROR] Worker 11: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:32] [ERROR] Worker 4: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:32] [ERROR] Worker 16: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:32] [ERROR] Worker 5: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:32] [ERROR] Worker 6: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:32] [ERROR] Worker 8: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:32] [ERROR] Worker 3: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:32] [ERROR] Worker 7: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:33] [ERROR] Worker 13: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:33] [ERROR] Worker 19: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:34] [ERROR] Worker 18: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:34] [ERROR] Worker 12: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:34] [ERROR] Worker 10: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:34] [ERROR] Worker 17: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:34] [ERROR] Worker 14: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:34] [ERROR] Worker 20: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:34] [ERROR] Worker 15: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:37] [INFO] Worker 9: Selected proxy 46.224.52.65
+[2026-01-16 00:06:37] [INFO] Worker 9: Setting up browser...
+[2026-01-16 00:06:37] [INFO] Worker 2: Selected proxy 46.224.52.65
+[2026-01-16 00:06:37] [INFO] Worker 2: Setting up browser...
+[2026-01-16 00:06:37] [INFO] Worker 1: Selected proxy 46.224.52.65
+[2026-01-16 00:06:37] [INFO] Worker 1: Setting up browser...
+[2026-01-16 00:06:37] [INFO] Worker 11: Selected proxy 46.224.52.65
+[2026-01-16 00:06:37] [INFO] Worker 11: Setting up browser...
+[2026-01-16 00:06:37] [INFO] Worker 4: Selected proxy 91.99.221.122
+[2026-01-16 00:06:37] [INFO] Worker 4: Setting up browser...
+[2026-01-16 00:06:37] [INFO] Worker 5: Selected proxy 91.99.221.122
+[2026-01-16 00:06:37] [INFO] Worker 16: Selected proxy 46.224.52.65
+[2026-01-16 00:06:37] [INFO] Worker 5: Setting up browser...
+[2026-01-16 00:06:37] [INFO] Worker 16: Setting up browser...
+[2026-01-16 00:06:37] [INFO] Worker 6: Selected proxy 109.205.63.178
+[2026-01-16 00:06:37] [INFO] Worker 6: Setting up browser...
+[2026-01-16 00:06:37] [INFO] Worker 8: Selected proxy 46.224.52.65
+[2026-01-16 00:06:37] [INFO] Worker 8: Setting up browser...
+[2026-01-16 00:06:37] [INFO] Worker 7: Selected proxy 109.205.63.178
+[2026-01-16 00:06:37] [INFO] Worker 3: Selected proxy 91.99.221.122
+[2026-01-16 00:06:37] [INFO] Worker 7: Setting up browser...
+[2026-01-16 00:06:37] [INFO] Worker 3: Setting up browser...
+[2026-01-16 00:06:38] [INFO] Worker 13: Selected proxy 46.224.52.65
+[2026-01-16 00:06:38] [INFO] Worker 13: Setting up browser...
+[2026-01-16 00:06:38] [INFO] Worker 19: Selected proxy 109.205.63.178
+[2026-01-16 00:06:38] [INFO] Worker 19: Setting up browser...
+[2026-01-16 00:06:39] [INFO] Worker 18: Selected proxy 46.224.52.65
+[2026-01-16 00:06:39] [INFO] Worker 18: Setting up browser...
+[2026-01-16 00:06:39] [INFO] Worker 12: Selected proxy 46.224.52.65
+[2026-01-16 00:06:39] [INFO] Worker 12: Setting up browser...
+[2026-01-16 00:06:39] [INFO] Worker 10: Selected proxy 46.224.52.65
+[2026-01-16 00:06:39] [INFO] Worker 10: Setting up browser...
+[2026-01-16 00:06:39] [INFO] Worker 17: Selected proxy 46.224.52.65
+[2026-01-16 00:06:39] [INFO] Worker 17: Setting up browser...
+[2026-01-16 00:06:39] [INFO] Worker 14: Selected proxy 109.205.63.178
+[2026-01-16 00:06:39] [INFO] Worker 14: Setting up browser...
+[2026-01-16 00:06:39] [INFO] Worker 20: Selected proxy 91.99.221.122
+[2026-01-16 00:06:39] [INFO] Worker 20: Setting up browser...
+[2026-01-16 00:06:39] [INFO] Worker 15: Selected proxy 46.224.52.65
+[2026-01-16 00:06:39] [INFO] Worker 15: Setting up browser...
+[2026-01-16 00:06:43] [ERROR] Worker 9: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:43] [ERROR] Worker 2: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:43] [ERROR] Worker 1: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:43] [ERROR] Worker 11: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:45] [ERROR] Worker 4: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:46] [ERROR] Worker 16: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:46] [ERROR] Worker 5: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:46] [ERROR] Worker 6: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:47] [ERROR] Worker 8: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:47] [ERROR] Worker 7: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:47] [ERROR] Worker 3: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:48] [INFO] Worker 9: Selected proxy 46.224.52.65
+[2026-01-16 00:06:48] [INFO] Worker 9: Setting up browser...
+[2026-01-16 00:06:48] [INFO] Worker 2: Selected proxy 91.99.221.122
+[2026-01-16 00:06:48] [INFO] Worker 2: Setting up browser...
+[2026-01-16 00:06:48] [ERROR] Worker 13: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:48] [ERROR] Worker 19: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:48] [ERROR] Worker 18: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:48] [ERROR] Worker 17: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:48] [ERROR] Worker 12: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:48] [INFO] Worker 1: Selected proxy 109.205.63.178
+[2026-01-16 00:06:48] [INFO] Worker 1: Setting up browser...
+[2026-01-16 00:06:48] [ERROR] Worker 10: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:48] [ERROR] Worker 14: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:48] [INFO] Worker 11: Selected proxy 91.99.221.122
+[2026-01-16 00:06:48] [INFO] Worker 11: Setting up browser...
+[2026-01-16 00:06:49] [ERROR] Worker 20: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:49] [ERROR] Worker 15: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:50] [INFO] Worker 4: Selected proxy 46.224.52.65
+[2026-01-16 00:06:50] [INFO] Worker 4: Setting up browser...
+[2026-01-16 00:06:51] [INFO] Worker 16: Selected proxy 46.224.52.65
+[2026-01-16 00:06:51] [INFO] Worker 16: Setting up browser...
+[2026-01-16 00:06:51] [INFO] Worker 5: Selected proxy 46.224.52.65
+[2026-01-16 00:06:51] [INFO] Worker 5: Setting up browser...
+[2026-01-16 00:06:51] [INFO] Worker 6: Selected proxy 109.205.63.178
+[2026-01-16 00:06:51] [INFO] Worker 6: Setting up browser...
+[2026-01-16 00:06:52] [ERROR] Worker 9: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:52] [INFO] Worker 8: Selected proxy 91.99.221.122
+[2026-01-16 00:06:52] [INFO] Worker 8: Setting up browser...
+[2026-01-16 00:06:52] [INFO] Worker 7: Selected proxy 46.224.52.65
+[2026-01-16 00:06:52] [INFO] Worker 7: Setting up browser...
+[2026-01-16 00:06:52] [ERROR] Worker 2: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:52] [INFO] Worker 3: Selected proxy 46.224.52.65
+[2026-01-16 00:06:52] [INFO] Worker 3: Setting up browser...
+[2026-01-16 00:06:53] [ERROR] Worker 1: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:53] [INFO] Worker 13: Selected proxy 46.224.52.65
+[2026-01-16 00:06:53] [INFO] Worker 13: Setting up browser...
+[2026-01-16 00:06:53] [ERROR] Worker 11: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:53] [INFO] Worker 19: Selected proxy 91.99.221.122
+[2026-01-16 00:06:53] [INFO] Worker 19: Setting up browser...
+[2026-01-16 00:06:53] [INFO] Worker 18: Selected proxy 46.224.52.65
+[2026-01-16 00:06:53] [INFO] Worker 18: Setting up browser...
+[2026-01-16 00:06:53] [INFO] Worker 17: Selected proxy 46.224.52.65
+[2026-01-16 00:06:53] [INFO] Worker 17: Setting up browser...
+[2026-01-16 00:06:53] [INFO] Worker 12: Selected proxy 46.224.52.65
+[2026-01-16 00:06:53] [INFO] Worker 12: Setting up browser...
+[2026-01-16 00:06:53] [INFO] Worker 10: Selected proxy 46.224.52.65
+[2026-01-16 00:06:53] [INFO] Worker 10: Setting up browser...
+[2026-01-16 00:06:53] [INFO] Worker 14: Selected proxy 46.224.52.65
+[2026-01-16 00:06:53] [INFO] Worker 14: Setting up browser...
+[2026-01-16 00:06:54] [INFO] Worker 20: Selected proxy 46.224.52.65
+[2026-01-16 00:06:54] [INFO] Worker 20: Setting up browser...
+[2026-01-16 00:06:54] [INFO] Worker 15: Selected proxy 46.224.52.65
+[2026-01-16 00:06:54] [INFO] Worker 15: Setting up browser...
+[2026-01-16 00:06:55] [ERROR] Worker 4: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:57] [INFO] Worker 9 stopped
+[2026-01-16 00:06:57] [INFO] Worker 2 stopped
+[2026-01-16 00:06:57] [ERROR] Worker 16: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:57] [ERROR] Worker 6: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:57] [ERROR] Worker 5: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:06:58] [INFO] Worker 1 stopped
+[2026-01-16 00:06:58] [INFO] Worker 11 stopped
+[2026-01-16 00:06:59] [ERROR] Worker 8: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:07:00] [ERROR] Worker 7: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:07:00] [INFO] Worker 4 stopped
+[2026-01-16 00:07:00] [ERROR] Worker 3: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:07:01] [ERROR] Worker 13: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:07:01] [ERROR] Worker 19: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:07:01] [ERROR] Worker 18: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:07:01] [ERROR] Worker 12: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:07:01] [ERROR] Worker 17: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:07:02] [ERROR] Worker 10: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:07:02] [ERROR] Worker 14: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:07:02] [ERROR] Worker 20: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:07:02] [ERROR] Worker 15: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:07:02] [INFO] Worker 16 stopped
+[2026-01-16 00:07:02] [INFO] Worker 6 stopped
+[2026-01-16 00:07:02] [INFO] Worker 5 stopped
+[2026-01-16 00:07:04] [INFO] Worker 8 stopped
+[2026-01-16 00:07:05] [INFO] Worker 7 stopped
+[2026-01-16 00:07:05] [INFO] Worker 3 stopped
+[2026-01-16 00:07:06] [INFO] Worker 13 stopped
+[2026-01-16 00:07:06] [INFO] Worker 19 stopped
+[2026-01-16 00:07:06] [INFO] Worker 18 stopped
+[2026-01-16 00:07:06] [INFO] Worker 12 stopped
+[2026-01-16 00:07:06] [INFO] Worker 17 stopped
+[2026-01-16 00:07:07] [INFO] Worker 10 stopped
+[2026-01-16 00:07:07] [INFO] Worker 14 stopped
+[2026-01-16 00:07:07] [INFO] Worker 20 stopped
+[2026-01-16 00:07:07] [INFO] Worker 15 stopped
+[2026-01-16 00:08:29] [INFO] Stopping bot...
+[2026-01-16 00:08:32] [INFO] Loaded 440 URLs
+[2026-01-16 00:08:32] [INFO] Loaded 1090 proxies
+[2026-01-16 00:08:32] [INFO] Starting bot with 20 workers...
+[2026-01-16 00:08:32] [INFO] Worker 1: Selected proxy 46.224.52.65
+[2026-01-16 00:08:32] [INFO] Worker 2: Selected proxy 46.224.52.65
+[2026-01-16 00:08:32] [INFO] Worker 4: Selected proxy 46.224.52.65
+[2026-01-16 00:08:32] [INFO] Worker 3: Selected proxy 91.99.221.122
+[2026-01-16 00:08:32] [INFO] Worker 1: Setting up browser...
+[2026-01-16 00:08:32] [INFO] Worker 2: Setting up browser...
+[2026-01-16 00:08:32] [INFO] Worker 5: Selected proxy 109.205.63.178
+[2026-01-16 00:08:32] [INFO] Worker 6: Selected proxy 46.224.52.65
+[2026-01-16 00:08:32] [INFO] Worker 4: Setting up browser...
+[2026-01-16 00:08:32] [INFO] Worker 7: Selected proxy 91.99.221.122
+[2026-01-16 00:08:32] [INFO] Worker 3: Setting up browser...
+[2026-01-16 00:08:32] [INFO] Worker 8: Selected proxy 46.224.52.65
+[2026-01-16 00:08:32] [INFO] Worker 9: Selected proxy 91.99.221.122
+[2026-01-16 00:08:32] [INFO] Worker 10: Selected proxy 91.99.221.122
+[2026-01-16 00:08:32] [INFO] Worker 5: Setting up browser...
+[2026-01-16 00:08:32] [INFO] Worker 6: Setting up browser...
+[2026-01-16 00:08:32] [INFO] Worker 11: Selected proxy 46.224.52.65
+[2026-01-16 00:08:32] [INFO] Worker 12: Selected proxy 46.224.52.65
+[2026-01-16 00:08:32] [INFO] Worker 7: Setting up browser...
+[2026-01-16 00:08:32] [INFO] Worker 13: Selected proxy 46.224.52.65
+[2026-01-16 00:08:32] [INFO] Worker 14: Selected proxy 91.99.221.122
+[2026-01-16 00:08:32] [INFO] Worker 15: Selected proxy 109.205.63.178
+[2026-01-16 00:08:32] [INFO] Worker 8: Setting up browser...
+[2026-01-16 00:08:32] [INFO] Worker 16: Selected proxy 91.99.221.122
+[2026-01-16 00:08:32] [INFO] Worker 17: Selected proxy 46.224.52.65
+[2026-01-16 00:08:32] [INFO] Worker 18: Selected proxy 46.224.52.65
+[2026-01-16 00:08:32] [INFO] Worker 19: Selected proxy 46.224.52.65
+[2026-01-16 00:08:32] [INFO] Worker 9: Setting up browser...
+[2026-01-16 00:08:32] [INFO] Worker 20: Selected proxy 91.99.221.122
+[2026-01-16 00:08:32] [INFO] Worker 10: Setting up browser...
+[2026-01-16 00:08:32] [INFO] Worker 11: Setting up browser...
+[2026-01-16 00:08:32] [INFO] Worker 12: Setting up browser...
+[2026-01-16 00:08:32] [INFO] Worker 13: Setting up browser...
+[2026-01-16 00:08:32] [INFO] Worker 14: Setting up browser...
+[2026-01-16 00:08:32] [INFO] Worker 15: Setting up browser...
+[2026-01-16 00:08:32] [INFO] Worker 16: Setting up browser...
+[2026-01-16 00:08:32] [INFO] Worker 17: Setting up browser...
+[2026-01-16 00:08:32] [INFO] Worker 18: Setting up browser...
+[2026-01-16 00:08:32] [INFO] Worker 19: Setting up browser...
+[2026-01-16 00:08:32] [INFO] Worker 20: Setting up browser...
+[2026-01-16 00:08:41] [ERROR] Worker 15: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:41] [ERROR] Worker 4: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:41] [ERROR] Worker 5: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:41] [ERROR] Worker 2: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:41] [ERROR] Worker 6: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:41] [ERROR] Worker 1: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:41] [ERROR] Worker 3: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:41] [ERROR] Worker 7: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:41] [ERROR] Worker 10: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:41] [ERROR] Worker 19: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:41] [ERROR] Worker 8: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:41] [ERROR] Worker 12: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:41] [ERROR] Worker 17: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:42] [ERROR] Worker 11: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:42] [ERROR] Worker 20: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:42] [ERROR] Worker 18: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:42] [ERROR] Worker 9: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:42] [ERROR] Worker 13: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:42] [ERROR] Worker 16: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:43] [ERROR] Worker 14: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:46] [INFO] Worker 15: Selected proxy 46.224.52.65
+[2026-01-16 00:08:46] [INFO] Worker 15: Setting up browser...
+[2026-01-16 00:08:46] [INFO] Worker 5: Selected proxy 91.99.221.122
+[2026-01-16 00:08:46] [INFO] Worker 2: Selected proxy 91.99.221.122
+[2026-01-16 00:08:46] [INFO] Worker 4: Selected proxy 91.99.221.122
+[2026-01-16 00:08:46] [INFO] Worker 5: Setting up browser...
+[2026-01-16 00:08:46] [INFO] Worker 2: Setting up browser...
+[2026-01-16 00:08:46] [INFO] Worker 4: Setting up browser...
+[2026-01-16 00:08:46] [INFO] Worker 6: Selected proxy 109.205.63.178
+[2026-01-16 00:08:46] [INFO] Worker 6: Setting up browser...
+[2026-01-16 00:08:46] [INFO] Worker 1: Selected proxy 109.205.63.178
+[2026-01-16 00:08:46] [INFO] Worker 1: Setting up browser...
+[2026-01-16 00:08:46] [INFO] Worker 3: Selected proxy 109.205.63.178
+[2026-01-16 00:08:46] [INFO] Worker 3: Setting up browser...
+[2026-01-16 00:08:46] [INFO] Worker 7: Selected proxy 46.224.52.65
+[2026-01-16 00:08:46] [INFO] Worker 7: Setting up browser...
+[2026-01-16 00:08:46] [INFO] Worker 10: Selected proxy 109.205.63.178
+[2026-01-16 00:08:46] [INFO] Worker 10: Setting up browser...
+[2026-01-16 00:08:46] [INFO] Worker 19: Selected proxy 91.99.221.122
+[2026-01-16 00:08:46] [INFO] Worker 8: Selected proxy 91.99.221.122
+[2026-01-16 00:08:46] [INFO] Worker 19: Setting up browser...
+[2026-01-16 00:08:46] [INFO] Worker 8: Setting up browser...
+[2026-01-16 00:08:46] [INFO] Worker 12: Selected proxy 46.224.52.65
+[2026-01-16 00:08:46] [INFO] Worker 12: Setting up browser...
+[2026-01-16 00:08:46] [INFO] Worker 17: Selected proxy 46.224.52.65
+[2026-01-16 00:08:46] [INFO] Worker 17: Setting up browser...
+[2026-01-16 00:08:47] [INFO] Worker 11: Selected proxy 91.99.221.122
+[2026-01-16 00:08:47] [INFO] Worker 11: Setting up browser...
+[2026-01-16 00:08:47] [INFO] Worker 20: Selected proxy 46.224.52.65
+[2026-01-16 00:08:47] [INFO] Worker 20: Setting up browser...
+[2026-01-16 00:08:47] [INFO] Worker 18: Selected proxy 91.99.221.122
+[2026-01-16 00:08:47] [INFO] Worker 18: Setting up browser...
+[2026-01-16 00:08:47] [INFO] Worker 9: Selected proxy 46.224.52.65
+[2026-01-16 00:08:47] [INFO] Worker 9: Setting up browser...
+[2026-01-16 00:08:47] [INFO] Worker 13: Selected proxy 109.205.63.178
+[2026-01-16 00:08:47] [INFO] Worker 13: Setting up browser...
+[2026-01-16 00:08:47] [INFO] Worker 16: Selected proxy 109.205.63.178
+[2026-01-16 00:08:47] [INFO] Worker 16: Setting up browser...
+[2026-01-16 00:08:48] [INFO] Worker 14: Selected proxy 46.224.52.65
+[2026-01-16 00:08:48] [INFO] Worker 14: Setting up browser...
+[2026-01-16 00:08:53] [INFO] Stopping bot...
+[2026-01-16 00:08:53] [ERROR] Worker 4: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:53] [ERROR] Worker 2: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:53] [INFO] Worker 4 stopped
+[2026-01-16 00:08:53] [INFO] Worker 2 stopped
+[2026-01-16 00:08:53] [ERROR] Worker 5: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:53] [INFO] Worker 5 stopped
+[2026-01-16 00:08:53] [ERROR] Worker 6: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:53] [ERROR] Worker 1: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:53] [ERROR] Worker 15: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:53] [INFO] Worker 6 stopped
+[2026-01-16 00:08:53] [INFO] Worker 1 stopped
+[2026-01-16 00:08:53] [INFO] Worker 15 stopped
+[2026-01-16 00:08:55] [ERROR] Worker 3: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:55] [INFO] Worker 3 stopped
+[2026-01-16 00:08:55] [ERROR] Worker 10: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:55] [INFO] Worker 10 stopped
+[2026-01-16 00:08:56] [ERROR] Worker 7: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:56] [INFO] Worker 7 stopped
+[2026-01-16 00:08:56] [ERROR] Worker 12: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:56] [INFO] Worker 12 stopped
+[2026-01-16 00:08:56] [ERROR] Worker 19: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:56] [INFO] Worker 19 stopped
+[2026-01-16 00:08:56] [ERROR] Worker 17: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:56] [INFO] Worker 17 stopped
+[2026-01-16 00:08:56] [ERROR] Worker 8: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:56] [INFO] Worker 8 stopped
+[2026-01-16 00:08:57] [ERROR] Worker 11: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:57] [INFO] Worker 11 stopped
+[2026-01-16 00:08:57] [ERROR] Worker 18: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:57] [INFO] Worker 18 stopped
+[2026-01-16 00:08:57] [ERROR] Worker 20: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:57] [INFO] Worker 20 stopped
+[2026-01-16 00:08:57] [ERROR] Worker 9: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:57] [INFO] Worker 9 stopped
+[2026-01-16 00:08:57] [ERROR] Worker 13: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:57] [INFO] Worker 13 stopped
+[2026-01-16 00:08:57] [ERROR] Worker 14: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:57] [INFO] Worker 14 stopped
+[2026-01-16 00:08:57] [ERROR] Worker 16: Browser setup failed - [WinError 193] %1 is not a valid Win32 application
+[2026-01-16 00:08:57] [INFO] Worker 16 stopped
+[2026-01-16 00:18:03] [INFO] Traffic Bot closed
+[2026-01-16 00:42:45] [INFO] Starting Traffic Bot GUI...
+[2026-01-16 00:44:34] [INFO] Loaded 440 URLs
+[2026-01-16 00:44:34] [INFO] Loaded 1090 proxies
+[2026-01-16 00:44:34] [INFO] Starting bot with 20 workers...
+[2026-01-16 00:44:34] [INFO] Worker 1: Selected proxy 46.224.52.65:39103:dXarcDM4T6:l94OxqsVed
+[2026-01-16 00:44:34] [INFO] Worker 1: Setting up browser...
+[2026-01-16 00:44:34] [INFO] Worker 3: Selected proxy 91.99.221.122:36699:mEy50sNHXv:pl89dIWMYb
+[2026-01-16 00:44:34] [INFO] Worker 2: Selected proxy 46.224.52.65:39103:kvuuWjHXCh:awABO76mvP
+[2026-01-16 00:44:34] [INFO] Worker 4: Selected proxy 46.224.52.65:39103:6PjILOoDE3:SJOThXZcBD
+[2026-01-16 00:44:34] [INFO] Worker 5: Selected proxy 46.224.52.65:39103:Ghi8iVdWOe:F19NIzdF3t
+[2026-01-16 00:44:34] [INFO] Worker 6: Selected proxy 109.205.63.178:51067
+[2026-01-16 00:44:34] [INFO] Worker 3: Setting up browser...
+[2026-01-16 00:44:34] [INFO] Worker 7: Selected proxy 91.99.221.122:36699:victDY5iF6:wjI6SGP7JK
+[2026-01-16 00:44:34] [INFO] Worker 8: Selected proxy 109.205.63.178:14000
+[2026-01-16 00:44:34] [INFO] Worker 2: Setting up browser...
+[2026-01-16 00:44:34] [INFO] Worker 9: Selected proxy 46.224.52.65:39103:NRkc3tlBb3:7IpQlJpdxl
+[2026-01-16 00:44:34] [INFO] Worker 4: Setting up browser...
+[2026-01-16 00:44:34] [INFO] Worker 5: Setting up browser...
+[2026-01-16 00:44:34] [INFO] Worker 10: Selected proxy 91.99.221.122:36699:keXYb0vhsM:clwcyrDTGQ
+[2026-01-16 00:44:34] [INFO] Worker 6: Setting up browser...
+[2026-01-16 00:44:34] [INFO] Worker 11: Selected proxy 109.205.63.178:57529
+[2026-01-16 00:44:34] [INFO] Worker 7: Setting up browser...
+[2026-01-16 00:44:34] [INFO] Worker 12: Selected proxy 46.224.52.65:39103:fBNfgG4N9a:NWY7K7XYfh
+[2026-01-16 00:44:34] [INFO] Worker 8: Setting up browser...
+[2026-01-16 00:44:34] [INFO] Bot started with 20 workers!
+[2026-01-16 00:44:34] [INFO] Worker 13: Selected proxy 46.224.52.65:39103:fEZCYXjzWA:WmuaETRFIt
+[2026-01-16 00:44:34] [INFO] Worker 14: Selected proxy 46.224.52.65:39103:EDToNR9PtB:DYcM9KM499
+[2026-01-16 00:44:34] [INFO] Worker 9: Setting up browser...
+[2026-01-16 00:44:34] [INFO] Worker 15: Selected proxy 109.205.63.178:24368
+[2026-01-16 00:44:34] [INFO] Worker 16: Selected proxy 91.99.221.122:36699:oG7DiQGK3d:WTTz9oI120
+[2026-01-16 00:44:34] [INFO] Worker 17: Selected proxy 46.224.52.65:39103:UmATr5s2LA:pLEsN7b8Rc
+[2026-01-16 00:44:34] [INFO] Worker 18: Selected proxy 109.205.63.178:26696
+[2026-01-16 00:44:34] [INFO] Worker 20: Selected proxy 91.99.221.122:36699:iLqmS3dZrN:ZmGZ5XVq1D
+[2026-01-16 00:44:34] [INFO] Worker 19: Selected proxy 109.205.63.178:54971
+[2026-01-16 00:44:34] [INFO] Worker 10: Setting up browser...
+[2026-01-16 00:44:34] [INFO] Worker 11: Setting up browser...
+[2026-01-16 00:44:34] [INFO] Worker 12: Setting up browser...
+[2026-01-16 00:44:34] [INFO] Worker 13: Setting up browser...
+[2026-01-16 00:44:34] [INFO] Worker 14: Setting up browser...
+[2026-01-16 00:44:34] [INFO] Worker 15: Setting up browser...
+[2026-01-16 00:44:34] [INFO] Worker 16: Setting up browser...
+[2026-01-16 00:44:34] [INFO] Worker 17: Setting up browser...
+[2026-01-16 00:44:34] [INFO] Worker 18: Setting up browser...
+[2026-01-16 00:44:34] [INFO] Worker 20: Setting up browser...
+[2026-01-16 00:44:34] [INFO] Worker 19: Setting up browser...
+[2026-01-16 00:44:36] [INFO] Worker 13: Loaded fingerprint from Fingerprint_6kvm4od25m.json
+[2026-01-16 00:44:36] [INFO] Worker 1: Loaded fingerprint from Fingerprint_xqkhx5qd8p.json
+[2026-01-16 00:44:36] [INFO] Worker 13: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:36] [INFO] Worker 5: Loaded fingerprint from Fingerprint_e7o9bmyutp.json
+[2026-01-16 00:44:36] [INFO] Worker 3: Loaded fingerprint from Fingerprint_u8uj99cudt.json
+[2026-01-16 00:44:36] [INFO] Worker 5: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:36] [INFO] Worker 1: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:36] [INFO] Worker 14: Loaded fingerprint from Fingerprint_r9s82iefu4.json
+[2026-01-16 00:44:36] [INFO] Worker 10: Loaded fingerprint from Fingerprint_u4bypqgi7d.json
+[2026-01-16 00:44:36] [INFO] Worker 9: Loaded fingerprint from Fingerprint_8sb8yjeldq.json
+[2026-01-16 00:44:36] [INFO] Worker 12: Loaded fingerprint from Fingerprint_e6b3spty1o.json
+[2026-01-16 00:44:36] [INFO] Worker 3: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:36] [INFO] Worker 11: Loaded fingerprint from Fingerprint_rfv2xevruz.json
+[2026-01-16 00:44:36] [INFO] Worker 11: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:36] [INFO] Worker 10: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:36] [INFO] Worker 9: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:36] [INFO] Worker 2: Loaded fingerprint from Fingerprint_oygm5zzkv1.json
+[2026-01-16 00:44:36] [INFO] Worker 12: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:36] [INFO] Worker 14: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:36] [INFO] Worker 15: Loaded fingerprint from Fingerprint_tl663b2ku5.json
+[2026-01-16 00:44:36] [INFO] Worker 15: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:36] [INFO] Worker 20: Loaded fingerprint from Fingerprint_ls9w240s6o.json
+[2026-01-16 00:44:36] [INFO] Worker 18: Loaded fingerprint from Fingerprint_w06xcf9cdl.json
+[2026-01-16 00:44:36] [INFO] Worker 18: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:36] [INFO] Worker 17: Loaded fingerprint from Fingerprint_sm9i272bzb.json
+[2026-01-16 00:44:36] [INFO] Worker 20: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:36] [INFO] Worker 2: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:36] [INFO] Worker 8: Loaded fingerprint from Fingerprint_vwu21gomtr.json
+[2026-01-16 00:44:36] [INFO] Worker 7: Loaded fingerprint from Fingerprint_qriqxksjw9.json
+[2026-01-16 00:44:36] [INFO] Worker 8: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:36] [INFO] Worker 4: Loaded fingerprint from Fingerprint_7bzdd1k103.json
+[2026-01-16 00:44:36] [INFO] Worker 17: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:36] [INFO] Worker 6: Loaded fingerprint from Fingerprint_y0eemuefqx.json
+[2026-01-16 00:44:36] [INFO] Worker 6: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:36] [INFO] Worker 19: Loaded fingerprint from Fingerprint_dbpnh71ib2.json
+[2026-01-16 00:44:36] [INFO] Worker 7: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:36] [INFO] Worker 4: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:36] [INFO] Worker 19: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:36] [INFO] Worker 16: Loaded fingerprint from Fingerprint_f22shrdbey.json
+[2026-01-16 00:44:36] [INFO] Worker 16: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:37] [INFO] Worker 13: Browser setup successful!
+[2026-01-16 00:44:37] [INFO] Worker 13: Visiting https://letgohealth.blogspot.com/2025/08/ine-things-its-essential-t-ind-ot-bout_9.html
+[2026-01-16 00:44:37] [INFO] Worker 1: Browser setup successful!
+[2026-01-16 00:44:37] [INFO] Worker 1: Visiting https://letgohealth.blogspot.com/2025/09/dizziness-it-i-easy-when-ou-do-it-smart_0.html
+[2026-01-16 00:44:37] [INFO] Worker 10: Browser setup successful!
+[2026-01-16 00:44:37] [INFO] Worker 10: Visiting https://letgohealth.blogspot.com/2025/11/dont-fall-fo-this-national-health.html
+[2026-01-16 00:44:37] [INFO] Worker 5: Browser setup successful!
+[2026-01-16 00:44:37] [INFO] Worker 5: Visiting https://letgohealth.blogspot.com/2025/08/four-ways-youl-be-able-o-reinvent-tb.html
+[2026-01-16 00:44:38] [INFO] Worker 11: Browser setup successful!
+[2026-01-16 00:44:38] [INFO] Worker 11: Visiting https://letgohealth.blogspot.com/2025/09/blood-sugar-smackdown_3.html
+[2026-01-16 00:44:38] [INFO] Worker 15: Browser setup successful!
+[2026-01-16 00:44:38] [INFO] Worker 15: Visiting https://letgohealth.blogspot.com/2025/08/master-art-of-national-health-insurance.html
+[2026-01-16 00:44:39] [INFO] Worker 9: Browser setup successful!
+[2026-01-16 00:44:39] [INFO] Worker 9: Visiting https://letgohealth.blogspot.com/2025/10/characteristics-of-tb.html
+[2026-01-16 00:44:39] [INFO] Worker 12: Browser setup successful!
+[2026-01-16 00:44:39] [INFO] Worker 12: Visiting https://letgohealth.blogspot.com/2025/11/hw-does-inflammation-work.html
+[2026-01-16 00:44:39] [ERROR] Worker 13: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:39] [ERROR] Worker 1: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:39] [INFO] Worker 3: Browser setup successful!
+[2026-01-16 00:44:39] [INFO] Worker 3: Visiting https://letgohealth.blogspot.com/2025/07/six-ways-to-inflammation-wth-ot_5.html
+[2026-01-16 00:44:39] [ERROR] Worker 10: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:39] [ERROR] Worker 5: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:39] [INFO] Worker 18: Browser setup successful!
+[2026-01-16 00:44:39] [INFO] Worker 18: Visiting https://letgohealth.blogspot.com/2026/01/seven-essential-elements-for-immune.html
+[2026-01-16 00:44:40] [INFO] Worker 14: Browser setup successful!
+[2026-01-16 00:44:40] [INFO] Worker 14: Visiting https://letgohealth.blogspot.com/2025/09/how-you-can-earn-1000000-using-ear.html
+[2026-01-16 00:44:40] [INFO] Worker 8: Browser setup successful!
+[2026-01-16 00:44:40] [INFO] Worker 8: Visiting https://letgohealth.blogspot.com/2025/09/tn-shocking-facts-bout-cardiovascular.html
+[2026-01-16 00:44:40] [INFO] Worker 2: Browser setup successful!
+[2026-01-16 00:44:40] [INFO] Worker 2: Visiting https://letgohealth.blogspot.com/2025/08/top-9-lessons-abot-tb-t-learn-before.html
+[2026-01-16 00:44:40] [INFO] Worker 6: Browser setup successful!
+[2026-01-16 00:44:40] [INFO] Worker 6: Visiting https://letgohealth.blogspot.com/2025/08/immune-system-just-isnt-that-difficult.html
+[2026-01-16 00:44:40] [INFO] Worker 19: Browser setup successful!
+[2026-01-16 00:44:40] [INFO] Worker 19: Visiting https://letgohealth.blogspot.com/2025/10/three-laws-of-national-health-insurance.html
+[2026-01-16 00:44:40] [INFO] Worker 17: Browser setup successful!
+[2026-01-16 00:44:40] [INFO] Worker 17: Visiting https://letgohealth.blogspot.com/2025/10/hat-oull-want-t-know-about-metabolic_7.html
+[2026-01-16 00:44:40] [INFO] Worker 20: Browser setup successful!
+[2026-01-16 00:44:40] [INFO] Worker 20: Visiting https://letgohealth.blogspot.com/2025/10/the-final-word-deal-on-ear-infection.html
+[2026-01-16 00:44:40] [INFO] Worker 16: Browser setup successful!
+[2026-01-16 00:44:40] [INFO] Worker 16: Visiting https://letgohealth.blogspot.com/2025/12/why-very-part-you-ind-ut-abut-metabolic_9.html
+[2026-01-16 00:44:40] [INFO] Worker 7: Browser setup successful!
+[2026-01-16 00:44:40] [INFO] Worker 4: Browser setup successful!
+[2026-01-16 00:44:40] [INFO] Worker 7: Visiting https://letgohealth.blogspot.com/2025/11/ten-must-haves-before-embarking-on_0.html
+[2026-01-16 00:44:40] [INFO] Worker 4: Visiting https://letgohealth.blogspot.com/2026/01/fve-legal-guidelines-f-good-health.html
+[2026-01-16 00:44:42] [ERROR] Worker 17: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:42] [ERROR] Worker 7: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:42] [ERROR] Worker 4: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:43] [ERROR] Worker 12: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:44] [ERROR] Worker 3: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:44] [ERROR] Worker 9: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:44] [ERROR] Worker 14: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:44] [ERROR] Worker 2: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:45] [ERROR] Worker 16: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:45] [ERROR] Worker 20: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:49] [INFO] Worker 1: Selected proxy 46.224.52.65:39103:4UYAEKfkDj:wmc2mPosLH
+[2026-01-16 00:44:49] [INFO] Worker 13: Selected proxy 46.224.52.65:39103:4LaqfUtjpA:BjnRiGquQs
+[2026-01-16 00:44:49] [INFO] Worker 1: Setting up browser...
+[2026-01-16 00:44:49] [INFO] Worker 13: Setting up browser...
+[2026-01-16 00:44:49] [INFO] Worker 5: Selected proxy 109.205.63.178:49907
+[2026-01-16 00:44:49] [INFO] Worker 10: Selected proxy 46.224.52.65:39103:MVganLIE0m:OQi5NprMTE
+[2026-01-16 00:44:49] [INFO] Worker 5: Setting up browser...
+[2026-01-16 00:44:49] [INFO] Worker 10: Setting up browser...
+[2026-01-16 00:44:49] [INFO] Worker 13: Loaded fingerprint from Fingerprint_odvlwq6lj0.json
+[2026-01-16 00:44:49] [INFO] Worker 13: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:49] [INFO] Worker 5: Loaded fingerprint from Fingerprint_zpwntg7tt5.json
+[2026-01-16 00:44:49] [INFO] Worker 10: Loaded fingerprint from Fingerprint_e7eqyajcf4.json
+[2026-01-16 00:44:49] [INFO] Worker 1: Loaded fingerprint from Fingerprint_h2cgdsqk5f.json
+[2026-01-16 00:44:49] [INFO] Worker 5: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:49] [INFO] Worker 10: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:49] [INFO] Worker 1: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:50] [DEBUG] Worker 11: Reading for 26.5s
+[2026-01-16 00:44:50] [DEBUG] Worker 15: Reading for 20.5s
+[2026-01-16 00:44:50] [INFO] Worker 5: Browser setup successful!
+[2026-01-16 00:44:50] [INFO] Worker 5: Visiting https://letgohealth.blogspot.com/2025/12/my-greatest-heart-conditions-lesson_9.html
+[2026-01-16 00:44:50] [INFO] Worker 13: Browser setup successful!
+[2026-01-16 00:44:50] [INFO] Worker 13: Visiting https://letgohealth.blogspot.com/2025/07/six-ways-to-inflammation-wth-ot_5.html
+[2026-01-16 00:44:50] [INFO] Worker 10: Browser setup successful!
+[2026-01-16 00:44:50] [INFO] Worker 10: Visiting https://letgohealth.blogspot.com/2025/08/enhanceimprove-you-blood-glucose-levels_2.html
+[2026-01-16 00:44:50] [INFO] Worker 1: Browser setup successful!
+[2026-01-16 00:44:50] [INFO] Worker 1: Visiting https://letgohealth.blogspot.com/2025/12/thi-is-quick-means-t-resolve-issue-ith_8.html
+[2026-01-16 00:44:50] [DEBUG] Worker 18: Reading for 25.4s
+[2026-01-16 00:44:50] [DEBUG] Worker 6: Reading for 29.2s
+[2026-01-16 00:44:51] [DEBUG] Worker 8: Reading for 24.5s
+[2026-01-16 00:44:51] [INFO] Worker 17: Selected proxy 46.224.52.65:39103:oA9SyZoMwH:9ZX13xXAqC
+[2026-01-16 00:44:51] [INFO] Worker 17: Setting up browser...
+[2026-01-16 00:44:51] [INFO] Worker 17: Loaded fingerprint from Fingerprint_wpnl7s5rhe.json
+[2026-01-16 00:44:51] [INFO] Worker 17: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:52] [INFO] Worker 7: Selected proxy 46.224.52.65:39103:lONcps5uKY:mvG1CTdVch
+[2026-01-16 00:44:52] [INFO] Worker 7: Setting up browser...
+[2026-01-16 00:44:52] [DEBUG] Worker 19: Reading for 23.7s
+[2026-01-16 00:44:52] [INFO] Worker 4: Selected proxy 109.205.63.178:17715
+[2026-01-16 00:44:52] [INFO] Worker 4: Setting up browser...
+[2026-01-16 00:44:52] [INFO] Worker 7: Loaded fingerprint from Fingerprint_18uifypv4o.json
+[2026-01-16 00:44:52] [INFO] Worker 7: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:52] [INFO] Worker 4: Loaded fingerprint from Fingerprint_hm7t4kowv7.json
+[2026-01-16 00:44:52] [INFO] Worker 4: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:53] [ERROR] Worker 1: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:53] [INFO] Worker 17: Browser setup successful!
+[2026-01-16 00:44:53] [INFO] Worker 17: Visiting https://letgohealth.blogspot.com/2025/12/eight-reasons-your-metabolic-is-just.html
+[2026-01-16 00:44:53] [INFO] Worker 12: Selected proxy 46.224.52.65:39103:8uMpYZJ0ux:nfZMsDCWj1
+[2026-01-16 00:44:53] [INFO] Worker 12: Setting up browser...
+[2026-01-16 00:44:53] [ERROR] Worker 10: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:53] [INFO] Worker 12: Loaded fingerprint from Fingerprint_u51k0ot2py.json
+[2026-01-16 00:44:53] [INFO] Worker 12: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:53] [INFO] Worker 3: Selected proxy 46.224.52.65:39103:2IhGcHoU5T:yiDO4lLK92
+[2026-01-16 00:44:53] [INFO] Worker 3: Setting up browser...
+[2026-01-16 00:44:53] [INFO] Worker 3: Loaded fingerprint from Fingerprint_h9iv5ip3no.json
+[2026-01-16 00:44:53] [INFO] Worker 3: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:53] [INFO] Worker 4: Browser setup successful!
+[2026-01-16 00:44:53] [INFO] Worker 4: Visiting https://letgohealth.blogspot.com/2025/09/sven-reasons-our-tenosynovial-giant_4.html
+[2026-01-16 00:44:53] [INFO] Worker 9: Selected proxy 46.224.52.65:39103:1oBU6cr3r8:qXP17mPe73
+[2026-01-16 00:44:53] [INFO] Worker 9: Setting up browser...
+[2026-01-16 00:44:53] [INFO] Worker 7: Browser setup successful!
+[2026-01-16 00:44:53] [INFO] Worker 7: Visiting https://letgohealth.blogspot.com/2025/11/how-t-save-money-wth-water-infection.html
+[2026-01-16 00:44:53] [INFO] Worker 9: Loaded fingerprint from Fingerprint_11h35q10wf.json
+[2026-01-16 00:44:53] [INFO] Worker 9: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:54] [INFO] Worker 14: Selected proxy 46.224.52.65:39103:5yclEF0CLJ:PQlnpbNsYm
+[2026-01-16 00:44:54] [INFO] Worker 14: Setting up browser...
+[2026-01-16 00:44:54] [INFO] Worker 14: Loaded fingerprint from Fingerprint_mkd8lpabtr.json
+[2026-01-16 00:44:54] [INFO] Worker 14: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:54] [INFO] Worker 2: Selected proxy 109.205.63.178:51067
+[2026-01-16 00:44:54] [INFO] Worker 2: Setting up browser...
+[2026-01-16 00:44:54] [INFO] Worker 2: Loaded fingerprint from Fingerprint_yhollyt2pa.json
+[2026-01-16 00:44:54] [INFO] Worker 2: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:54] [INFO] Worker 12: Browser setup successful!
+[2026-01-16 00:44:54] [INFO] Worker 12: Visiting https://letgohealth.blogspot.com/2025/12/methods-to-make-more-tenosynovial-giant_7.html
+[2026-01-16 00:44:54] [INFO] Worker 3: Browser setup successful!
+[2026-01-16 00:44:54] [INFO] Worker 3: Visiting https://letgohealth.blogspot.com/2025/09/if-you-dont-ocardiovascular-now-you_1.html
+[2026-01-16 00:44:54] [INFO] Worker 16: Selected proxy 109.205.63.178:14486
+[2026-01-16 00:44:54] [INFO] Worker 16: Setting up browser...
+[2026-01-16 00:44:54] [INFO] Worker 16: Loaded fingerprint from Fingerprint_6sjvqc8n80.json
+[2026-01-16 00:44:54] [INFO] Worker 16: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:54] [INFO] Worker 20: Selected proxy 46.224.52.65:39103:XLBXfzGhgC:0LIFLrN8J3
+[2026-01-16 00:44:54] [INFO] Worker 20: Setting up browser...
+[2026-01-16 00:44:54] [INFO] Worker 9: Browser setup successful!
+[2026-01-16 00:44:54] [INFO] Worker 9: Visiting https://letgohealth.blogspot.com/2025/10/te-tb-thriller-revealed_7.html
+[2026-01-16 00:44:54] [INFO] Worker 20: Loaded fingerprint from Fingerprint_g3ngedb003.json
+[2026-01-16 00:44:54] [INFO] Worker 20: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:44:54] [ERROR] Worker 13: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:55] [ERROR] Worker 17: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:55] [INFO] Worker 14: Browser setup successful!
+[2026-01-16 00:44:55] [INFO] Worker 14: Visiting https://letgohealth.blogspot.com/2025/09/dont-waste-time-5-info-to-start_5.html
+[2026-01-16 00:44:55] [INFO] Worker 2: Browser setup successful!
+[2026-01-16 00:44:55] [INFO] Worker 2: Visiting https://letgohealth.blogspot.com/2025/12/give-me-15-minutes-ill-give-you-reality.html
+[2026-01-16 00:44:55] [ERROR] Worker 7: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:55] [INFO] Worker 16: Browser setup successful!
+[2026-01-16 00:44:55] [INFO] Worker 16: Visiting https://letgohealth.blogspot.com/2025/12/the-implications-of-failing-to.html
+[2026-01-16 00:44:55] [INFO] Worker 20: Browser setup successful!
+[2026-01-16 00:44:55] [INFO] Worker 20: Visiting https://letgohealth.blogspot.com/2026/01/how-google-is-changing-how-we-strategy.html
+[2026-01-16 00:44:57] [ERROR] Worker 14: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:58] [ERROR] Worker 12: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:58] [ERROR] Worker 3: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:44:58] [ERROR] Worker 9: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:45:00] [INFO] Worker 11: Browser shown
+[2026-01-16 00:45:00] [ERROR] Worker 20: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:45:02] [INFO] Worker 1: Selected proxy 46.224.52.65:39103:ukP7v0h9N6:NpTjuKKgyL
+[2026-01-16 00:45:02] [INFO] Worker 1: Setting up browser...
+[2026-01-16 00:45:02] [INFO] Worker 1: Loaded fingerprint from Fingerprint_5hagc6cwte.json
+[2026-01-16 00:45:02] [INFO] Worker 1: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:45:02] [DEBUG] Worker 5: Reading for 23.1s
+[2026-01-16 00:45:02] [INFO] Worker 10: Selected proxy 46.224.52.65:39103:3Z4AqAqreg:EcmAB5G0dx
+[2026-01-16 00:45:02] [INFO] Worker 10: Setting up browser...
+[2026-01-16 00:45:02] [INFO] Worker 10: Loaded fingerprint from Fingerprint_gwcfmpp4tj.json
+[2026-01-16 00:45:02] [INFO] Worker 10: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:45:03] [INFO] Worker 1: Browser setup successful!
+[2026-01-16 00:45:03] [INFO] Worker 1: Visiting https://letgohealth.blogspot.com/2025/08/top-7-ways-to-purchase-used-encephalitis.html
+[2026-01-16 00:45:03] [INFO] Worker 10: Browser setup successful!
+[2026-01-16 00:45:03] [INFO] Worker 10: Visiting https://letgohealth.blogspot.com/2025/11/warning-wht-are-ou-able-to-d-about_7.html
+[2026-01-16 00:45:04] [DEBUG] Worker 4: Reading for 27.9s
+[2026-01-16 00:45:04] [INFO] Worker 13: Selected proxy 91.99.221.122:36699:rSVibyQBKc:N4pb4cPiHK
+[2026-01-16 00:45:04] [INFO] Worker 13: Setting up browser...
+[2026-01-16 00:45:04] [INFO] Worker 13: Loaded fingerprint from Fingerprint_53f6nlrdx0.json
+[2026-01-16 00:45:04] [INFO] Worker 13: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:45:04] [INFO] Worker 17: Selected proxy 46.224.52.65:39103:kTHB9OAUnN:ZZsucaXJOX
+[2026-01-16 00:45:04] [INFO] Worker 17: Setting up browser...
+[2026-01-16 00:45:04] [INFO] Worker 17: Loaded fingerprint from Fingerprint_gad6rdhqpc.json
+[2026-01-16 00:45:04] [INFO] Worker 17: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:45:04] [INFO] Worker 7: Selected proxy 46.224.52.65:39103:b7uQMP9JXd:NKY0n0Ib0S
+[2026-01-16 00:45:04] [INFO] Worker 7: Setting up browser...
+[2026-01-16 00:45:04] [INFO] Worker 7: Loaded fingerprint from Fingerprint_yube5vt3mp.json
+[2026-01-16 00:45:04] [INFO] Worker 7: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:45:05] [INFO] Worker 13: Browser setup successful!
+[2026-01-16 00:45:05] [INFO] Worker 13: Visiting https://letgohealth.blogspot.com/2025/11/the-etiquette-of-healthy-breakfasts.html
+[2026-01-16 00:45:05] [INFO] Worker 17: Browser setup successful!
+[2026-01-16 00:45:05] [INFO] Worker 17: Visiting https://letgohealth.blogspot.com/2025/12/dont-waste-time-three-facts-until-you_0.html
+[2026-01-16 00:45:05] [INFO] Worker 7: Browser setup successful!
+[2026-01-16 00:45:05] [INFO] Worker 7: Visiting https://letgohealth.blogspot.com/2025/11/fears-of-knowledgeable-lean-protein_1.html
+[2026-01-16 00:45:06] [DEBUG] Worker 16: Reading for 23.9s
+[2026-01-16 00:45:06] [INFO] Worker 14: Selected proxy 91.99.221.122:36699:PGzuxW67Xl:ygxGT8mQWA
+[2026-01-16 00:45:06] [INFO] Worker 14: Setting up browser...
+[2026-01-16 00:45:06] [INFO] Worker 14: Loaded fingerprint from Fingerprint_24bfrhho9s.json
+[2026-01-16 00:45:06] [INFO] Worker 14: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:45:06] [DEBUG] Worker 2: Reading for 24.4s
+[2026-01-16 00:45:07] [INFO] Worker 12: Selected proxy 46.224.52.65:39103:ovmTbJwvUY:9XOYqICQLv
+[2026-01-16 00:45:07] [INFO] Worker 12: Setting up browser...
+[2026-01-16 00:45:07] [INFO] Worker 12: Loaded fingerprint from Fingerprint_ve6xhfuezr.json
+[2026-01-16 00:45:07] [INFO] Worker 12: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:45:07] [ERROR] Worker 1: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:45:07] [ERROR] Worker 17: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:45:07] [INFO] Worker 3: Selected proxy 109.205.63.178:29689
+[2026-01-16 00:45:07] [INFO] Worker 3: Setting up browser...
+[2026-01-16 00:45:07] [ERROR] Worker 10: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:45:07] [INFO] Worker 3: Loaded fingerprint from Fingerprint_w0sszanv6f.json
+[2026-01-16 00:45:07] [INFO] Worker 3: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:45:07] [INFO] Worker 14: Browser setup successful!
+[2026-01-16 00:45:07] [INFO] Worker 14: Visiting https://letgohealth.blogspot.com/2025/08/he-brand-ne-angle-on-metabolic-just.html
+[2026-01-16 00:45:07] [ERROR] Worker 7: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:45:07] [INFO] Worker 9: Selected proxy 91.99.221.122:36699:T09eZifnMS:Yez8z70wp1
+[2026-01-16 00:45:07] [INFO] Worker 9: Setting up browser...
+[2026-01-16 00:45:08] [INFO] Worker 9: Loaded fingerprint from Fingerprint_6vbqnyzr5k.json
+[2026-01-16 00:45:08] [INFO] Worker 9: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:45:08] [INFO] Worker 12: Browser setup successful!
+[2026-01-16 00:45:08] [INFO] Worker 12: Visiting https://letgohealth.blogspot.com/2026/01/how-does-healthy-life-work_7.html
+[2026-01-16 00:45:08] [INFO] Worker 3: Browser setup successful!
+[2026-01-16 00:45:08] [INFO] Worker 3: Visiting https://letgohealth.blogspot.com/2025/08/beware-healthy-lifestyle-scam.html
+[2026-01-16 00:45:09] [INFO] Worker 9: Browser setup successful!
+[2026-01-16 00:45:09] [INFO] Worker 9: Visiting https://letgohealth.blogspot.com/2025/12/five-amazing-inflammation-hacks.html
+[2026-01-16 00:45:09] [INFO] Worker 20: Selected proxy 91.99.221.122:36699:ik2OqLCP1J:sc5t4HaYHK
+[2026-01-16 00:45:09] [INFO] Worker 20: Setting up browser...
+[2026-01-16 00:45:09] [INFO] Worker 20: Loaded fingerprint from Fingerprint_oi06oxmq7m.json
+[2026-01-16 00:45:09] [INFO] Worker 20: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:45:09] [ERROR] Worker 13: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:45:10] [INFO] Worker 20: Browser setup successful!
+[2026-01-16 00:45:10] [INFO] Worker 20: Visiting https://letgohealth.blogspot.com/2025/12/beng-star-n-yor-business-s-matter-of_3.html
+[2026-01-16 00:45:11] [ERROR] Worker 14: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:45:13] [ERROR] Worker 12: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:45:13] [ERROR] Worker 9: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:45:14] [ERROR] Worker 20: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:45:16] [INFO] Worker 1 stopped
+[2026-01-16 00:45:16] [INFO] Worker 17 stopped
+[2026-01-16 00:45:16] [INFO] Worker 7 stopped
+[2026-01-16 00:45:16] [INFO] Worker 10 stopped
+[2026-01-16 00:45:18] [INFO] Worker 13 stopped
+[2026-01-16 00:45:19] [DEBUG] Worker 3: Reading for 29.5s
+[2026-01-16 00:45:21] [INFO] Worker 14 stopped
+[2026-01-16 00:45:22] [INFO] Worker 12 stopped
+[2026-01-16 00:45:22] [INFO] Worker 9 stopped
+[2026-01-16 00:45:23] [INFO] Worker 20 stopped
+[2026-01-16 00:45:25] [INFO] Worker 15: Browser shown
+[2026-01-16 00:46:19] [INFO] Worker 19: Browser shown
+[2026-01-16 00:46:24] [DEBUG] Worker 15: Scrolled 30 times
+[2026-01-16 00:46:32] [INFO] Worker 18: Browser shown
+[2026-01-16 00:46:35] [INFO] Worker 19: Browser hidden
+[2026-01-16 00:46:49] [DEBUG] Worker 18: Scrolled 38 times
+[2026-01-16 00:46:50] [DEBUG] Worker 19: Scrolled 41 times
+[2026-01-16 00:46:56] [INFO] Worker 8: Browser shown
+[2026-01-16 00:46:56] [INFO] Worker 15: Browser hidden
+[2026-01-16 00:47:08] [INFO] Worker 18: Browser hidden
+[2026-01-16 00:47:09] [DEBUG] Worker 6: Scrolled 48 times
+[2026-01-16 00:47:09] [INFO] [SUCCESS] Worker 6: Task completed successfully!
+[2026-01-16 00:47:12] [DEBUG] Worker 11: Scrolled 47 times
+[2026-01-16 00:47:12] [INFO] Worker 19: Browser shown
+[2026-01-16 00:47:18] [INFO] Worker 6: Selected proxy 46.224.52.65:39103:jm1rUUr4WN:kDI5GOMcps
+[2026-01-16 00:47:18] [INFO] Worker 6: Setting up browser...
+[2026-01-16 00:47:19] [INFO] Worker 6: Loaded fingerprint from Fingerprint_tc9asfbz6s.json
+[2026-01-16 00:47:19] [INFO] Worker 6: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:47:20] [INFO] Worker 6: Browser setup successful!
+[2026-01-16 00:47:20] [INFO] Worker 6: Visiting https://letgohealth.blogspot.com/2025/10/favorite-cardiovascular-assets-for-2025.html
+[2026-01-16 00:47:21] [DEBUG] Worker 3: Scrolled 44 times
+[2026-01-16 00:47:21] [INFO] Worker 11: Browser hidden
+[2026-01-16 00:47:24] [ERROR] Worker 6: Task failed - Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d17165d
+	0x7ff68d16e1dd
+	0x7ff68d15eb69
+	0x7ff68d160974
+	0x7ff68d15f10f
+	0x7ff68d15e871
+	0x7ff68d15e5bd
+	0x7ff68d15c20a
+	0x7ff68d15c9f2
+	0x7ff68d175950
+	0x7ff68d21bad4
+	0x7ff68d1f1fda
+	0x7ff68d21ac97
+	0x7ff68d1bac29
+	0x7ff68d1bba93
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d3a1ff4
+	0x7ff68d3a21a5
+	0x7ff68d387ed2
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:47:24] [DEBUG] Worker 16: Scrolled 45 times
+[2026-01-16 00:47:24] [INFO] [SUCCESS] Worker 16: Task completed successfully!
+[2026-01-16 00:47:27] [INFO] Stopping bot...
+[2026-01-16 00:47:28] [INFO] Worker 6 stopped
+[2026-01-16 00:47:28] [INFO] Worker 16 stopped
+[2026-01-16 00:47:32] [DEBUG] Worker 8: Scrolled 55 times
+[2026-01-16 00:47:33] [INFO] Worker 8: Clicked a link (CTR simulation)
+[2026-01-16 00:47:36] [INFO] [SUCCESS] Worker 8: Task completed successfully!
+[2026-01-16 00:47:39] [ERROR] Worker 2: Scroll error - 'NoneType' object has no attribute 'execute_script'
+[2026-01-16 00:47:39] [INFO] [SUCCESS] Worker 2: Task completed successfully!
+[2026-01-16 00:47:39] [INFO] Worker 2 stopped
+[2026-01-16 00:47:40] [INFO] Worker 8 stopped
+[2026-01-16 00:47:42] [ERROR] Worker 3: Scroll error - Message: invalid session id
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d171465
+	0x7ff68d1b9d83
+	0x7ff68d1f1ee2
+	0x7ff68d1ec500
+	0x7ff68d1eb6f0
+	0x7ff68d13b325
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d139cb8
+	0x7ff68d80efe8
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:47:42] [INFO] [SUCCESS] Worker 3: Task completed successfully!
+[2026-01-16 00:47:44] [DEBUG] Worker 4: Scrolled 56 times
+[2026-01-16 00:47:44] [INFO] [SUCCESS] Worker 4: Task completed successfully!
+[2026-01-16 00:47:46] [INFO] Worker 3 stopped
+[2026-01-16 00:47:47] [ERROR] Worker 5: Scroll error - 'NoneType' object has no attribute 'execute_script'
+[2026-01-16 00:47:47] [ERROR] Worker 5: Scroll error - 'NoneType' object has no attribute 'execute_script'
+[2026-01-16 00:47:47] [INFO] [SUCCESS] Worker 5: Task completed successfully!
+[2026-01-16 00:47:47] [INFO] Worker 5 stopped
+[2026-01-16 00:47:48] [INFO] Worker 4 stopped
+[2026-01-16 00:47:50] [ERROR] Worker 11: Scroll error - Message: invalid session id
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d171465
+	0x7ff68d1b9d83
+	0x7ff68d1f1ee2
+	0x7ff68d1ec500
+	0x7ff68d1eb6f0
+	0x7ff68d13b325
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d139cb8
+	0x7ff68d80efe8
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:47:50] [INFO] [SUCCESS] Worker 11: Task completed successfully!
+[2026-01-16 00:47:51] [ERROR] Worker 15: Scroll error - Message: invalid session id
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d171465
+	0x7ff68d1b9d83
+	0x7ff68d1f1ee2
+	0x7ff68d1ec500
+	0x7ff68d1eb6f0
+	0x7ff68d13b325
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d139cb8
+	0x7ff68d80efe8
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:47:51] [INFO] [SUCCESS] Worker 15: Task completed successfully!
+[2026-01-16 00:47:54] [INFO] Worker 11 stopped
+[2026-01-16 00:47:55] [ERROR] Worker 18: Scroll error - Message: invalid session id
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d171465
+	0x7ff68d1b9d83
+	0x7ff68d1f1ee2
+	0x7ff68d1ec500
+	0x7ff68d1eb6f0
+	0x7ff68d13b325
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d139cb8
+	0x7ff68d80efe8
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:47:55] [INFO] [SUCCESS] Worker 18: Task completed successfully!
+[2026-01-16 00:47:55] [INFO] Worker 15 stopped
+[2026-01-16 00:47:55] [ERROR] Worker 19: Scroll error - Message: invalid session id
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff68d3988d5
+	0x7ff68d398930
+	0x7ff68d171465
+	0x7ff68d1b9d83
+	0x7ff68d1f1ee2
+	0x7ff68d1ec500
+	0x7ff68d1eb6f0
+	0x7ff68d13b325
+	0x7ff68d6b0620
+	0x7ff68d6aaf60
+	0x7ff68d6c96c6
+	0x7ff68d3b5dd4
+	0x7ff68d3bed7c
+	0x7ff68d139cb8
+	0x7ff68d80efe8
+	0x7ffd8a22e8d7
+	0x7ffd8b32c53c
+
+[2026-01-16 00:47:55] [INFO] [SUCCESS] Worker 19: Task completed successfully!
+[2026-01-16 00:47:57] [INFO] Bot stopped successfully
+[2026-01-16 00:47:59] [INFO] Worker 18 stopped
+[2026-01-16 00:48:00] [INFO] Worker 19 stopped
+[2026-01-16 00:54:38] [INFO] Traffic Bot closed
+[2026-01-16 00:55:08] [INFO] Starting Traffic Bot GUI...
+[2026-01-16 00:56:59] [INFO] Loaded 440 URLs
+[2026-01-16 00:56:59] [INFO] Loaded 1090 proxies
+[2026-01-16 00:56:59] [INFO] Starting bot with 20 workers...
+[2026-01-16 00:56:59] [INFO] Worker 1: Selected proxy 109.205.63.178:44541
+[2026-01-16 00:56:59] [INFO] Worker 1: Setting up browser...
+[2026-01-16 00:56:59] [INFO] Worker 2: Selected proxy 46.224.52.65:39103:tPe1A9QZPb:NRjCxckzaW
+[2026-01-16 00:56:59] [INFO] Worker 3: Selected proxy 46.224.52.65:39103:3X7Vjno83m:HsmlkPoWpy
+[2026-01-16 00:56:59] [INFO] Worker 2: Setting up browser...
+[2026-01-16 00:56:59] [INFO] Worker 4: Selected proxy 46.224.52.65:39103:96PjYHp2Tx:6uoeq4Xrg2
+[2026-01-16 00:56:59] [INFO] Worker 3: Setting up browser...
+[2026-01-16 00:56:59] [INFO] Worker 6: Selected proxy 46.224.52.65:39103:tc50xHuiak:jbtEIfHLL7
+[2026-01-16 00:56:59] [INFO] Worker 5: Selected proxy 46.224.52.65:39103:Gi4T4AnVgx:sckcMk0E8r
+[2026-01-16 00:56:59] [INFO] Worker 7: Selected proxy 46.224.52.65:39103:twCd5szZpv:glnxGcbmq6
+[2026-01-16 00:56:59] [INFO] Worker 4: Setting up browser...
+[2026-01-16 00:56:59] [INFO] Worker 8: Selected proxy 91.99.221.122:36699:rKwMbNq9Rr:7EtiGuj3vs
+[2026-01-16 00:56:59] [INFO] Worker 6: Setting up browser...
+[2026-01-16 00:56:59] [INFO] Worker 5: Setting up browser...
+[2026-01-16 00:56:59] [INFO] Worker 9: Selected proxy 91.99.221.122:36699:rhytwABqin:ansG0rjbNR
+[2026-01-16 00:56:59] [INFO] Worker 7: Setting up browser...
+[2026-01-16 00:56:59] [INFO] Bot started with 20 workers!
+[2026-01-16 00:56:59] [INFO] Worker 10: Selected proxy 46.224.52.65:39103:NZnWZBGu6r:ULRG7a3SVl
+[2026-01-16 00:56:59] [INFO] Worker 11: Selected proxy 91.99.221.122:36699:1uJcDMf4Hx:cvVAvP56q5
+[2026-01-16 00:56:59] [INFO] Worker 8: Setting up browser...
+[2026-01-16 00:56:59] [INFO] Worker 12: Selected proxy 91.99.221.122:36699:CI82FVIRxj:kNdctYVwfd
+[2026-01-16 00:56:59] [INFO] Worker 13: Selected proxy 46.224.52.65:39103:RFAq73Muuu:KJaWQd3nGy
+[2026-01-16 00:56:59] [INFO] Worker 14: Selected proxy 46.224.52.65:39103:dVnonaVFvN:cjNeMXngkZ
+[2026-01-16 00:56:59] [INFO] Worker 9: Setting up browser...
+[2026-01-16 00:56:59] [INFO] Worker 15: Selected proxy 91.99.221.122:36699:wmK3mt54vJ:tT7T6TVx2E
+[2026-01-16 00:56:59] [INFO] Worker 16: Selected proxy 109.205.63.178:47391
+[2026-01-16 00:56:59] [INFO] Worker 17: Selected proxy 91.99.221.122:36699:igowkZi0dx:mgJUdOejJ4
+[2026-01-16 00:56:59] [INFO] Worker 18: Selected proxy 109.205.63.178:18494
+[2026-01-16 00:56:59] [INFO] Worker 19: Selected proxy 46.224.52.65:39103:W9QmgsStP0:eKYl0r1zTc
+[2026-01-16 00:56:59] [INFO] Worker 10: Setting up browser...
+[2026-01-16 00:56:59] [INFO] Worker 20: Selected proxy 91.99.221.122:36699:L6WfYpNxk4:EwJYcpgWfz
+[2026-01-16 00:56:59] [INFO] Worker 11: Setting up browser...
+[2026-01-16 00:56:59] [INFO] Worker 12: Setting up browser...
+[2026-01-16 00:56:59] [INFO] Worker 13: Setting up browser...
+[2026-01-16 00:56:59] [INFO] Worker 14: Setting up browser...
+[2026-01-16 00:56:59] [INFO] Worker 15: Setting up browser...
+[2026-01-16 00:56:59] [INFO] Worker 16: Setting up browser...
+[2026-01-16 00:56:59] [INFO] Worker 17: Setting up browser...
+[2026-01-16 00:56:59] [INFO] Worker 18: Setting up browser...
+[2026-01-16 00:56:59] [INFO] Worker 19: Setting up browser...
+[2026-01-16 00:56:59] [INFO] Worker 20: Setting up browser...
+[2026-01-16 00:57:01] [INFO] Worker 2: Loaded fingerprint from Fingerprint_7i08dkwokb.json
+[2026-01-16 00:57:01] [INFO] Worker 4: Loaded fingerprint from Fingerprint_noqqdqch0w.json
+[2026-01-16 00:57:01] [INFO] Worker 1: Loaded fingerprint from Fingerprint_mlth36letd.json
+[2026-01-16 00:57:01] [INFO] Worker 1: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:01] [INFO] Worker 20: Loaded fingerprint from Fingerprint_vnrf6v6ern.json
+[2026-01-16 00:57:01] [INFO] Worker 2: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:01] [INFO] Worker 10: Loaded fingerprint from Fingerprint_vbeo1wsbff.json
+[2026-01-16 00:57:01] [INFO] Worker 20: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:01] [INFO] Worker 4: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:01] [INFO] Worker 12: Loaded fingerprint from Fingerprint_so2w5pvbnt.json
+[2026-01-16 00:57:01] [INFO] Worker 19: Loaded fingerprint from Fingerprint_yava4g14vr.json
+[2026-01-16 00:57:01] [INFO] Worker 7: Loaded fingerprint from Fingerprint_u8b5bnyo5i.json
+[2026-01-16 00:57:01] [INFO] Worker 16: Loaded fingerprint from Fingerprint_7ma0cqe13f.json
+[2026-01-16 00:57:01] [INFO] Worker 16: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:01] [INFO] Worker 12: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:01] [INFO] Worker 19: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:01] [INFO] Worker 18: Loaded fingerprint from Fingerprint_ebbbcdfjnr.json
+[2026-01-16 00:57:01] [INFO] Worker 10: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:01] [INFO] Worker 7: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:01] [INFO] Worker 3: Loaded fingerprint from Fingerprint_qbxpd2zzjj.json
+[2026-01-16 00:57:01] [INFO] Worker 11: Loaded fingerprint from Fingerprint_p931bicluo.json
+[2026-01-16 00:57:01] [INFO] Worker 18: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:01] [INFO] Worker 17: Loaded fingerprint from Fingerprint_ordvtuvgmh.json
+[2026-01-16 00:57:01] [INFO] Worker 5: Loaded fingerprint from Fingerprint_50luzjf7o5.json
+[2026-01-16 00:57:01] [INFO] Worker 11: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:01] [INFO] Worker 15: Loaded fingerprint from Fingerprint_arn7wojulp.json
+[2026-01-16 00:57:01] [INFO] Worker 3: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:01] [INFO] Worker 17: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:01] [INFO] Worker 14: Loaded fingerprint from Fingerprint_y1xy6byrzb.json
+[2026-01-16 00:57:02] [INFO] Worker 8: Loaded fingerprint from Fingerprint_ivy2fsxuql.json
+[2026-01-16 00:57:02] [INFO] Worker 6: Loaded fingerprint from Fingerprint_bmcoy1lag5.json
+[2026-01-16 00:57:02] [INFO] Worker 15: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:02] [INFO] Worker 5: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:02] [INFO] Worker 9: Loaded fingerprint from Fingerprint_5clry0h1xv.json
+[2026-01-16 00:57:02] [INFO] Worker 14: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:02] [INFO] Worker 8: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:02] [INFO] Worker 9: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:02] [INFO] Worker 6: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:02] [INFO] Worker 13: Loaded fingerprint from Fingerprint_8mdte9x77w.json
+[2026-01-16 00:57:02] [INFO] Worker 13: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:02] [INFO] Worker 2: Browser setup successful!
+[2026-01-16 00:57:02] [INFO] Worker 2: Visiting https://letgohealth.blogspot.com/2025/09/never-suffer-from-balanced-diet-gain.html
+[2026-01-16 00:57:03] [INFO] Worker 16: Browser setup successful!
+[2026-01-16 00:57:03] [INFO] Worker 16: Visiting https://letgohealth.blogspot.com/2025/07/enhanceenhance-your-cardiovascular-in_4.html
+[2026-01-16 00:57:03] [INFO] Worker 1: Browser setup successful!
+[2026-01-16 00:57:03] [INFO] Worker 1: Visiting https://letgohealth.blogspot.com/2025/08/four-ways-youl-be-able-o-reinvent-tb.html
+[2026-01-16 00:57:03] [INFO] Worker 18: Browser setup successful!
+[2026-01-16 00:57:03] [INFO] Worker 18: Visiting https://letgohealth.blogspot.com/2025/11/ear-infection-query-does-measurement_1.html
+[2026-01-16 00:57:03] [INFO] Worker 4: Browser setup successful!
+[2026-01-16 00:57:03] [INFO] Worker 4: Visiting https://letgohealth.blogspot.com/2025/12/believe-in-your-blood-sugar-skills-but_7.html
+[2026-01-16 00:57:04] [INFO] Worker 20: Browser setup successful!
+[2026-01-16 00:57:04] [INFO] Worker 20: Visiting https://letgohealth.blogspot.com/2025/09/6-small-changes-that-will-have-big.html
+[2026-01-16 00:57:04] [INFO] Worker 7: Browser setup successful!
+[2026-01-16 00:57:04] [INFO] Worker 7: Visiting https://letgohealth.blogspot.com/2025/08/master-art-of-national-health-insurance.html
+[2026-01-16 00:57:04] [INFO] Worker 10: Browser setup successful!
+[2026-01-16 00:57:04] [INFO] Worker 10: Visiting https://letgohealth.blogspot.com/2025/10/ear-infection-extremely-simple-method_6.html
+[2026-01-16 00:57:04] [INFO] Worker 3: Browser setup successful!
+[2026-01-16 00:57:04] [INFO] Worker 3: Visiting https://letgohealth.blogspot.com/2025/09/dirty-facts-about-metabolic-revealed_1.html
+[2026-01-16 00:57:04] [INFO] Worker 19: Browser setup successful!
+[2026-01-16 00:57:04] [INFO] Worker 19: Visiting https://letgohealth.blogspot.com/2025/10/prime-10-tips-with-dizziness_5.html
+[2026-01-16 00:57:04] [INFO] Worker 12: Browser setup successful!
+[2026-01-16 00:57:04] [INFO] Worker 12: Visiting https://letgohealth.blogspot.com/2025/11/heres-hat-i-know-about-cough.html
+[2026-01-16 00:57:04] [ERROR] Worker 2: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:05] [INFO] Worker 17: Browser setup successful!
+[2026-01-16 00:57:05] [INFO] Worker 17: Visiting https://letgohealth.blogspot.com/2025/11/tey-asked-100-specialists-bout-national.html
+[2026-01-16 00:57:05] [INFO] Worker 8: Browser setup successful!
+[2026-01-16 00:57:05] [INFO] Worker 8: Visiting https://letgohealth.blogspot.com/2025/07/how-talking-therapies-made-e-greater_4.html
+[2026-01-16 00:57:05] [INFO] Worker 14: Browser setup successful!
+[2026-01-16 00:57:05] [INFO] Worker 14: Visiting https://letgohealth.blogspot.com/2025/07/easy-methods-to-make-blood-sugar.html
+[2026-01-16 00:57:05] [INFO] Worker 6: Browser setup successful!
+[2026-01-16 00:57:05] [INFO] Worker 6: Visiting https://letgohealth.blogspot.com/2025/12/thes-5-easy-healthy-weight-loss-tips_3.html
+[2026-01-16 00:57:05] [INFO] Worker 15: Browser setup successful!
+[2026-01-16 00:57:05] [INFO] Worker 15: Visiting https://letgohealth.blogspot.com/2025/12/thi-is-quick-means-t-resolve-issue-ith_8.html
+[2026-01-16 00:57:05] [INFO] Worker 5: Browser setup successful!
+[2026-01-16 00:57:05] [INFO] Worker 5: Visiting https://letgohealth.blogspot.com/2025/10/hat-your-customers-really-think-aout_2.html
+[2026-01-16 00:57:05] [INFO] Worker 9: Browser setup successful!
+[2026-01-16 00:57:05] [INFO] Worker 13: Browser setup successful!
+[2026-01-16 00:57:05] [INFO] Worker 11: Browser setup successful!
+[2026-01-16 00:57:05] [INFO] Worker 9: Visiting https://letgohealth.blogspot.com/2025/09/dont-waste-time-5-info-to-start_5.html
+[2026-01-16 00:57:05] [INFO] Worker 13: Visiting https://letgohealth.blogspot.com/2025/10/te-appeal-f-ear-infection.html
+[2026-01-16 00:57:05] [INFO] Worker 11: Visiting https://letgohealth.blogspot.com/2026/01/10-suggestions-for-world-mental-health.html
+[2026-01-16 00:57:06] [ERROR] Worker 20: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:06] [ERROR] Worker 7: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:06] [ERROR] Worker 3: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:06] [ERROR] Worker 10: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:07] [ERROR] Worker 12: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:07] [ERROR] Worker 17: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:07] [ERROR] Worker 6: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:07] [ERROR] Worker 14: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:07] [ERROR] Worker 8: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:07] [ERROR] Worker 15: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:07] [ERROR] Worker 5: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:07] [ERROR] Worker 9: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:07] [ERROR] Worker 11: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:07] [ERROR] Worker 13: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:07] [ERROR] Worker 4: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:09] [ERROR] Worker 19: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:14] [DEBUG] Worker 16: Reading for 24.1s
+[2026-01-16 00:57:14] [INFO] Worker 2: Selected proxy 46.224.52.65:39103:qC1RZn85Rc:o6b4n0QgLk
+[2026-01-16 00:57:14] [INFO] Worker 2: Setting up browser...
+[2026-01-16 00:57:14] [INFO] Worker 2: Loaded fingerprint from Fingerprint_ovm3sqasvk.json
+[2026-01-16 00:57:14] [INFO] Worker 2: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:14] [DEBUG] Worker 1: Reading for 27.8s
+[2026-01-16 00:57:15] [INFO] Worker 2: Browser setup successful!
+[2026-01-16 00:57:15] [INFO] Worker 2: Visiting https://letgohealth.blogspot.com/2025/12/thi-is-quick-means-t-resolve-issue-ith_8.html
+[2026-01-16 00:57:15] [INFO] Worker 20: Selected proxy 46.224.52.65:39103:Bvnsrpxusz:v0xduGRzli
+[2026-01-16 00:57:15] [INFO] Worker 20: Setting up browser...
+[2026-01-16 00:57:15] [INFO] Worker 7: Selected proxy 109.205.63.178:54944
+[2026-01-16 00:57:15] [INFO] Worker 7: Setting up browser...
+[2026-01-16 00:57:15] [INFO] Worker 20: Loaded fingerprint from Fingerprint_k9nko7nfa3.json
+[2026-01-16 00:57:15] [INFO] Worker 20: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:15] [INFO] Worker 7: Loaded fingerprint from Fingerprint_7t38jcmtme.json
+[2026-01-16 00:57:15] [INFO] Worker 7: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:15] [INFO] Worker 3: Selected proxy 46.224.52.65:39103:2M5Bl375uI:lzfbELKlZV
+[2026-01-16 00:57:15] [INFO] Worker 3: Setting up browser...
+[2026-01-16 00:57:15] [INFO] Worker 10: Selected proxy 46.224.52.65:39103:kcF53RE6LV:6XAdXZjzRe
+[2026-01-16 00:57:15] [INFO] Worker 3: Loaded fingerprint from Fingerprint_vjoelnzhkq.json
+[2026-01-16 00:57:15] [INFO] Worker 10: Setting up browser...
+[2026-01-16 00:57:15] [INFO] Worker 3: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:15] [INFO] Worker 10: Loaded fingerprint from Fingerprint_qc0fzak6nh.json
+[2026-01-16 00:57:15] [INFO] Worker 10: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:16] [INFO] Worker 12: Selected proxy 109.205.63.178:50350
+[2026-01-16 00:57:16] [INFO] Worker 12: Setting up browser...
+[2026-01-16 00:57:16] [INFO] Worker 12: Loaded fingerprint from Fingerprint_4xe4uc9qme.json
+[2026-01-16 00:57:16] [INFO] Worker 12: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:16] [INFO] Worker 17: Selected proxy 91.99.221.122:36699:phuJnSuvoG:K6TezaNLrv
+[2026-01-16 00:57:16] [INFO] Worker 17: Setting up browser...
+[2026-01-16 00:57:16] [INFO] Worker 8: Selected proxy 91.99.221.122:36699:HbAIF1rEs4:HcD07mSNUq
+[2026-01-16 00:57:16] [INFO] Worker 8: Setting up browser...
+[2026-01-16 00:57:16] [INFO] Worker 6: Selected proxy 46.224.52.65:39103:0oM9oVBIqA:bguzDWKJMn
+[2026-01-16 00:57:16] [INFO] Worker 6: Setting up browser...
+[2026-01-16 00:57:16] [INFO] Worker 17: Loaded fingerprint from Fingerprint_nd6d2gckmt.json
+[2026-01-16 00:57:16] [INFO] Worker 14: Selected proxy 91.99.221.122:36699:qkQBlXghbY:2b7t3hQ7B9
+[2026-01-16 00:57:16] [INFO] Worker 14: Setting up browser...
+[2026-01-16 00:57:16] [INFO] Worker 15: Selected proxy 109.205.63.178:37046
+[2026-01-16 00:57:16] [INFO] Worker 15: Setting up browser...
+[2026-01-16 00:57:16] [INFO] Worker 13: Selected proxy 109.205.63.178:59730
+[2026-01-16 00:57:16] [INFO] Worker 11: Selected proxy 46.224.52.65:39103:60f3Qors77:3ik0LGi0BY
+[2026-01-16 00:57:16] [INFO] Worker 9: Selected proxy 109.205.63.178:24944
+[2026-01-16 00:57:16] [INFO] Worker 8: Loaded fingerprint from Fingerprint_mynguy84ze.json
+[2026-01-16 00:57:16] [INFO] Worker 5: Selected proxy 109.205.63.178:13943
+[2026-01-16 00:57:16] [INFO] Worker 17: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:16] [INFO] Worker 13: Setting up browser...
+[2026-01-16 00:57:16] [INFO] Worker 11: Setting up browser...
+[2026-01-16 00:57:16] [INFO] Worker 9: Setting up browser...
+[2026-01-16 00:57:16] [INFO] Worker 5: Setting up browser...
+[2026-01-16 00:57:16] [INFO] Worker 6: Loaded fingerprint from Fingerprint_gwv2lmr8bx.json
+[2026-01-16 00:57:16] [INFO] Worker 8: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:16] [INFO] Worker 6: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:16] [INFO] Worker 14: Loaded fingerprint from Fingerprint_uw26v0e9xh.json
+[2026-01-16 00:57:16] [INFO] Worker 14: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:16] [INFO] Worker 4: Selected proxy 109.205.63.178:25955
+[2026-01-16 00:57:16] [INFO] Worker 4: Setting up browser...
+[2026-01-16 00:57:16] [INFO] Worker 11: Loaded fingerprint from Fingerprint_1jbo04pfm7.json
+[2026-01-16 00:57:16] [INFO] Worker 15: Loaded fingerprint from Fingerprint_xee2hmilci.json
+[2026-01-16 00:57:16] [INFO] Worker 15: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:16] [INFO] Worker 11: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:16] [INFO] Worker 13: Loaded fingerprint from Fingerprint_va20f5le7w.json
+[2026-01-16 00:57:16] [INFO] Worker 9: Loaded fingerprint from Fingerprint_i273fce48f.json
+[2026-01-16 00:57:16] [INFO] Worker 13: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:16] [INFO] Worker 9: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:16] [INFO] Worker 7: Browser setup successful!
+[2026-01-16 00:57:16] [INFO] Worker 7: Visiting https://letgohealth.blogspot.com/2025/07/top-choices-of-blood-sugar.html
+[2026-01-16 00:57:16] [INFO] Worker 4: Loaded fingerprint from Fingerprint_gcipdz5wtj.json
+[2026-01-16 00:57:16] [INFO] Worker 4: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:17] [INFO] Worker 5: Loaded fingerprint from Fingerprint_sjaq2az0uy.json
+[2026-01-16 00:57:17] [INFO] Worker 5: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:17] [INFO] Worker 20: Browser setup successful!
+[2026-01-16 00:57:17] [INFO] Worker 20: Visiting https://letgohealth.blogspot.com/2025/08/seven-commonest-issues-wth-inflammation_9.html
+[2026-01-16 00:57:17] [INFO] Worker 3: Browser setup successful!
+[2026-01-16 00:57:17] [INFO] Worker 3: Visiting https://letgohealth.blogspot.com/2025/11/four-diy-blood-sugar-tips-yo-may-hav.html
+[2026-01-16 00:57:17] [INFO] Worker 10: Browser setup successful!
+[2026-01-16 00:57:17] [INFO] Worker 10: Visiting https://letgohealth.blogspot.com/2025/11/ear-infection-explained_5.html
+[2026-01-16 00:57:17] [INFO] Worker 12: Browser setup successful!
+[2026-01-16 00:57:17] [INFO] Worker 12: Visiting https://letgohealth.blogspot.com/2025/10/inflammation-do-you-really-need-it-this_4.html
+[2026-01-16 00:57:17] [ERROR] Worker 2: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:18] [INFO] Worker 19: Selected proxy 46.224.52.65:39103:MiGX5CLfxI:LJKYnJ0HVL
+[2026-01-16 00:57:18] [INFO] Worker 19: Setting up browser...
+[2026-01-16 00:57:18] [INFO] Worker 19: Loaded fingerprint from Fingerprint_huz98a70eo.json
+[2026-01-16 00:57:18] [INFO] Worker 19: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:18] [INFO] Worker 17: Browser setup successful!
+[2026-01-16 00:57:18] [INFO] Worker 17: Visiting https://letgohealth.blogspot.com/2025/12/top-five-quotes-on-balanced-diet_6.html
+[2026-01-16 00:57:18] [INFO] Worker 14: Browser setup successful!
+[2026-01-16 00:57:18] [INFO] Worker 14: Visiting https://letgohealth.blogspot.com/2025/09/wht-zombies-train-yu-abut-alternative.html
+[2026-01-16 00:57:18] [INFO] Worker 8: Browser setup successful!
+[2026-01-16 00:57:18] [INFO] Worker 8: Visiting https://letgohealth.blogspot.com/2025/08/the-10-key-parts-in-ear-infection.html
+[2026-01-16 00:57:18] [INFO] Worker 6: Browser setup successful!
+[2026-01-16 00:57:18] [INFO] Worker 6: Visiting https://letgohealth.blogspot.com/2025/08/one-word-high-blood-sugar_7.html
+[2026-01-16 00:57:18] [INFO] Worker 15: Browser setup successful!
+[2026-01-16 00:57:18] [INFO] Worker 15: Visiting https://letgohealth.blogspot.com/2025/09/blood-sugar-te-ultimate-convenience.html
+[2026-01-16 00:57:18] [INFO] Worker 13: Browser setup successful!
+[2026-01-16 00:57:18] [INFO] Worker 13: Visiting https://letgohealth.blogspot.com/2025/09/the-next-9-things-you-should-do-for.html
+[2026-01-16 00:57:18] [INFO] Worker 4: Browser setup successful!
+[2026-01-16 00:57:18] [INFO] Worker 4: Visiting https://letgohealth.blogspot.com/2026/01/could-this-report-be-definitive-answer_8.html
+[2026-01-16 00:57:18] [INFO] Worker 9: Browser setup successful!
+[2026-01-16 00:57:18] [INFO] Worker 9: Visiting https://letgohealth.blogspot.com/2025/12/give-e-15-minutes-l-offer-you-he-truth_7.html
+[2026-01-16 00:57:19] [ERROR] Worker 20: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:19] [ERROR] Worker 3: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:19] [INFO] Worker 5: Browser setup successful!
+[2026-01-16 00:57:19] [INFO] Worker 5: Visiting https://letgohealth.blogspot.com/2025/08/tremendous-easy-easy-methods-pros-us-to.html
+[2026-01-16 00:57:19] [ERROR] Worker 10: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:19] [INFO] Worker 11: Browser setup successful!
+[2026-01-16 00:57:19] [INFO] Worker 11: Visiting https://letgohealth.blogspot.com/2025/07/getting-one-of-te-best-software-o.html
+[2026-01-16 00:57:20] [INFO] Worker 19: Browser setup successful!
+[2026-01-16 00:57:20] [INFO] Worker 19: Visiting https://letgohealth.blogspot.com/2025/09/tb-options.html
+[2026-01-16 00:57:20] [ERROR] Worker 14: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:22] [ERROR] Worker 17: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:22] [ERROR] Worker 8: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:23] [ERROR] Worker 6: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:24] [ERROR] Worker 11: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:24] [ERROR] Worker 19: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:27] [DEBUG] Worker 7: Reading for 24.3s
+[2026-01-16 00:57:28] [INFO] Worker 2: Selected proxy 46.224.52.65:39103:YiZnzdoyaS:XbSLJJAkmt
+[2026-01-16 00:57:28] [INFO] Worker 2: Setting up browser...
+[2026-01-16 00:57:28] [INFO] Worker 2: Loaded fingerprint from Fingerprint_0jbrb4nmvp.json
+[2026-01-16 00:57:28] [INFO] Worker 2: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:28] [INFO] Worker 20: Selected proxy 46.224.52.65:39103:uihoAuf0ko:0xbCbd7Qri
+[2026-01-16 00:57:28] [INFO] Worker 20: Setting up browser...
+[2026-01-16 00:57:28] [INFO] Worker 3: Selected proxy 91.99.221.122:36699:zmEzngwlA1:tHEwlEea5U
+[2026-01-16 00:57:28] [INFO] Worker 3: Setting up browser...
+[2026-01-16 00:57:28] [INFO] Worker 20: Loaded fingerprint from Fingerprint_0am23kpa8i.json
+[2026-01-16 00:57:28] [INFO] Worker 20: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:28] [INFO] Worker 3: Loaded fingerprint from Fingerprint_m2oipa1mqk.json
+[2026-01-16 00:57:28] [INFO] Worker 3: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:28] [INFO] Worker 10: Selected proxy 46.224.52.65:39103:DKRchIeBDr:caxJ9jFsYV
+[2026-01-16 00:57:28] [INFO] Worker 10: Setting up browser...
+[2026-01-16 00:57:28] [INFO] Worker 10: Loaded fingerprint from Fingerprint_hjryall7ep.json
+[2026-01-16 00:57:28] [INFO] Worker 10: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:29] [DEBUG] Worker 12: Reading for 27.3s
+[2026-01-16 00:57:29] [INFO] Worker 14: Selected proxy 109.205.63.178:58281
+[2026-01-16 00:57:29] [INFO] Worker 14: Setting up browser...
+[2026-01-16 00:57:29] [DEBUG] Worker 15: Reading for 29.2s
+[2026-01-16 00:57:29] [DEBUG] Worker 9: Reading for 28.9s
+[2026-01-16 00:57:29] [INFO] Worker 2: Browser setup successful!
+[2026-01-16 00:57:29] [INFO] Worker 2: Visiting https://letgohealth.blogspot.com/2025/10/eliminate-healthy-breakfasts-problems_1.html
+[2026-01-16 00:57:29] [INFO] Worker 14: Loaded fingerprint from Fingerprint_2hytvt90o9.json
+[2026-01-16 00:57:29] [INFO] Worker 14: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:29] [INFO] Worker 20: Browser setup successful!
+[2026-01-16 00:57:29] [INFO] Worker 20: Visiting https://letgohealth.blogspot.com/2025/12/top-tips-of-ear-infection.html
+[2026-01-16 00:57:30] [INFO] Worker 3: Browser setup successful!
+[2026-01-16 00:57:30] [INFO] Worker 3: Visiting https://letgohealth.blogspot.com/2025/10/4-things-you-will-need-to-know-abot_3.html
+[2026-01-16 00:57:30] [DEBUG] Worker 13: Reading for 20.1s
+[2026-01-16 00:57:30] [INFO] Worker 10: Browser setup successful!
+[2026-01-16 00:57:30] [INFO] Worker 10: Visiting https://letgohealth.blogspot.com/2025/12/my-greatest-heart-conditions-lesson_9.html
+[2026-01-16 00:57:30] [INFO] Worker 14: Browser setup successful!
+[2026-01-16 00:57:30] [INFO] Worker 14: Visiting https://letgohealth.blogspot.com/2025/08/the-right-way-to-ecome-better-ith_1.html
+[2026-01-16 00:57:31] [INFO] Worker 17: Selected proxy 91.99.221.122:36699:jK0O7aDd00:AWcpkKeJG0
+[2026-01-16 00:57:31] [INFO] Worker 17: Setting up browser...
+[2026-01-16 00:57:31] [INFO] Worker 17: Loaded fingerprint from Fingerprint_d8l8bx6tf4.json
+[2026-01-16 00:57:31] [INFO] Worker 17: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:32] [INFO] Worker 8: Selected proxy 46.224.52.65:39103:ovmTbJwvUY:9XOYqICQLv
+[2026-01-16 00:57:32] [INFO] Worker 8: Setting up browser...
+[2026-01-16 00:57:32] [INFO] Worker 8: Loaded fingerprint from Fingerprint_lwte5yo8ep.json
+[2026-01-16 00:57:32] [INFO] Worker 6: Selected proxy 109.205.63.178:17369
+[2026-01-16 00:57:32] [INFO] Worker 6: Setting up browser...
+[2026-01-16 00:57:32] [INFO] Worker 8: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:32] [INFO] Worker 6: Loaded fingerprint from Fingerprint_eaizgf4ksw.json
+[2026-01-16 00:57:32] [INFO] Worker 6: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:32] [ERROR] Worker 10: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:33] [INFO] Worker 17: Browser setup successful!
+[2026-01-16 00:57:33] [INFO] Worker 17: Visiting https://letgohealth.blogspot.com/2025/07/sick-and-uninterested-in-doing.html
+[2026-01-16 00:57:33] [INFO] Worker 8: Browser setup successful!
+[2026-01-16 00:57:33] [INFO] Worker 8: Visiting https://letgohealth.blogspot.com/2025/10/favorite-cardiovascular-assets-for-2025.html
+[2026-01-16 00:57:33] [INFO] Worker 11: Selected proxy 109.205.63.178:45337
+[2026-01-16 00:57:33] [INFO] Worker 11: Setting up browser...
+[2026-01-16 00:57:33] [INFO] Worker 6: Browser setup successful!
+[2026-01-16 00:57:33] [INFO] Worker 6: Visiting https://letgohealth.blogspot.com/2025/12/4-things-to-do-immediately-about-tooth_5.html
+[2026-01-16 00:57:33] [INFO] Worker 11: Loaded fingerprint from Fingerprint_dsidyq699t.json
+[2026-01-16 00:57:33] [INFO] Worker 11: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:33] [INFO] Worker 19: Selected proxy 46.224.52.65:39103:CUAsZzEk6s:ZYtv6XD9YX
+[2026-01-16 00:57:33] [INFO] Worker 19: Setting up browser...
+[2026-01-16 00:57:33] [INFO] Worker 19: Loaded fingerprint from Fingerprint_84lhfgge1q.json
+[2026-01-16 00:57:33] [INFO] Worker 19: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 00:57:33] [ERROR] Worker 2: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:34] [ERROR] Worker 20: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:34] [ERROR] Worker 3: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:34] [INFO] Worker 11: Browser setup successful!
+[2026-01-16 00:57:34] [INFO] Worker 11: Visiting https://letgohealth.blogspot.com/2025/12/methods-to-make-more-tenosynovial-giant_7.html
+[2026-01-16 00:57:34] [INFO] Worker 19: Browser setup successful!
+[2026-01-16 00:57:34] [INFO] Worker 19: Visiting https://letgohealth.blogspot.com/2025/08/tn-small-changes-hat-ould-have-huge_9.html
+[2026-01-16 00:57:37] [ERROR] Worker 17: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:37] [ERROR] Worker 8: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:38] [ERROR] Worker 19: Proxy connection failed (proxy might be dead)
+[2026-01-16 00:57:41] [INFO] Worker 10 stopped
+[2026-01-16 00:57:42] [INFO] Worker 2 stopped
+[2026-01-16 00:57:43] [INFO] Worker 20 stopped
+[2026-01-16 00:57:43] [INFO] Worker 3 stopped
+[2026-01-16 00:57:43] [DEBUG] Worker 6: Reading for 20.8s
+[2026-01-16 00:57:46] [DEBUG] Worker 11: Reading for 23.4s
+[2026-01-16 00:57:46] [INFO] Worker 17 stopped
+[2026-01-16 00:57:46] [INFO] Worker 8 stopped
+[2026-01-16 00:57:47] [INFO] Worker 19 stopped
+[2026-01-16 00:58:08] [DEBUG] Worker 18: Reading for 22.9s
+[2026-01-16 00:58:13] [DEBUG] Worker 5: Reading for 22.7s
+[2026-01-16 00:58:13] [INFO] Worker 16: Browser shown
+[2026-01-16 00:58:22] [INFO] Worker 18: Browser shown
+[2026-01-16 00:58:22] [INFO] Worker 1: Browser shown
+[2026-01-16 00:58:26] [INFO] Worker 16: Browser hidden
+[2026-01-16 00:58:27] [INFO] Worker 18: Browser hidden
+[2026-01-16 00:58:37] [DEBUG] Worker 14: Reading for 29.9s
+[2026-01-16 00:58:42] [DEBUG] Worker 4: Reading for 28.5s
+[2026-01-16 00:59:27] [DEBUG] Worker 9: Scrolled 40 times
+[2026-01-16 00:59:35] [DEBUG] Worker 16: Scrolled 52 times
+[2026-01-16 00:59:35] [INFO] Worker 9: Clicked a link (CTR simulation)
+[2026-01-16 00:59:55] [DEBUG] Worker 1: Scrolled 58 times
+[2026-01-16 00:59:55] [INFO] [SUCCESS] Worker 1: Task completed successfully!
+[2026-01-16 00:59:57] [DEBUG] Worker 15: Scrolled 48 times
+[2026-01-16 00:59:57] [INFO] [SUCCESS] Worker 15: Task completed successfully!
+[2026-01-16 00:59:59] [DEBUG] Worker 13: Scrolled 50 times
+[2026-01-16 01:00:04] [INFO] Worker 1: Selected proxy 46.224.52.65:39103:RaGn8YcsDb:0fhS2DGVS6
+[2026-01-16 01:00:04] [INFO] Worker 1: Setting up browser...
+[2026-01-16 01:00:04] [INFO] Worker 1: Loaded fingerprint from Fingerprint_spplyl9abt.json
+[2026-01-16 01:00:04] [INFO] Worker 1: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:00:06] [INFO] Worker 1: Browser setup successful!
+[2026-01-16 01:00:06] [INFO] Worker 1: Visiting https://letgohealth.blogspot.com/2025/11/wh-almost-eerything-yov-learned-bout.html
+[2026-01-16 01:00:06] [INFO] Worker 15: Selected proxy 46.224.52.65:39103:rM19RFGLHR:m3ZszXjEBw
+[2026-01-16 01:00:06] [INFO] Worker 15: Setting up browser...
+[2026-01-16 01:00:06] [INFO] Worker 15: Loaded fingerprint from Fingerprint_422ch0arw3.json
+[2026-01-16 01:00:06] [INFO] Worker 15: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:00:08] [INFO] Worker 15: Browser setup successful!
+[2026-01-16 01:00:08] [INFO] Worker 15: Visiting https://letgohealth.blogspot.com/2025/10/cardiovascular-creates-experts_0.html
+[2026-01-16 01:00:10] [ERROR] Worker 1: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:00:10] [DEBUG] Worker 7: Scrolled 60 times
+[2026-01-16 01:00:12] [ERROR] Worker 15: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:00:14] [DEBUG] Worker 11: Scrolled 49 times
+[2026-01-16 01:00:14] [INFO] [SUCCESS] Worker 11: Task completed successfully!
+[2026-01-16 01:00:19] [INFO] Worker 1: Selected proxy 46.224.52.65:39103:Gi4T4AnVgx:sckcMk0E8r
+[2026-01-16 01:00:19] [INFO] Worker 1: Setting up browser...
+[2026-01-16 01:00:19] [INFO] Worker 1: Loaded fingerprint from Fingerprint_ps7hp1ljao.json
+[2026-01-16 01:00:19] [INFO] Worker 1: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:00:20] [INFO] Worker 1: Browser setup successful!
+[2026-01-16 01:00:20] [INFO] Worker 1: Visiting https://letgohealth.blogspot.com/2026/01/top-10-funny-balanced-diet-quotes_5.html
+[2026-01-16 01:00:21] [INFO] Worker 15: Selected proxy 46.224.52.65:39103:pkYja8mhS9:WswsdJdDBH
+[2026-01-16 01:00:21] [INFO] Worker 15: Setting up browser...
+[2026-01-16 01:00:21] [INFO] Worker 15: Loaded fingerprint from Fingerprint_jdbr5bt4tu.json
+[2026-01-16 01:00:21] [INFO] Worker 15: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:00:22] [INFO] Worker 15: Browser setup successful!
+[2026-01-16 01:00:22] [INFO] Worker 15: Visiting https://letgohealth.blogspot.com/2026/01/heres-what-i-know-bout-healthy.html
+[2026-01-16 01:00:23] [INFO] Worker 11: Selected proxy 46.224.52.65:39103:NM5M0nZcDV:xwmlPQkbmz
+[2026-01-16 01:00:23] [INFO] Worker 11: Setting up browser...
+[2026-01-16 01:00:23] [INFO] Worker 11: Loaded fingerprint from Fingerprint_dldhau6dux.json
+[2026-01-16 01:00:23] [INFO] Worker 11: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:00:24] [ERROR] Worker 1: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:00:24] [INFO] Worker 11: Browser setup successful!
+[2026-01-16 01:00:24] [INFO] Worker 11: Visiting https://letgohealth.blogspot.com/2025/12/ear-infection-it-lessons-from-oscars_9.html
+[2026-01-16 01:00:26] [ERROR] Worker 15: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:00:27] [DEBUG] Worker 12: Scrolled 58 times
+[2026-01-16 01:00:27] [INFO] [SUCCESS] Worker 12: Task completed successfully!
+[2026-01-16 01:00:29] [ERROR] Worker 11: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:00:33] [INFO] Worker 1: Selected proxy 46.224.52.65:39103:n08ZaOhjUg:Qt45JvWh4h
+[2026-01-16 01:00:33] [INFO] Worker 1: Setting up browser...
+[2026-01-16 01:00:33] [INFO] Worker 1: Loaded fingerprint from Fingerprint_y26aosztph.json
+[2026-01-16 01:00:33] [INFO] Worker 1: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:00:34] [INFO] Worker 1: Browser setup successful!
+[2026-01-16 01:00:34] [INFO] Worker 1: Visiting https://letgohealth.blogspot.com/2025/10/dont-fall-for-this-muscle-pain-scam.html
+[2026-01-16 01:00:34] [DEBUG] Worker 6: Scrolled 58 times
+[2026-01-16 01:00:35] [INFO] Worker 15: Selected proxy 109.205.63.178:49907
+[2026-01-16 01:00:35] [INFO] Worker 15: Setting up browser...
+[2026-01-16 01:00:35] [INFO] Worker 15: Loaded fingerprint from Fingerprint_xh5ffwxuis.json
+[2026-01-16 01:00:35] [INFO] Worker 15: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:00:36] [INFO] Worker 12: Selected proxy 46.224.52.65:39103:2IhGcHoU5T:yiDO4lLK92
+[2026-01-16 01:00:36] [INFO] Worker 12: Setting up browser...
+[2026-01-16 01:00:36] [INFO] Worker 12: Loaded fingerprint from Fingerprint_fsid39suw2.json
+[2026-01-16 01:00:36] [INFO] Worker 12: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:00:36] [INFO] Worker 15: Browser setup successful!
+[2026-01-16 01:00:36] [INFO] Worker 15: Visiting https://letgohealth.blogspot.com/2025/08/top-9-lessons-abot-tb-t-learn-before.html
+[2026-01-16 01:00:37] [INFO] Worker 12: Browser setup successful!
+[2026-01-16 01:00:37] [INFO] Worker 12: Visiting https://letgohealth.blogspot.com/2025/10/metabolic-fr-dollars-seminar.html
+[2026-01-16 01:00:38] [INFO] Worker 11: Selected proxy 46.224.52.65:39103:jYHJnB4pIy:kITagJsR2F
+[2026-01-16 01:00:38] [INFO] Worker 11: Setting up browser...
+[2026-01-16 01:00:38] [INFO] Worker 11: Loaded fingerprint from Fingerprint_6k68ru0kmt.json
+[2026-01-16 01:00:38] [INFO] Worker 11: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:00:39] [ERROR] Worker 1: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:00:39] [INFO] Worker 11: Browser setup successful!
+[2026-01-16 01:00:39] [INFO] Worker 11: Visiting https://letgohealth.blogspot.com/2025/11/tey-asked-100-specialists-bout-national.html
+[2026-01-16 01:00:40] [DEBUG] Worker 18: Scrolled 59 times
+[2026-01-16 01:00:41] [DEBUG] Worker 16: Scrolled 31 times
+[2026-01-16 01:00:41] [INFO] [SUCCESS] Worker 16: Task completed successfully!
+[2026-01-16 01:00:41] [ERROR] Worker 12: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:00:42] [DEBUG] Worker 5: Scrolled 51 times
+[2026-01-16 01:00:43] [ERROR] Worker 11: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:00:47] [DEBUG] Worker 15: Reading for 25.7s
+[2026-01-16 01:00:48] [INFO] Worker 1 stopped
+[2026-01-16 01:00:50] [INFO] Worker 16: Selected proxy 91.99.221.122:36699:PkR0YllgXs:p9yCsLbNZk
+[2026-01-16 01:00:50] [INFO] Worker 16: Setting up browser...
+[2026-01-16 01:00:50] [INFO] Worker 16: Loaded fingerprint from Fingerprint_tyecdu9eqa.json
+[2026-01-16 01:00:50] [INFO] Worker 16: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:00:50] [INFO] Worker 12: Selected proxy 91.99.221.122:36699:FMEZgk5mm5:ukqPPqESPF
+[2026-01-16 01:00:50] [INFO] Worker 12: Setting up browser...
+[2026-01-16 01:00:50] [INFO] Worker 12: Loaded fingerprint from Fingerprint_522ujt9o40.json
+[2026-01-16 01:00:50] [INFO] Worker 12: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:00:51] [INFO] Worker 16: Browser setup successful!
+[2026-01-16 01:00:51] [INFO] Worker 16: Visiting https://letgohealth.blogspot.com/2026/01/5-fb-pages-to-observe-about-ear.html
+[2026-01-16 01:00:52] [INFO] Worker 12: Browser setup successful!
+[2026-01-16 01:00:52] [INFO] Worker 12: Visiting https://letgohealth.blogspot.com/2025/11/thee-ways-to-instantly-start-selling-tb_1.html
+[2026-01-16 01:00:52] [INFO] Worker 11: Selected proxy 91.99.221.122:36699:U5CzQVLKi8:BqHEEDatHy
+[2026-01-16 01:00:52] [INFO] Worker 11: Setting up browser...
+[2026-01-16 01:00:52] [INFO] Worker 11: Loaded fingerprint from Fingerprint_lkyubpboy2.json
+[2026-01-16 01:00:52] [INFO] Worker 11: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:00:53] [INFO] Worker 11: Browser setup successful!
+[2026-01-16 01:00:53] [INFO] Worker 11: Visiting https://letgohealth.blogspot.com/2025/11/immune-system-incredibly.html
+[2026-01-16 01:00:55] [ERROR] Worker 16: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:00:56] [ERROR] Worker 12: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:00:57] [ERROR] Worker 11: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:01:04] [INFO] Worker 16: Selected proxy 109.205.63.178:37046
+[2026-01-16 01:01:04] [INFO] Worker 16: Setting up browser...
+[2026-01-16 01:01:04] [INFO] Worker 16: Loaded fingerprint from Fingerprint_ug81pwz4po.json
+[2026-01-16 01:01:04] [INFO] Worker 16: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:01:05] [INFO] Worker 12: Selected proxy 46.224.52.65:39103:zCGDaImoCq:IlyUvY7dwl
+[2026-01-16 01:01:05] [INFO] Worker 12: Setting up browser...
+[2026-01-16 01:01:05] [INFO] Worker 12: Loaded fingerprint from Fingerprint_mualpkky0w.json
+[2026-01-16 01:01:05] [INFO] Worker 12: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:01:05] [INFO] Worker 16: Browser setup successful!
+[2026-01-16 01:01:05] [INFO] Worker 16: Visiting https://letgohealth.blogspot.com/2026/01/top-ix-quotes-on-cardiovascular_7.html
+[2026-01-16 01:01:06] [INFO] Worker 12: Browser setup successful!
+[2026-01-16 01:01:06] [INFO] Worker 12: Visiting https://letgohealth.blogspot.com/2025/08/getting-one-f-te-best-software-o-energy.html
+[2026-01-16 01:01:06] [INFO] Worker 11 stopped
+[2026-01-16 01:01:10] [ERROR] Worker 12: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:01:17] [DEBUG] Worker 16: Reading for 22.5s
+[2026-01-16 01:01:19] [INFO] Worker 12 stopped
+[2026-01-16 01:01:22] [DEBUG] Worker 7: Scrolled 31 times
+[2026-01-16 01:01:22] [INFO] [SUCCESS] Worker 7: Task completed successfully!
+[2026-01-16 01:01:31] [INFO] Worker 7: Selected proxy 46.224.52.65:39103:OXiug5uztN:xQpOVCOFWX
+[2026-01-16 01:01:31] [INFO] Worker 7: Setting up browser...
+[2026-01-16 01:01:31] [INFO] Worker 7: Loaded fingerprint from Fingerprint_q64xx4ca11.json
+[2026-01-16 01:01:31] [INFO] Worker 7: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:01:32] [INFO] Worker 7: Browser setup successful!
+[2026-01-16 01:01:32] [INFO] Worker 7: Visiting https://letgohealth.blogspot.com/2025/08/blood-sugar-are-you-ready-for-great.html
+[2026-01-16 01:01:36] [DEBUG] Worker 9: Scrolled 52 times
+[2026-01-16 01:01:36] [INFO] [SUCCESS] Worker 9: Task completed successfully!
+[2026-01-16 01:01:36] [ERROR] Worker 7: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:01:45] [INFO] Worker 9: Selected proxy 109.205.63.178:29945
+[2026-01-16 01:01:45] [INFO] Worker 9: Setting up browser...
+[2026-01-16 01:01:45] [INFO] Worker 9: Loaded fingerprint from Fingerprint_s9tyyvtwng.json
+[2026-01-16 01:01:45] [INFO] Worker 9: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:01:46] [INFO] Worker 7: Selected proxy 91.99.221.122:36699:7sxlPcsLVC:20flAaJEaz
+[2026-01-16 01:01:46] [INFO] Worker 7: Setting up browser...
+[2026-01-16 01:01:46] [INFO] Worker 7: Loaded fingerprint from Fingerprint_lgfyka98du.json
+[2026-01-16 01:01:46] [INFO] Worker 7: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:01:46] [INFO] Worker 9: Browser setup successful!
+[2026-01-16 01:01:46] [INFO] Worker 9: Visiting https://letgohealth.blogspot.com/2025/09/the-tried-and-true-method-for-ear_1.html
+[2026-01-16 01:01:47] [INFO] Worker 7: Browser setup successful!
+[2026-01-16 01:01:47] [INFO] Worker 7: Visiting https://letgohealth.blogspot.com/2025/07/how-talking-therapies-made-e-greater_4.html
+[2026-01-16 01:01:51] [ERROR] Worker 7: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:01:56] [DEBUG] Worker 9: Reading for 27.1s
+[2026-01-16 01:01:58] [DEBUG] Worker 5: Scrolled 34 times
+[2026-01-16 01:01:58] [INFO] [SUCCESS] Worker 5: Task completed successfully!
+[2026-01-16 01:02:00] [INFO] Worker 7: Selected proxy 46.224.52.65:39103:uTVVwH5xFy:hW31D4mY44
+[2026-01-16 01:02:00] [INFO] Worker 7: Setting up browser...
+[2026-01-16 01:02:00] [INFO] Worker 7: Loaded fingerprint from Fingerprint_bdwujjy9wp.json
+[2026-01-16 01:02:00] [INFO] Worker 7: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:02:01] [INFO] Worker 7: Browser setup successful!
+[2026-01-16 01:02:01] [INFO] Worker 7: Visiting https://letgohealth.blogspot.com/2025/11/wht-very-immune-system-need-t-find-ot_7.html
+[2026-01-16 01:02:02] [DEBUG] Worker 13: Scrolled 57 times
+[2026-01-16 01:02:02] [INFO] [SUCCESS] Worker 13: Task completed successfully!
+[2026-01-16 01:02:05] [ERROR] Worker 7: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:02:07] [INFO] Worker 5: Selected proxy 46.224.52.65:39103:H4nT5Ltk3i:H5XtFeGS1F
+[2026-01-16 01:02:07] [INFO] Worker 5: Setting up browser...
+[2026-01-16 01:02:08] [INFO] Worker 5: Loaded fingerprint from Fingerprint_ap15n1a4hc.json
+[2026-01-16 01:02:08] [INFO] Worker 5: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:02:09] [INFO] Worker 5: Browser setup successful!
+[2026-01-16 01:02:09] [INFO] Worker 5: Visiting https://letgohealth.blogspot.com/2025/09/the-birth-of-metabolic.html
+[2026-01-16 01:02:11] [INFO] Worker 13: Selected proxy 46.224.52.65:39103:CBrYLLilwb:YUK8EfTKtL
+[2026-01-16 01:02:11] [INFO] Worker 13: Setting up browser...
+[2026-01-16 01:02:11] [INFO] Worker 13: Loaded fingerprint from Fingerprint_k2jh21rldh.json
+[2026-01-16 01:02:11] [INFO] Worker 13: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:02:12] [INFO] Worker 13: Browser setup successful!
+[2026-01-16 01:02:12] [INFO] Worker 13: Visiting https://letgohealth.blogspot.com/2025/12/wellbeing-on-th-market-how-lot-is-ours.html
+[2026-01-16 01:02:13] [ERROR] Worker 5: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:02:15] [INFO] Worker 7 stopped
+[2026-01-16 01:02:16] [ERROR] Worker 13: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:02:22] [INFO] Worker 5: Selected proxy 109.205.63.178:25348
+[2026-01-16 01:02:22] [INFO] Worker 5: Setting up browser...
+[2026-01-16 01:02:22] [INFO] Worker 5: Loaded fingerprint from Fingerprint_am3a5f5lhh.json
+[2026-01-16 01:02:22] [INFO] Worker 5: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:02:23] [INFO] Worker 5: Browser setup successful!
+[2026-01-16 01:02:23] [INFO] Worker 5: Visiting https://letgohealth.blogspot.com/2025/07/whre-will-inflammation-be-6-months-rom_3.html
+[2026-01-16 01:02:25] [INFO] Worker 13: Selected proxy 46.224.52.65:39103:TZT1Co3v24:g1L1L78ZUs
+[2026-01-16 01:02:25] [INFO] Worker 13: Setting up browser...
+[2026-01-16 01:02:25] [INFO] Worker 13: Loaded fingerprint from Fingerprint_i5jrugmf3k.json
+[2026-01-16 01:02:25] [INFO] Worker 13: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:02:26] [INFO] Worker 13: Browser setup successful!
+[2026-01-16 01:02:26] [INFO] Worker 13: Visiting https://letgohealth.blogspot.com/2025/10/4-causes-blood-sugar-is-waste-of-time.html
+[2026-01-16 01:02:30] [DEBUG] Worker 6: Scrolled 49 times
+[2026-01-16 01:02:30] [INFO] [SUCCESS] Worker 6: Task completed successfully!
+[2026-01-16 01:02:30] [ERROR] Worker 13: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:02:33] [DEBUG] Worker 5: Reading for 25.5s
+[2026-01-16 01:02:39] [INFO] Worker 6: Selected proxy 109.205.63.178:57291
+[2026-01-16 01:02:39] [INFO] Worker 6: Setting up browser...
+[2026-01-16 01:02:39] [INFO] Worker 6: Loaded fingerprint from Fingerprint_y7m7ss7fkn.json
+[2026-01-16 01:02:39] [INFO] Worker 6: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:02:40] [INFO] Worker 13: Selected proxy 109.205.63.178:14245
+[2026-01-16 01:02:40] [INFO] Worker 13: Setting up browser...
+[2026-01-16 01:02:40] [INFO] Worker 13: Loaded fingerprint from Fingerprint_xue5t6mrxl.json
+[2026-01-16 01:02:40] [INFO] Worker 13: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:02:40] [INFO] Worker 6: Browser setup successful!
+[2026-01-16 01:02:40] [INFO] Worker 6: Visiting https://letgohealth.blogspot.com/2025/10/hat-oull-want-t-know-about-metabolic_7.html
+[2026-01-16 01:02:41] [INFO] Worker 13: Browser setup successful!
+[2026-01-16 01:02:41] [INFO] Worker 13: Visiting https://letgohealth.blogspot.com/2025/11/wh-almost-eerything-yov-learned-bout.html
+[2026-01-16 01:02:50] [DEBUG] Worker 6: Reading for 20.5s
+[2026-01-16 01:02:56] [DEBUG] Worker 18: Scrolled 54 times
+[2026-01-16 01:02:56] [INFO] [SUCCESS] Worker 18: Task completed successfully!
+[2026-01-16 01:03:05] [INFO] Worker 18: Selected proxy 109.205.63.178:16539
+[2026-01-16 01:03:05] [INFO] Worker 18: Setting up browser...
+[2026-01-16 01:03:05] [INFO] Worker 18: Loaded fingerprint from Fingerprint_6vvvk0s50b.json
+[2026-01-16 01:03:05] [INFO] Worker 18: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:03:06] [INFO] Worker 18: Browser setup successful!
+[2026-01-16 01:03:06] [INFO] Worker 18: Visiting https://letgohealth.blogspot.com/2025/12/4-things-to-do-immediately-about-tooth_5.html
+[2026-01-16 01:03:17] [DEBUG] Worker 18: Reading for 27.7s
+[2026-01-16 01:03:20] [DEBUG] Worker 15: Scrolled 56 times
+[2026-01-16 01:03:20] [INFO] [SUCCESS] Worker 15: Task completed successfully!
+[2026-01-16 01:03:22] [INFO] Worker 6: Browser shown
+[2026-01-16 01:03:26] [DEBUG] Worker 13: Reading for 26.9s
+[2026-01-16 01:03:27] [INFO] Worker 9: Browser shown
+[2026-01-16 01:03:29] [INFO] Worker 15: Selected proxy 46.224.52.65:39103:gZF5iWl7bD:EUsqkPsz92
+[2026-01-16 01:03:29] [INFO] Worker 15: Setting up browser...
+[2026-01-16 01:03:29] [INFO] Worker 15: Loaded fingerprint from Fingerprint_k1lgu50oic.json
+[2026-01-16 01:03:29] [INFO] Worker 15: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:03:30] [INFO] Worker 15: Browser setup successful!
+[2026-01-16 01:03:30] [INFO] Worker 15: Visiting https://letgohealth.blogspot.com/2025/12/wh-you-never-see-blood-sugar-tht.html
+[2026-01-16 01:03:34] [ERROR] Worker 15: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:03:43] [INFO] Worker 15: Selected proxy 46.224.52.65:39103:MAJnm1aK9p:lLsiNiHWzW
+[2026-01-16 01:03:43] [INFO] Worker 15: Setting up browser...
+[2026-01-16 01:03:43] [INFO] Worker 15: Loaded fingerprint from Fingerprint_yrrcut3wra.json
+[2026-01-16 01:03:43] [INFO] Worker 15: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:03:44] [INFO] Worker 15: Browser setup successful!
+[2026-01-16 01:03:44] [INFO] Worker 15: Visiting https://letgohealth.blogspot.com/2025/10/three-laws-of-national-health-insurance.html
+[2026-01-16 01:03:48] [ERROR] Worker 15: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:03:49] [DEBUG] Worker 16: Scrolled 56 times
+[2026-01-16 01:03:58] [INFO] Worker 15: Selected proxy 91.99.221.122:36699:ik2OqLCP1J:sc5t4HaYHK
+[2026-01-16 01:03:58] [INFO] Worker 15: Setting up browser...
+[2026-01-16 01:03:58] [INFO] Worker 15: Loaded fingerprint from Fingerprint_xfcuqfg5ey.json
+[2026-01-16 01:03:58] [INFO] Worker 15: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:03:59] [INFO] Worker 15: Browser setup successful!
+[2026-01-16 01:03:59] [INFO] Worker 15: Visiting https://letgohealth.blogspot.com/2025/07/easy-methods-to-make-blood-sugar.html
+[2026-01-16 01:04:03] [ERROR] Worker 15: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:04:08] [DEBUG] Worker 9: Scrolled 42 times
+[2026-01-16 01:04:08] [INFO] [SUCCESS] Worker 9: Task completed successfully!
+[2026-01-16 01:04:12] [INFO] Worker 15 stopped
+[2026-01-16 01:04:17] [INFO] Worker 9: Selected proxy 46.224.52.65:39103:RrHc3OS8Zl:qxrxZ6CrDu
+[2026-01-16 01:04:17] [INFO] Worker 9: Setting up browser...
+[2026-01-16 01:04:17] [INFO] Worker 9: Loaded fingerprint from Fingerprint_505125ru5v.json
+[2026-01-16 01:04:17] [INFO] Worker 9: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:04:18] [INFO] Worker 9: Browser setup successful!
+[2026-01-16 01:04:18] [INFO] Worker 9: Visiting https://letgohealth.blogspot.com/2025/11/the-basics-of-metabolic-syndrome-that_9.html
+[2026-01-16 01:04:22] [ERROR] Worker 9: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:04:31] [INFO] Worker 9: Selected proxy 91.99.221.122:36699:e9sYpZoSZd:5LfY0V7jZX
+[2026-01-16 01:04:31] [INFO] Worker 9: Setting up browser...
+[2026-01-16 01:04:31] [INFO] Worker 9: Loaded fingerprint from Fingerprint_vjaxy8rqb2.json
+[2026-01-16 01:04:31] [INFO] Worker 9: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:04:32] [INFO] Worker 9: Browser setup successful!
+[2026-01-16 01:04:32] [INFO] Worker 9: Visiting https://letgohealth.blogspot.com/2025/12/the-implications-of-failing-to.html
+[2026-01-16 01:04:36] [ERROR] Worker 9: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:04:45] [INFO] Worker 9: Selected proxy 46.224.52.65:39103:BqvOyZ6Bqa:EyiEDqqsGO
+[2026-01-16 01:04:45] [INFO] Worker 9: Setting up browser...
+[2026-01-16 01:04:45] [INFO] Worker 9: Loaded fingerprint from Fingerprint_nl7fscpwsp.json
+[2026-01-16 01:04:45] [INFO] Worker 9: Using manual ChromeDriver at D:\CODING PROJECT\TrafficBot_Refactored\chromedriver.exe
+[2026-01-16 01:04:47] [INFO] Worker 9: Browser setup successful!
+[2026-01-16 01:04:47] [INFO] Worker 9: Visiting https://letgohealth.blogspot.com/2025/07/whre-will-inflammation-be-6-months-rom_3.html
+[2026-01-16 01:04:48] [DEBUG] Worker 6: Scrolled 44 times
+[2026-01-16 01:04:51] [ERROR] Worker 9: Proxy connection failed (proxy might be dead)
+[2026-01-16 01:04:59] [DEBUG] Worker 5: Scrolled 45 times
+[2026-01-16 01:05:00] [INFO] Worker 9 stopped
+[2026-01-16 01:05:25] [DEBUG] Worker 18: Scrolled 37 times
+[2026-01-16 01:05:27] [DEBUG] Worker 13: Scrolled 39 times
+[2026-01-16 01:05:39] [INFO] Stopping bot...
+[2026-01-16 01:05:40] [DEBUG] Worker 16: Scrolled 51 times
+[2026-01-16 01:05:40] [INFO] [SUCCESS] Worker 16: Task completed successfully!
+[2026-01-16 01:05:44] [INFO] Worker 16 stopped
+[2026-01-16 01:05:58] [INFO] Worker 6: Browser hidden
+[2026-01-16 01:06:06] [DEBUG] Worker 5: Scrolled 30 times
+[2026-01-16 01:06:06] [INFO] [SUCCESS] Worker 5: Task completed successfully!
+[2026-01-16 01:06:10] [INFO] Worker 5 stopped
+[2026-01-16 01:06:12] [DEBUG] Worker 6: Scrolled 36 times
+[2026-01-16 01:06:12] [INFO] [SUCCESS] Worker 6: Task completed successfully!
+[2026-01-16 01:06:16] [INFO] Worker 6 stopped
+[2026-01-16 01:06:40] [DEBUG] Worker 13: Scrolled 36 times
+[2026-01-16 01:06:40] [INFO] [SUCCESS] Worker 13: Task completed successfully!
+[2026-01-16 01:06:44] [INFO] Worker 13 stopped
+[2026-01-16 01:07:41] [DEBUG] Worker 18: Scrolled 59 times
+[2026-01-16 01:07:41] [INFO] [SUCCESS] Worker 18: Task completed successfully!
+[2026-01-16 01:07:45] [INFO] Worker 18 stopped
+[2026-01-16 01:08:04] [INFO] Traffic Bot closed
+[2026-01-16 01:08:18] [INFO] Starting Traffic Bot GUI...
+[2026-01-16 01:15:06] [INFO] Traffic Bot closed
+[2026-01-16 01:15:15] [INFO] Starting Traffic Bot GUI...
+[2026-01-16 01:20:18] [INFO] Starting Traffic Bot GUI...
+[2026-01-16 01:38:44] [INFO] Traffic Bot closed
+[2026-01-16 01:38:56] [INFO] Starting Traffic Bot GUI...
+[2026-01-16 02:02:27] [INFO] Traffic Bot closed
+[2026-01-16 02:02:31] [INFO] Starting Traffic Bot GUI...
+[2026-01-16 02:03:18] [INFO] Traffic Bot closed
+[2026-01-16 21:24:53] [INFO] Starting Traffic Bot GUI...
+[2026-01-16 22:41:37] [INFO] Traffic Bot closed

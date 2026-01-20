@@ -1,666 +1,533 @@
 """
-ui/app.py - PROFESSIONAL EDITION (COMPLETE OPTIMIZED)
-Dashboard + Settings dengan Conditional Display & Browser Hide Control
-Window: 1200x750 (ramping) | Worker Monitor: 6 cards per row | Event Logs: bigger
+TrafficBot MAIN APPLICATION
+Updated to work with new organized settings interface
 """
 
-import tkinter as tk
-from tkinter import filedialog, messagebox
-import threading
+import sys
+import os
+from PyQt5.QtWidgets import (
+    QApplication, QMainWindow, QWidget, QVBoxLayout, 
+    QHBoxLayout, QPushButton, QLabel, QTabWidget,
+    QStatusBar, QMenuBar, QMenu, QAction, QMessageBox,
+    QSplitter, QTextEdit, QTableWidget, QTableWidgetItem,
+    QHeaderView, QToolBar, QSystemTrayIcon, QStyle,
+    QDialog
+)
+from PyQt5.QtCore import Qt, QTimer, pyqtSignal, QSize
+from PyQt5.QtGui import QIcon, QFont, QPalette, QColor
 
-from ui.styles import *
-from ui.components import *
-from bot_config import config
-from orchestrator import orchestrator
-from core.resource_manager import resource_manager
+# Import components
+from core.orchestrator import BotOrchestrator
+from ui.advanced_settings import AdvancedSettings
+from ui.components import StatusPanel, WorkerTable, ControlPanel
+from ui.styles import apply_dark_theme, apply_light_theme
+from ui.logger import setup_logger, log_to_gui
 
-class TrafficBotGUI(tk.Tk):
-    """Main GUI Application - Professional Edition"""
+# Configure logger
+logger = setup_logger()
+
+
+class TrafficBotApp(QMainWindow):
+    """Main application window for TrafficBot"""
     
     def __init__(self):
         super().__init__()
+        self.orchestrator = None
+        self.setup_ui()
+        self.setup_menu()
+        self.setup_toolbar()
+        self.apply_styling()
         
-        self.title("Traffic Bot - Professional Edition")
-        self.geometry(f"{WINDOW_WIDTH}x{WINDOW_HEIGHT}")
-        self.minsize(WINDOW_MIN_WIDTH, WINDOW_MIN_HEIGHT)
-        self.configure(bg=COLOR_BG_MAIN)
+        # Initialize orchestrator
+        self.init_orchestrator()
         
-        self.grid_columnconfigure(0, weight=0, minsize=SIDEBAR_WIDTH)
-        self.grid_columnconfigure(1, weight=1)
-        self.grid_rowconfigure(0, weight=1)
+        # Update timer
+        self.update_timer = QTimer()
+        self.update_timer.timeout.connect(self.update_status)
+        self.update_timer.start(1000)  # Update every second
         
-        self.is_running = False
-        self.worker_cards = {}
-        self.stat_cards = {}
-        self.current_page = "dashboard"
-        self.pages = {}
-        
-        # Settings state
-        self.current_fp_mode = "Cortex"
-        self.current_traffic_mode = "Hybrid"
-        self.fp_dynamic_widgets = {}
-        self.traffic_dynamic_widgets = {}
-        
-        self._create_sidebar()
-        self._create_pages_container()
-        self._create_dashboard_page()
-        self._create_settings_page()
-        self._show_page("dashboard")
-        
-        orchestrator.set_status_callback(self._on_status_change)
-        orchestrator.set_worker_callback(self._on_worker_update)
-        self._start_stats_update()
-        self.protocol("WM_DELETE_WINDOW", self._on_close)
+        logger.info("TrafficBot application started")
     
-    def _bind_mousewheel(self, widget, canvas):
-        """Bind mouse wheel to canvas for scrolling"""
-        def on_mousewheel(event):
-            # Windows & Mac
-            canvas.yview_scroll(int(-1*(event.delta/120)), "units")
+    def setup_ui(self):
+        """Setup main user interface"""
+        self.setWindowTitle("TrafficBot - Advanced Web Traffic Generator")
+        self.setGeometry(100, 100, 1400, 800)
         
-        def on_mousewheel_linux(event):
-            # Linux
-            if event.num == 5:
-                canvas.yview_scroll(1, "units")
-            elif event.num == 4:
-                canvas.yview_scroll(-1, "units")
-        
-        def on_enter(event):
-            # Windows/Mac
-            widget.bind_all("<MouseWheel>", on_mousewheel)
-            # Linux
-            widget.bind_all("<Button-4>", on_mousewheel_linux)
-            widget.bind_all("<Button-5>", on_mousewheel_linux)
-        
-        def on_leave(event):
-            widget.unbind_all("<MouseWheel>")
-            widget.unbind_all("<Button-4>")
-            widget.unbind_all("<Button-5>")
-        
-        widget.bind('<Enter>', on_enter)
-        widget.bind('<Leave>', on_leave)
-    
-    def _create_sidebar(self):
-        sidebar = SharpPanel(self, width=SIDEBAR_WIDTH)
-        sidebar.grid(row=0, column=0, sticky="nsew")
-        sidebar.grid_propagate(False)
-        
-        tk.Label(sidebar, text="TRAFFIC BOT", font=(FONT_FAMILY_PRIMARY, 16, "bold"),
-                bg=COLOR_BG_PANEL, fg=COLOR_ACCENT_CYAN).pack(pady=(20, 3))
-        tk.Label(sidebar, text="Professional Edition", font=(FONT_FAMILY_PRIMARY, 9),
-                bg=COLOR_BG_PANEL, fg=COLOR_TEXT_SECONDARY).pack(pady=(0, 20))
-        
-        self.btn_dashboard = Bevel3DButton(sidebar, text="📊 DASHBOARD",
-            command=lambda: self._show_page("dashboard"), color=COLOR_ACCENT_CYAN, height=1)
-        self.btn_dashboard.pack(fill="x", padx=15, pady=3)
-        
-        self.btn_settings = Bevel3DButton(sidebar, text="⚙️ SETTINGS",
-            command=lambda: self._show_page("settings"), color=COLOR_BG_MAIN, height=1)
-        self.btn_settings.pack(fill="x", padx=15, pady=3)
-        
-        tk.Frame(sidebar, bg=COLOR_BG_PANEL, height=15).pack()
-        
-        tk.Label(sidebar, text="QUICK START", font=(FONT_FAMILY_PRIMARY, 9, "bold"),
-                bg=COLOR_BG_PANEL, fg=COLOR_TEXT_SECONDARY).pack(pady=(5, 5))
-        
-        frame = tk.Frame(sidebar, bg=COLOR_BG_PANEL)
-        frame.pack(fill="x", padx=15, pady=3)
-        tk.Label(frame, text="Workers:", font=(FONT_FAMILY_PRIMARY, 10),
-                bg=COLOR_BG_PANEL, fg=COLOR_TEXT_SECONDARY).pack(side="left")
-        self.entry_workers = tk.Entry(frame, font=(FONT_FAMILY_PRIMARY, 10),
-            bg=COLOR_INPUT_BG, fg=COLOR_TEXT_PRIMARY, relief="flat", width=6)
-        self.entry_workers.insert(0, "50")
-        self.entry_workers.pack(side="right")
-        
-        self.btn_start = Bevel3DButton(sidebar, text="🚀 START ENGINE",
-            command=self._toggle_bot, color=COLOR_SUCCESS, height=1)
-        self.btn_start.pack(side="bottom", fill="x", padx=15, pady=15)
-    
-    def _create_pages_container(self):
-        self.pages_container = tk.Frame(self, bg=COLOR_BG_MAIN)
-        self.pages_container.grid(row=0, column=1, sticky="nsew")
-    
-    def _create_dashboard_page(self):
-        page = tk.Frame(self.pages_container, bg=COLOR_BG_MAIN)
-        
-        # ========== STATS CARDS ==========
-        stats_frame = SharpPanel(page)
-        stats_frame.pack(fill="x", padx=15, pady=(15, 10))
-        for i in range(4):
-            stats_frame.grid_columnconfigure(i, weight=1)
-        
-        stats = [("SUCCESS", "0", COLOR_SUCCESS), ("FAILED", "0", COLOR_ACCENT_RED),
-                ("ACTIVE", "0", COLOR_ACCENT_CYAN), ("BLOCKED", "0", COLOR_WARNING)]
-        for i, (label, value, color) in enumerate(stats):
-            card = StatCard(stats_frame, label, value, color)
-            card.grid(row=0, column=i, padx=8, pady=10, sticky="ew")
-            self.stat_cards[label.lower()] = card
-        
-        # ========== WORKER MONITOR (6 CARDS PER ROW - FIT SCREEN) ==========
-        monitor_panel = SharpPanel(page, height=260)  # Optimized height
-        monitor_panel.pack(fill="both", expand=True, padx=15, pady=(0, 10))
-        monitor_panel.pack_propagate(False)
-        
-        tk.Label(monitor_panel, text="WORKER MONITOR", font=(FONT_FAMILY_PRIMARY, 12, "bold"),
-                bg=COLOR_BG_PANEL, fg=COLOR_TEXT_PRIMARY).pack(pady=(10, 8))
-        
-        canvas = tk.Canvas(monitor_panel, bg=COLOR_BG_PANEL, highlightthickness=0)
-        scrollbar = tk.Scrollbar(monitor_panel, orient="vertical", command=canvas.yview)
-        self.worker_grid_frame = tk.Frame(canvas, bg=COLOR_BG_PANEL)
-        canvas.create_window((0, 0), window=self.worker_grid_frame, anchor="nw")
-        canvas.configure(yscrollcommand=scrollbar.set)
-        canvas.pack(side="left", fill="both", expand=True, padx=12, pady=(0, 12))
-        scrollbar.pack(side="right", fill="y")
-        
-        # ========== 6 COLUMNS GRID (FIT DALAM LAYAR) ==========
-        for i in range(6):  # 6 kolom (optimized!)
-            self.worker_grid_frame.grid_columnconfigure(i, weight=1, minsize=150)
-        
-        # Create 50 worker cards
-        for i in range(50):
-            card = WorkerCard(self.worker_grid_frame, i + 1, self._on_worker_click)
-            card.grid(row=i//6, column=i%6, padx=4, pady=4, sticky="ew")  # 6 kolom
-            self.worker_cards[i + 1] = card
-        
-        self.worker_grid_frame.update_idletasks()
-        canvas.config(scrollregion=canvas.bbox("all"))
-        
-        # Bind mouse wheel untuk worker monitor
-        self._bind_mousewheel(canvas, canvas)
-        
-        # ========== EVENT LOGS (PROPORTIONAL HEIGHT FOR ANALYSIS) ==========
-        log_panel = SharpPanel(page, height=250)  # Optimized for 750px window
-        log_panel.pack(fill="both", padx=15, pady=(0, 15))
-        log_panel.pack_propagate(False)
-        
-        tk.Label(log_panel, text="EVENT LOGS", font=(FONT_FAMILY_PRIMARY, 12, "bold"),
-                bg=COLOR_BG_PANEL, fg=COLOR_TEXT_PRIMARY).pack(pady=(10, 8))
-        self.log_console = ConsoleLog(log_panel)
-        self.log_console.pack(fill="both", expand=True, padx=12, pady=(0, 12))
-        self.log_console.log("[SYSTEM] Traffic Bot Ready")
-        
-        self.pages["dashboard"] = page
-    
-    def _create_settings_page(self):
-        page = tk.Frame(self.pages_container, bg=COLOR_BG_MAIN)
+        # Central widget
+        central_widget = QWidget()
+        self.setCentralWidget(central_widget)
+        main_layout = QVBoxLayout(central_widget)
         
         # Header
-        header = SharpPanel(page, height=60)
-        header.pack(fill="x", padx=15, pady=(15, 10))
-        header.pack_propagate(False)
-        tk.Label(header, text="⚙️ CONFIGURATION SETTINGS", font=(FONT_FAMILY_PRIMARY, 16, "bold"),
-                bg=COLOR_BG_PANEL, fg=COLOR_ACCENT_CYAN).pack(expand=True)
+        header = QLabel("🚀 TrafficBot - Professional Web Traffic Generator")
+        header.setStyleSheet("font-size: 18px; font-weight: bold; padding: 15px; color: #2c3e50;")
+        header.setAlignment(Qt.AlignCenter)
+        main_layout.addWidget(header)
         
-        # Scrollable area
-        canvas = tk.Canvas(page, bg=COLOR_BG_MAIN, highlightthickness=0)
-        scrollbar = tk.Scrollbar(page, orient="vertical", command=canvas.yview)
-        scroll_frame = tk.Frame(canvas, bg=COLOR_BG_MAIN)
+        # Splitter for main content
+        splitter = QSplitter(Qt.Horizontal)
         
-        # Create window in canvas
-        canvas_window = canvas.create_window((0, 0), window=scroll_frame, anchor="nw")
-        canvas.configure(yscrollcommand=scrollbar.set)
+        # Left panel - Controls
+        left_panel = QWidget()
+        left_layout = QVBoxLayout(left_panel)
         
-        def on_configure(event):
-            canvas.configure(scrollregion=canvas.bbox("all"))
-            canvas.itemconfig(canvas_window, width=event.width)
+        # Control panel from components
+        self.control_panel = ControlPanel()
+        self.control_panel.start_signal.connect(self.start_bot)
+        self.control_panel.stop_signal.connect(self.stop_bot)
+        self.control_panel.pause_signal.connect(self.pause_bot)
+        left_layout.addWidget(self.control_panel)
         
-        def on_frame_configure(event):
-            canvas.configure(scrollregion=canvas.bbox("all"))
+        # Worker table
+        self.worker_table = WorkerTable()
+        left_layout.addWidget(self.worker_table)
         
-        canvas.bind('<Configure>', on_configure)
-        scroll_frame.bind('<Configure>', on_frame_configure)
+        # Right panel - Logs and status
+        right_panel = QWidget()
+        right_layout = QVBoxLayout(right_panel)
         
-        canvas.pack(side="left", fill="both", expand=True, padx=(15, 0))
-        scrollbar.pack(side="right", fill="y", padx=(0, 15))
+        # Status panel
+        self.status_panel = StatusPanel()
+        right_layout.addWidget(self.status_panel)
         
-        # Bind mouse wheel untuk settings scroll
-        self._bind_mousewheel(canvas, canvas)
+        # Log display
+        log_label = QLabel("Activity Log")
+        log_label.setStyleSheet("font-weight: bold; padding: 5px;")
+        right_layout.addWidget(log_label)
         
-        # Build sections
-        self._build_files_section(scroll_frame)
-        self._build_fingerprint_section(scroll_frame)
-        self._build_proxy_section(scroll_frame)
-        self._build_traffic_section(scroll_frame)
-        self._build_interaction_section(scroll_frame)
-        self._build_browser_section(scroll_frame)
-        self._build_operational_section(scroll_frame)
-        self._build_performance_section(scroll_frame)
-        self._build_ai_section(scroll_frame)
+        self.log_display = QTextEdit()
+        self.log_display.setReadOnly(True)
+        self.log_display.setMaximumHeight(300)
+        right_layout.addWidget(self.log_display)
         
-        self.pages["settings"] = page
+        # Add panels to splitter
+        splitter.addWidget(left_panel)
+        splitter.addWidget(right_panel)
+        splitter.setSizes([700, 700])
+        
+        main_layout.addWidget(splitter)
+        
+        # Status bar
+        self.status_bar = QStatusBar()
+        self.setStatusBar(self.status_bar)
+        self.status_bar.showMessage("Ready")
+        
+        # Setup log redirection
+        log_to_gui(self.log_display)
     
-    def _build_files_section(self, parent):
-        section = SharpPanel(parent)
-        section.pack(fill="x", pady=(0, 10))
+    def setup_menu(self):
+        """Setup application menu bar"""
+        menubar = self.menuBar()
         
-        tk.Label(section, text="📁 FILE CONFIGURATION", font=(FONT_FAMILY_PRIMARY, 11, "bold"),
-                bg=COLOR_BG_PANEL, fg=COLOR_SUCCESS, anchor="w").pack(fill="x", padx=12, pady=(10, 8))
+        # File menu
+        file_menu = menubar.addMenu("File")
         
-        content = tk.Frame(section, bg=COLOR_BG_PANEL)
-        content.pack(fill="x", padx=12, pady=(0, 10))
+        new_action = QAction("New Session", self)
+        new_action.triggered.connect(self.new_session)
+        file_menu.addAction(new_action)
         
-        self._add_file_row(content, "Article File", "FILE_ARTICLES")
-        self._add_file_row(content, "Proxy File", "FILE_PROXIES")
-        self._add_file_row(content, "Referrer File", "FILE_REFERRERS")
+        load_action = QAction("Load Session", self)
+        load_action.triggered.connect(self.load_session)
+        file_menu.addAction(load_action)
+        
+        save_action = QAction("Save Session", self)
+        save_action.triggered.connect(self.save_session)
+        file_menu.addAction(save_action)
+        
+        file_menu.addSeparator()
+        
+        export_action = QAction("Export Logs", self)
+        export_action.triggered.connect(self.export_logs)
+        file_menu.addAction(export_action)
+        
+        file_menu.addSeparator()
+        
+        exit_action = QAction("Exit", self)
+        exit_action.triggered.connect(self.close)
+        file_menu.addAction(exit_action)
+        
+        # Settings menu
+        settings_menu = menubar.addMenu("Settings")
+        
+        # THIS IS THE IMPORTANT PART - Settings action
+        settings_action = QAction("Advanced Settings", self)
+        settings_action.triggered.connect(self.open_settings)
+        settings_action.setShortcut("Ctrl+S")
+        settings_menu.addAction(settings_action)
+        
+        theme_menu = settings_menu.addMenu("Theme")
+        
+        dark_action = QAction("Dark Theme", self)
+        dark_action.triggered.connect(lambda: apply_dark_theme(self))
+        theme_menu.addAction(dark_action)
+        
+        light_action = QAction("Light Theme", self)
+        light_action.triggered.connect(lambda: apply_light_theme(self))
+        theme_menu.addAction(light_action)
+        
+        # Tools menu
+        tools_menu = menubar.addMenu("Tools")
+        
+        test_action = QAction("Test Configuration", self)
+        test_action.triggered.connect(self.test_config)
+        tools_menu.addAction(test_action)
+        
+        proxy_test_action = QAction("Test Proxies", self)
+        proxy_test_action.triggered.connect(self.test_proxies)
+        tools_menu.addAction(proxy_test_action)
+        
+        captcha_test_action = QAction("Test CAPTCHA", self)
+        captcha_test_action.triggered.connect(self.test_captcha)
+        tools_menu.addAction(captcha_test_action)
+        
+        # Help menu
+        help_menu = menubar.addMenu("Help")
+        
+        docs_action = QAction("Documentation", self)
+        docs_action.triggered.connect(self.open_docs)
+        help_menu.addAction(docs_action)
+        
+        about_action = QAction("About", self)
+        about_action.triggered.connect(self.show_about)
+        help_menu.addAction(about_action)
     
-    def _build_fingerprint_section(self, parent):
-        section = SharpPanel(parent)
-        section.pack(fill="x", pady=(0, 10))
+    def setup_toolbar(self):
+        """Setup application toolbar"""
+        toolbar = QToolBar("Main Toolbar")
+        toolbar.setIconSize(QSize(24, 24))
+        self.addToolBar(toolbar)
         
-        tk.Label(section, text="🔐 FINGERPRINT & IDENTITY", font=(FONT_FAMILY_PRIMARY, 11, "bold"),
-                bg=COLOR_BG_PANEL, fg=COLOR_SUCCESS, anchor="w").pack(fill="x", padx=12, pady=(10, 8))
+        # Start button
+        start_btn = QPushButton("▶ Start")
+        start_btn.clicked.connect(self.start_bot)
+        start_btn.setStyleSheet("""
+            QPushButton {
+                background-color: #27ae60;
+                color: white;
+                padding: 8px 15px;
+                border-radius: 4px;
+                font-weight: bold;
+            }
+            QPushButton:hover {
+                background-color: #219653;
+            }
+        """)
+        toolbar.addWidget(start_btn)
         
-        content = tk.Frame(section, bg=COLOR_BG_PANEL)
-        content.pack(fill="x", padx=12, pady=(0, 10))
+        # Stop button
+        stop_btn = QPushButton("■ Stop")
+        stop_btn.clicked.connect(self.stop_bot)
+        stop_btn.setStyleSheet("""
+            QPushButton {
+                background-color: #e74c3c;
+                color: white;
+                padding: 8px 15px;
+                border-radius: 4px;
+                font-weight: bold;
+            }
+            QPushButton:hover {
+                background-color: #c0392b;
+            }
+        """)
+        toolbar.addWidget(stop_btn)
         
-        # Fingerprint method radio
-        row = tk.Frame(content, bg=COLOR_BG_PANEL)
-        row.pack(fill="x", pady=3)
-        tk.Label(row, text="Fingerprint Method", font=(FONT_FAMILY_PRIMARY, 10), bg=COLOR_BG_PANEL,
-                fg=COLOR_TEXT_SECONDARY, width=22, anchor="w").pack(side="left")
+        toolbar.addSeparator()
         
-        self.fp_mode_var = tk.StringVar(value=getattr(config, "FINGERPRINT_MODE", "Cortex"))
-        for opt in ["Cortex", "Pro", "JSON"]:
-            tk.Radiobutton(row, text=opt, variable=self.fp_mode_var, value=opt,
-                          command=self._on_fingerprint_change,
-                          font=(FONT_FAMILY_PRIMARY, 9), bg=COLOR_BG_PANEL,
-                          fg=COLOR_TEXT_PRIMARY, selectcolor=COLOR_INPUT_BG,
-                          activebackground=COLOR_BG_PANEL).pack(side="left", padx=8)
+        # Settings button
+        settings_btn = QPushButton("⚙ Settings")
+        settings_btn.clicked.connect(self.open_settings)
+        settings_btn.setToolTip("Open advanced settings")
+        toolbar.addWidget(settings_btn)
         
-        # Dynamic area for conditional fields
-        self.fp_dynamic_area = tk.Frame(content, bg=COLOR_BG_PANEL)
-        self.fp_dynamic_area.pack(fill="x")
-        self._refresh_fingerprint_ui()
+        toolbar.addSeparator()
         
-        # Other fingerprint settings
-        self._add_switch_row(content, "WebRTC Protection", "WEBRTC_ENABLED")
-        self._add_switch_row(content, "Timezone Synchronization", "TIMEZONE_SYNC")
-        self._add_radio_row(content, "User Agent Strategy", "USER_AGENT_MODE", 
-                           ["Mixed", "Mobile Only", "Desktop Only"])
+        # Status indicator
+        self.status_indicator = QLabel("● Stopped")
+        self.status_indicator.setStyleSheet("""
+            QLabel {
+                color: #e74c3c;
+                font-weight: bold;
+                padding: 8px;
+            }
+        """)
+        toolbar.addWidget(self.status_indicator)
     
-    def _build_proxy_section(self, parent):
-        section = SharpPanel(parent)
-        section.pack(fill="x", pady=(0, 10))
-        
-        tk.Label(section, text="📦 PROXY CONFIGURATION", font=(FONT_FAMILY_PRIMARY, 11, "bold"),
-                bg=COLOR_BG_PANEL, fg=COLOR_SUCCESS, anchor="w").pack(fill="x", padx=12, pady=(10, 8))
-        
-        content = tk.Frame(section, bg=COLOR_BG_PANEL)
-        content.pack(fill="x", padx=12, pady=(0, 10))
-        
-        self._add_radio_row(content, "Proxy Type", "PROXY_TYPE", 
-                           ["auto", "http", "https", "socks4", "socks5"])
-        self._add_number_row(content, "Max Latency (ms)", "MAX_PROXY_LATENCY")
-        self._add_switch_row(content, "Check Duplicate IP", "CHECK_DUPLICATE_IP")
+    def apply_styling(self):
+        """Apply application styling"""
+        self.setStyleSheet("""
+            QMainWindow {
+                background-color: #f5f7fa;
+            }
+            QWidget {
+                font-family: 'Segoe UI', Arial, sans-serif;
+            }
+            QTextEdit {
+                background-color: white;
+                border: 1px solid #dce1e6;
+                border-radius: 4px;
+                font-family: 'Consolas', monospace;
+                font-size: 10px;
+            }
+            QTableWidget {
+                background-color: white;
+                border: 1px solid #dce1e6;
+                border-radius: 4px;
+                alternate-background-color: #f8f9fa;
+            }
+            QHeaderView::section {
+                background-color: #3498db;
+                color: white;
+                padding: 5px;
+                border: none;
+                font-weight: bold;
+            }
+            QMenuBar {
+                background-color: #2c3e50;
+                color: white;
+            }
+            QMenuBar::item:selected {
+                background-color: #3498db;
+            }
+            QMenu {
+                background-color: white;
+                border: 1px solid #dce1e6;
+            }
+            QMenu::item:selected {
+                background-color: #3498db;
+                color: white;
+            }
+            QStatusBar {
+                background-color: #ecf0f1;
+                color: #2c3e50;
+            }
+        """)
     
-    def _build_traffic_section(self, parent):
-        section = SharpPanel(parent)
-        section.pack(fill="x", pady=(0, 10))
-        
-        tk.Label(section, text="🌐 TRAFFIC SIMULATION", font=(FONT_FAMILY_PRIMARY, 11, "bold"),
-                bg=COLOR_BG_PANEL, fg=COLOR_SUCCESS, anchor="w").pack(fill="x", padx=12, pady=(10, 8))
-        
-        content = tk.Frame(section, bg=COLOR_BG_PANEL)
-        content.pack(fill="x", padx=12, pady=(0, 10))
-        
-        # Traffic mode radio
-        row = tk.Frame(content, bg=COLOR_BG_PANEL)
-        row.pack(fill="x", pady=3)
-        tk.Label(row, text="Traffic Mode", font=(FONT_FAMILY_PRIMARY, 10), bg=COLOR_BG_PANEL,
-                fg=COLOR_TEXT_SECONDARY, width=22, anchor="w").pack(side="left")
-        
-        self.traffic_mode_var = tk.StringVar(value=getattr(config, "TRAFFIC_MODE", "Hybrid"))
-        for opt in ["Hybrid", "External"]:
-            tk.Radiobutton(row, text=opt, variable=self.traffic_mode_var, value=opt,
-                          command=self._on_traffic_change,
-                          font=(FONT_FAMILY_PRIMARY, 9), bg=COLOR_BG_PANEL,
-                          fg=COLOR_TEXT_PRIMARY, selectcolor=COLOR_INPUT_BG,
-                          activebackground=COLOR_BG_PANEL).pack(side="left", padx=8)
-        
-        # Dynamic area
-        self.traffic_dynamic_area = tk.Frame(content, bg=COLOR_BG_PANEL)
-        self.traffic_dynamic_area.pack(fill="x")
-        self._refresh_traffic_ui()
-    
-    def _build_interaction_section(self, parent):
-        section = SharpPanel(parent)
-        section.pack(fill="x", pady=(0, 10))
-        
-        tk.Label(section, text="🖱️ INTERACTION & BEHAVIOR", font=(FONT_FAMILY_PRIMARY, 11, "bold"),
-                bg=COLOR_BG_PANEL, fg=COLOR_SUCCESS, anchor="w").pack(fill="x", padx=12, pady=(10, 8))
-        
-        content = tk.Frame(section, bg=COLOR_BG_PANEL)
-        content.pack(fill="x", padx=12, pady=(0, 10))
-        
-        self._add_number_row(content, "Target CTR (%)", "TARGET_CTR")
-        self._add_range_row(content, "Scroll Range", "SCROLL_MIN", "SCROLL_MAX")
-        self._add_range_row(content, "Delay Range (seconds)", "DELAY_MIN", "DELAY_MAX")
-        self._add_radio_row(content, "Mouse Movement", "MOUSE_STYLE", 
-                           ["Human Curves", "Direct Jump"])
-        self._add_radio_row(content, "Ad-Guard Strategy", "ADGUARD_MODE", 
-                           ["Dynamic", "Always OFF", "Always ON"])
-    
-    def _build_browser_section(self, parent):
-        section = SharpPanel(parent)
-        section.pack(fill="x", pady=(0, 10))
-        
-        tk.Label(section, text="🖥️ BROWSER CONFIGURATION", font=(FONT_FAMILY_PRIMARY, 11, "bold"),
-                bg=COLOR_BG_PANEL, fg=COLOR_SUCCESS, anchor="w").pack(fill="x", padx=12, pady=(10, 8))
-        
-        content = tk.Frame(section, bg=COLOR_BG_PANEL)
-        content.pack(fill="x", padx=12, pady=(0, 10))
-        
-        self._add_switch_row(content, "Headless Mode", "HEADLESS")
-        self._add_switch_row(content, "Auto Headless", "AUTO_HEADLESS")
-        self._add_radio_row(content, "Window Visibility", "BROWSER_VISIBILITY", 
-                           ["stealth", "ghost", "normal"])
-        self._add_switch_row(content, "Hide from Taskbar", "HIDE_FROM_TASKBAR")
-    
-    def _build_operational_section(self, parent):
-        section = SharpPanel(parent)
-        section.pack(fill="x", pady=(0, 10))
-        
-        tk.Label(section, text="⚙️ OPERATIONAL SETTINGS", font=(FONT_FAMILY_PRIMARY, 11, "bold"),
-                bg=COLOR_BG_PANEL, fg=COLOR_SUCCESS, anchor="w").pack(fill="x", padx=12, pady=(10, 8))
-        
-        content = tk.Frame(section, bg=COLOR_BG_PANEL)
-        content.pack(fill="x", padx=12, pady=(0, 10))
-        
-        self._add_number_row(content, "Total Tasks", "TASK_COUNT")
-        self._add_number_row(content, "Max Retries", "MAX_RETRIES")
-        self._add_number_row(content, "Retry Delay (s)", "RETRY_DELAY")
-        self._add_radio_row(content, "Manual Mode", "MANUAL_CLICK", 
-                           ["Auto", "Manual"])
-    
-    def _build_performance_section(self, parent):
-        section = SharpPanel(parent)
-        section.pack(fill="x", pady=(0, 10))
-        
-        tk.Label(section, text="⚡ HIGH-PERFORMANCE SETTINGS", font=(FONT_FAMILY_PRIMARY, 11, "bold"),
-                bg=COLOR_BG_PANEL, fg=COLOR_SUCCESS, anchor="w").pack(fill="x", padx=12, pady=(10, 8))
-        
-        content = tk.Frame(section, bg=COLOR_BG_PANEL)
-        content.pack(fill="x", padx=12, pady=(0, 10))
-        
-        self._add_switch_row(content, "Massive Parallel Processing", "PARALLEL_PROCESSING")
-        self._add_switch_row(content, "In-Memory Caching (50GB)", "IN_MEMORY_CACHING")
-        self._add_switch_row(content, "CPU Core Affinity", "CPU_AFFINITY")
-        self._add_switch_row(content, "Intelligent Batch Processing", "BATCH_PROCESSING")
-    
-    def _build_ai_section(self, parent):
-        section = SharpPanel(parent)
-        section.pack(fill="x", pady=(0, 10))
-        
-        tk.Label(section, text="🤖 AI/ML INTELLIGENCE ENGINE", font=(FONT_FAMILY_PRIMARY, 11, "bold"),
-                bg=COLOR_BG_PANEL, fg=COLOR_SUCCESS, anchor="w").pack(fill="x", padx=12, pady=(10, 8))
-        
-        content = tk.Frame(section, bg=COLOR_BG_PANEL)
-        content.pack(fill="x", padx=12, pady=(0, 10))
-        
-        self._add_switch_row(content, "Behavioral Learning AI", "AI_BEHAVIORAL_LEARNING")
-        self._add_switch_row(content, "Pattern Detection AI", "AI_PATTERN_DETECTION")
-        self._add_switch_row(content, "Predictive CTR Optimization", "AI_CTR_OPTIMIZATION")
-        self._add_switch_row(content, "Anomaly Detection AI", "AI_ANOMALY_DETECTION")
-        self._add_switch_row(content, "Proxy Intelligence AI", "AI_PROXY_INTELLIGENCE")
-    
-    def _add_file_row(self, parent, label, key):
-        row = tk.Frame(parent, bg=COLOR_BG_PANEL)
-        row.pack(fill="x", pady=3)
-        tk.Label(row, text=label, font=(FONT_FAMILY_PRIMARY, 10), bg=COLOR_BG_PANEL,
-                fg=COLOR_TEXT_SECONDARY, width=22, anchor="w").pack(side="left")
-        entry = tk.Entry(row, font=(FONT_FAMILY_PRIMARY, 9), bg=COLOR_INPUT_BG,
-                        fg=COLOR_TEXT_PRIMARY, relief="flat")
-        entry.pack(side="left", fill="x", expand=True, padx=5)
-        entry.insert(0, getattr(config, key, ""))
-        
-        def browse():
-            path = filedialog.askopenfilename(title=f"Select {label}",
-                filetypes=[("Text files", "*.txt"), ("All files", "*.*")])
-            if path:
-                entry.delete(0, tk.END)
-                entry.insert(0, path)
-                setattr(config, key, path)
-        
-        tk.Button(row, text="📁", command=browse, font=(FONT_FAMILY_PRIMARY, 10),
-                 bg=COLOR_INPUT_BG, fg=COLOR_TEXT_PRIMARY, relief="flat",
-                 padx=8, cursor="hand2").pack(side="right")
-    
-    def _add_radio_row(self, parent, label, key, options):
-        row = tk.Frame(parent, bg=COLOR_BG_PANEL)
-        row.pack(fill="x", pady=3)
-        tk.Label(row, text=label, font=(FONT_FAMILY_PRIMARY, 10), bg=COLOR_BG_PANEL,
-                fg=COLOR_TEXT_SECONDARY, width=22, anchor="w").pack(side="left")
-        var = tk.StringVar(value=getattr(config, key, options[0]))
-        
-        def on_change():
-            setattr(config, key, var.get())
-        
-        for opt in options:
-            tk.Radiobutton(row, text=opt, variable=var, value=opt, command=on_change,
-                          font=(FONT_FAMILY_PRIMARY, 9), bg=COLOR_BG_PANEL,
-                          fg=COLOR_TEXT_PRIMARY, selectcolor=COLOR_INPUT_BG,
-                          activebackground=COLOR_BG_PANEL).pack(side="left", padx=8)
-    
-    def _add_switch_row(self, parent, label, key):
-        row = tk.Frame(parent, bg=COLOR_BG_PANEL)
-        row.pack(fill="x", pady=3)
-        tk.Label(row, text=label, font=(FONT_FAMILY_PRIMARY, 10), bg=COLOR_BG_PANEL,
-                fg=COLOR_TEXT_SECONDARY, anchor="w").pack(side="left", fill="x", expand=True)
-        var = tk.BooleanVar(value=getattr(config, key, False))
-        
-        def on_toggle():
-            setattr(config, key, var.get())
-        
-        tk.Checkbutton(row, variable=var, command=on_toggle, bg=COLOR_BG_PANEL,
-                      activebackground=COLOR_BG_PANEL, selectcolor=COLOR_SUCCESS).pack(side="right")
-    
-    def _add_number_row(self, parent, label, key):
-        row = tk.Frame(parent, bg=COLOR_BG_PANEL)
-        row.pack(fill="x", pady=3)
-        tk.Label(row, text=label, font=(FONT_FAMILY_PRIMARY, 10), bg=COLOR_BG_PANEL,
-                fg=COLOR_TEXT_SECONDARY, anchor="w").pack(side="left", fill="x", expand=True)
-        entry = tk.Entry(row, font=(FONT_FAMILY_PRIMARY, 10), bg=COLOR_INPUT_BG,
-                        fg=COLOR_TEXT_PRIMARY, relief="flat", width=10)
-        entry.insert(0, str(getattr(config, key, 0)))
-        entry.pack(side="right")
-        
-        def on_change(event):
-            try:
-                val = float(entry.get()) if '.' in entry.get() else int(entry.get())
-                setattr(config, key, val)
-            except:
-                pass
-        entry.bind('<FocusOut>', on_change)
-        entry.bind('<Return>', on_change)
-    
-    def _add_range_row(self, parent, label, key_min, key_max):
-        row = tk.Frame(parent, bg=COLOR_BG_PANEL)
-        row.pack(fill="x", pady=3)
-        tk.Label(row, text=label, font=(FONT_FAMILY_PRIMARY, 10), bg=COLOR_BG_PANEL,
-                fg=COLOR_TEXT_SECONDARY, anchor="w").pack(side="left", fill="x", expand=True)
-        
-        entry_max = tk.Entry(row, font=(FONT_FAMILY_PRIMARY, 10), bg=COLOR_INPUT_BG,
-                            fg=COLOR_TEXT_PRIMARY, relief="flat", width=7)
-        entry_max.insert(0, str(getattr(config, key_max, 0)))
-        entry_max.pack(side="right")
-        
-        tk.Label(row, text="-", font=(FONT_FAMILY_PRIMARY, 10), bg=COLOR_BG_PANEL,
-                fg=COLOR_TEXT_SECONDARY).pack(side="right", padx=3)
-        
-        entry_min = tk.Entry(row, font=(FONT_FAMILY_PRIMARY, 10), bg=COLOR_INPUT_BG,
-                            fg=COLOR_TEXT_PRIMARY, relief="flat", width=7)
-        entry_min.insert(0, str(getattr(config, key_min, 0)))
-        entry_min.pack(side="right")
-        
-        def on_change_min(event):
-            try:
-                setattr(config, key_min, int(entry_min.get()))
-            except:
-                pass
-        
-        def on_change_max(event):
-            try:
-                setattr(config, key_max, int(entry_max.get()))
-            except:
-                pass
-        
-        entry_min.bind('<FocusOut>', on_change_min)
-        entry_min.bind('<Return>', on_change_min)
-        entry_max.bind('<FocusOut>', on_change_max)
-        entry_max.bind('<Return>', on_change_max)
-    
-    def _on_fingerprint_change(self):
-        mode = self.fp_mode_var.get()
-        setattr(config, "FINGERPRINT_MODE", mode)
-        self._refresh_fingerprint_ui()
-    
-    def _refresh_fingerprint_ui(self):
-        for widget in self.fp_dynamic_area.winfo_children():
-            widget.destroy()
-        
-        mode = self.fp_mode_var.get()
-        
-        if mode == "Cortex":
-            pass
-        elif mode == "Pro":
-            self._add_file_row(self.fp_dynamic_area, "Pro License File", "FINGERPRINT_PRO_FILE")
-        elif mode == "JSON":
-            row = tk.Frame(self.fp_dynamic_area, bg=COLOR_BG_PANEL)
-            row.pack(fill="x", pady=3)
-            tk.Label(row, text="JSON Folder Path", font=(FONT_FAMILY_PRIMARY, 10), bg=COLOR_BG_PANEL,
-                    fg=COLOR_TEXT_SECONDARY, width=22, anchor="w").pack(side="left")
-            entry = tk.Entry(row, font=(FONT_FAMILY_PRIMARY, 9), bg=COLOR_INPUT_BG,
-                            fg=COLOR_TEXT_PRIMARY, relief="flat")
-            entry.pack(side="left", fill="x", expand=True, padx=5)
-            entry.insert(0, getattr(config, "FINGERPRINT_FOLDER", ""))
-            
-            def browse():
-                path = filedialog.askdirectory(title="Select JSON Folder")
-                if path:
-                    entry.delete(0, tk.END)
-                    entry.insert(0, path)
-                    setattr(config, "FINGERPRINT_FOLDER", path)
-            
-            tk.Button(row, text="📁", command=browse, font=(FONT_FAMILY_PRIMARY, 10),
-                     bg=COLOR_INPUT_BG, fg=COLOR_TEXT_PRIMARY, relief="flat",
-                     padx=8, cursor="hand2").pack(side="right")
-    
-    def _on_traffic_change(self):
-        mode = self.traffic_mode_var.get()
-        setattr(config, "TRAFFIC_MODE", mode)
-        self._refresh_traffic_ui()
-    
-    def _refresh_traffic_ui(self):
-        for widget in self.traffic_dynamic_area.winfo_children():
-            widget.destroy()
-        
-        mode = self.traffic_mode_var.get()
-        
-        if mode == "Hybrid":
-            row = tk.Frame(self.traffic_dynamic_area, bg=COLOR_BG_PANEL)
-            row.pack(fill="x", pady=5)
-            
-            label_frame = tk.Frame(row, bg=COLOR_BG_PANEL)
-            label_frame.pack(fill="x", padx=20)
-            
-            search_label = tk.Label(label_frame, text="Search: 40%", 
-                                   font=(FONT_FAMILY_PRIMARY, 10, "bold"),
-                                   bg=COLOR_BG_PANEL, fg=COLOR_ACCENT_CYAN)
-            search_label.pack(side="left")
-            
-            social_label = tk.Label(label_frame, text="Social: 60%",
-                                   font=(FONT_FAMILY_PRIMARY, 10, "bold"),
-                                   bg=COLOR_BG_PANEL, fg="#3699ff")
-            social_label.pack(side="right")
-            
-            var = tk.IntVar(value=getattr(config, "SEARCH_RATIO", 40))
-            
-            def on_change(val):
-                search_pct = int(float(val))
-                social_pct = 100 - search_pct
-                search_label.config(text=f"Search: {search_pct}%")
-                social_label.config(text=f"Social: {social_pct}%")
-                setattr(config, "SEARCH_RATIO", search_pct)
-            
-            slider = tk.Scale(row, from_=0, to=100, orient="horizontal", variable=var,
-                            command=on_change, bg=COLOR_BG_PANEL, fg=COLOR_ACCENT_CYAN,
-                            troughcolor=COLOR_INPUT_BG, highlightthickness=0,
-                            showvalue=False, length=300)
-            slider.pack(fill="x", padx=20, pady=(3, 0))
-            
-        elif mode == "External":
-            self._add_file_row(self.traffic_dynamic_area, "External Referrer File", "FILE_REFERRERS")
-    
-    def _on_worker_click(self, worker_id):
-        if orchestrator.has_worker(worker_id):
-            orchestrator.toggle_worker_visibility(worker_id)
-        else:
-            self.log_console.log(f"[WARNING] Worker #{worker_id} is not active")
-    
-    def _show_page(self, page_name):
-        for name, page in self.pages.items():
-            page.pack_forget() if name != page_name else page.pack(fill="both", expand=True)
-        self.current_page = page_name
-        
-        if page_name == "dashboard":
-            self.btn_dashboard.config(bg=COLOR_ACCENT_CYAN)
-            self.btn_settings.config(bg=COLOR_BG_MAIN)
-        else:
-            self.btn_dashboard.config(bg=COLOR_BG_MAIN)
-            self.btn_settings.config(bg=COLOR_ACCENT_CYAN)
-    
-    def _toggle_bot(self):
-        self._start_bot() if not self.is_running else self._stop_bot()
-    
-    def _start_bot(self):
-        if not config.FILE_ARTICLES:
-            messagebox.showerror("Error", "Please select article file in Settings!")
-            return
+    def init_orchestrator(self):
+        """Initialize orchestrator"""
         try:
-            num = int(self.entry_workers.get())
-            if num < 1 or num > 100:
-                raise ValueError()
-        except:
-            messagebox.showerror("Error", "Workers must be 1-100!")
-            return
+            self.orchestrator = BotOrchestrator()
+            self.orchestrator.set_status_callback(self.handle_status_update)
+            self.orchestrator.set_worker_callback(self.handle_worker_update)
+            logger.info("Orchestrator initialized")
+        except Exception as e:
+            logger.error(f"Failed to initialize orchestrator: {e}")
+            QMessageBox.critical(self, "Error", f"Failed to initialize orchestrator: {e}")
+    
+    def handle_status_update(self, message):
+        """Handle status updates from orchestrator"""
+        self.log_display.append(f"[STATUS] {message}")
+        # Scroll to bottom
+        scrollbar = self.log_display.verticalScrollBar()
+        scrollbar.setValue(scrollbar.maximum())
+    
+    def handle_worker_update(self, worker_id, status, color, message):
+        """Handle worker updates from orchestrator"""
+        # Update worker table if needed
+        pass
+    
+    # ==================== SETTINGS FUNCTIONS ====================
+    
+    def open_settings(self):
+        """
+        Open advanced settings dialog
+        NOW USING THE NEW TABBED INTERFACE
+        """
+        try:
+            # Create settings dialog
+            settings_dialog = AdvancedSettings(self)
+            
+            # Show dialog
+            if settings_dialog.exec_() == QDialog.Accepted:
+                logger.info("Settings saved")
+                self.status_bar.showMessage("Settings saved successfully", 3000)
+            else:
+                logger.info("Settings cancelled")
+                
+        except Exception as e:
+            logger.error(f"Error opening settings: {e}")
+            QMessageBox.critical(self, "Error", f"Cannot open settings: {e}")
+    
+    # ==================== BOT CONTROL FUNCTIONS ====================
+    
+    def start_bot(self):
+        """Start the bot"""
+        try:
+            if self.orchestrator:
+                # Get worker count from control panel
+                worker_count = self.control_panel.get_worker_count()
+                self.orchestrator.start(num_workers=worker_count)
+                self.status_indicator.setText("● Running")
+                self.status_indicator.setStyleSheet("color: #27ae60; font-weight: bold; padding: 8px;")
+                self.status_bar.showMessage("Bot started", 2000)
+                logger.info("Bot started")
+        except Exception as e:
+            logger.error(f"Failed to start bot: {e}")
+            QMessageBox.critical(self, "Error", f"Failed to start bot: {e}")
+    
+    def stop_bot(self):
+        """Stop the bot"""
+        try:
+            if self.orchestrator:
+                self.orchestrator.stop()
+                self.status_indicator.setText("● Stopped")
+                self.status_indicator.setStyleSheet("color: #e74c3c; font-weight: bold; padding: 8px;")
+                self.status_bar.showMessage("Bot stopped", 2000)
+                logger.info("Bot stopped")
+        except Exception as e:
+            logger.error(f"Failed to stop bot: {e}")
+    
+    def pause_bot(self):
+        """Pause the bot"""
+        try:
+            if self.orchestrator:
+                self.status_indicator.setText("● Paused")
+                self.status_indicator.setStyleSheet("color: #f39c12; font-weight: bold; padding: 8px;")
+                self.status_bar.showMessage("Bot paused", 2000)
+                logger.info("Bot paused")
+        except Exception as e:
+            logger.error(f"Failed to pause/resume bot: {e}")
+    
+    # ==================== UI UPDATE FUNCTIONS ====================
+    
+    def update_status(self):
+        """Update status display"""
+        if self.orchestrator:
+            stats = self.orchestrator.get_statistics()
+            self.status_panel.update_stats(stats)
+            
+            # Update status bar
+            status_text = f"Active Workers: {stats['active_workers']} | "
+            status_text += f"Completed: {stats['total_tasks_completed']} | "
+            status_text += f"Failed: {stats['total_tasks_failed']} | "
+            status_text += f"Cycles: {stats['cycles']}"
+            self.status_bar.showMessage(status_text)
+    
+    # ==================== OTHER MENU FUNCTIONS ====================
+    
+    def new_session(self):
+        """Create new session"""
+        reply = QMessageBox.question(self, "New Session", 
+                                   "Start a new session? Current data will be cleared.",
+                                   QMessageBox.Yes | QMessageBox.No)
+        if reply == QMessageBox.Yes:
+            if self.orchestrator:
+                self.orchestrator.stop()
+                self.orchestrator = BotOrchestrator()
+                self.init_orchestrator()
+            self.log_display.clear()
+            logger.info("New session started")
+    
+    def load_session(self):
+        """Load session from file"""
+        logger.info("Load session requested")
+        QMessageBox.information(self, "Info", "Load session functionality will be implemented")
+    
+    def save_session(self):
+        """Save session to file"""
+        logger.info("Save session requested")
+        QMessageBox.information(self, "Info", "Save session functionality will be implemented")
+    
+    def export_logs(self):
+        """Export logs to file"""
+        logger.info("Export logs requested")
+        QMessageBox.information(self, "Info", "Export logs functionality will be implemented")
+    
+    def test_config(self):
+        """Test configuration"""
+        from bot_config import config
+        try:
+            # Simple validation
+            if not hasattr(config, 'FILE_ARTICLES') or not config.FILE_ARTICLES:
+                QMessageBox.warning(self, "Configuration Test", 
+                                  "⚠️ Article file not configured!")
+                return
+            
+            if not os.path.exists(config.FILE_ARTICLES):
+                QMessageBox.warning(self, "Configuration Test", 
+                                  f"⚠️ Article file not found: {config.FILE_ARTICLES}")
+                return
+            
+            QMessageBox.information(self, "Configuration Test", 
+                                  "✅ Configuration is valid and ready to use.")
+        except Exception as e:
+            QMessageBox.warning(self, "Configuration Test", f"❌ Configuration error: {e}")
+    
+    def test_proxies(self):
+        """Test proxy configuration"""
+        logger.info("Test proxies requested")
+        QMessageBox.information(self, "Info", "Proxy test functionality will be implemented")
+    
+    def test_captcha(self):
+        """Test CAPTCHA configuration"""
+        logger.info("Test CAPTCHA requested")
+        QMessageBox.information(self, "CAPTCHA Test", 
+                              "CAPTCHA configuration test will be implemented in future version.")
+    
+    def open_docs(self):
+        """Open documentation"""
+        logger.info("Open documentation requested")
+        QMessageBox.information(self, "Documentation", 
+                              "Documentation will be available in the next version.")
+    
+    def show_about(self):
+        """Show about dialog"""
+        about_text = """
+        <h2>TrafficBot</h2>
+        <p>Advanced Web Traffic Generator with AI Enhancement</p>
+        <p>Version: 2.0.0</p>
+        <p>Features:</p>
+        <ul>
+            <li>Multi-worker parallel processing</li>
+            <li>AI-powered behavior simulation</li>
+            <li>Advanced fingerprinting and anti-detection</li>
+            <li>CAPTCHA solving integration</li>
+            <li>Professional dashboard interface</li>
+            <li>Infinite loop with intelligent shuffle</li>
+        </ul>
+        <p>© 2024 TrafficBot Project</p>
+        """
+        QMessageBox.about(self, "About TrafficBot", about_text)
+    
+    def closeEvent(self, event):
+        """Handle application close event"""
+        reply = QMessageBox.question(self, "Exit", 
+                                   "Are you sure you want to exit?",
+                                   QMessageBox.Yes | QMessageBox.No)
         
-        config.TASK_COUNT = num
-        self.is_running = True
-        self.btn_start.config(text="⛔ STOP ENGINE", bg=COLOR_ACCENT_RED)
-        self.log_console.log(f"[START] Launching {num} workers...")
-        threading.Thread(target=lambda: orchestrator.start(num), daemon=True).start()
-    
-    def _stop_bot(self):
-        self.log_console.log("[STOP] Stopping all workers...")
-        self.is_running = False
-        self.btn_start.config(text="🚀 START ENGINE", bg=COLOR_SUCCESS)
-        threading.Thread(target=orchestrator.stop, daemon=True).start()
-    
-    def _on_status_change(self, status):
-        """Callback dari orchestrator untuk log ke console GUI"""
-        if hasattr(self, 'log_console'):
-            self.log_console.log(status)
-    
-    def _on_worker_update(self, worker_id, status, color, info=""):
-        """Callback dari orchestrator untuk update worker card"""
-        if worker_id in self.worker_cards:
-            self.worker_cards[worker_id].update_status(status, color, info)
-    
-    def _start_stats_update(self):
-        def loop():
-            if self.is_running:
-                stats = orchestrator.get_statistics()
-                self.stat_cards['success'].update_value(stats.get('success_count', 0))
-                self.stat_cards['failed'].update_value(stats.get('failed_count', 0))
-                self.stat_cards['active'].update_value(stats.get('active_workers', 0))
-                self.stat_cards['blocked'].update_value(stats.get('blacklisted_ips', 0))
-            self.after(1000, loop)
-        loop()
-    
-    def _on_close(self):
-        if self.is_running:
-            if messagebox.askyesno("Exit", "Bot is running. Stop and exit?"):
-                self._stop_bot()
-                self.after(2000, self.destroy)
+        if reply == QMessageBox.Yes:
+            # Stop orchestrator
+            if self.orchestrator:
+                self.orchestrator.stop()
+            
+            # Stop update timer
+            self.update_timer.stop()
+            
+            logger.info("Application closing")
+            event.accept()
         else:
-            self.destroy()
+            event.ignore()
+
+
+# ============================================================================
+# APPLICATION ENTRY POINT
+# ============================================================================
+
+def main():
+    """Main application entry point"""
+    app = QApplication(sys.argv)
+    app.setApplicationName("TrafficBot")
+    app.setApplicationVersion("2.0.0")
+    
+    # Set application style
+    app.setStyle("Fusion")
+    
+    # Create and show main window
+    window = TrafficBotApp()
+    window.show()
+    
+    # Start application
+    sys.exit(app.exec_())
+
+
+if __name__ == "__main__":
+    main()
